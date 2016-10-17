@@ -1,0 +1,9 @@
+<document>
+    <alertTemplate>
+        <title>Welcome to Horizon</title>
+        <description>Just push the button to get access to our entertainment possibilities.</description>
+        <button onselect="getDocument('templates/NextPage.xml')">
+            <text>Enter</text>
+        </button>
+    </alertTemplate>
+</document>

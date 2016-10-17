@@ -1,0 +1,26 @@
+<document>
+   <searchTemplate>
+      <searchField />
+      <collectionList>
+      <shelf>
+         <header>
+            <title>Popular</title>
+         </header>
+         <section>
+            <lockup>
+               <img src="/images/Black.png" width="182" height="274" />
+               <title>Black</title>
+            </lockup>
+            <lockup>
+               <img src="/images/Green.png" width="182" height="274" />
+               <title>Green</title>
+            </lockup>
+            <lockup>
+               <img src="/images/Blue.png" width="182" height="274" />
+               <title>Blue</title>
+            </lockup>
+         </section>
+      </shelf>
+      </collectionList>
+   </searchTemplate>
+</document>
