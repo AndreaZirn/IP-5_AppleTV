@@ -1,0 +1,15 @@
+<document>
+    <menuBarTemplate>
+        <menuBar>
+            <menuItem selectTargetURL="templates/Shelf.xml">
+                <title>MyVideos</title>
+            </menuItem>
+            <menuItem selectTargetURL="templates/NextPage.xml">
+                <title>MyPrime</title>
+            </menuItem>
+            <menuItem selectTargetURL="templates/SearchTemplate.xml">
+                <title>Search</title>
+            </menuItem>
+        </menuBar>
+    </menuBarTemplate>
+</document>

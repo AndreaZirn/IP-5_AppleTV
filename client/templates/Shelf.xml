@@ -1,0 +1,25 @@
+<document>
+<stackTemplate>
+   <banner>
+      <title>MyVideos</title>
+   </banner>
+   <collectionList>
+      <shelf>
+         <section>
+            <lockup>
+               <img src="${this.BASEURL}images/Black.png" width="182" height="274" />
+               <title>Black</title>
+            </lockup>
+            <lockup>
+               <img src="${this.BASEURL}images/Green.png" width="182" height="274" />
+               <title>Green</title>
+            </lockup>
+            <lockup>
+               <img src="${this.BASEURL}images/Blue.png" width="182" height="274" />
+               <title>Blue</title>
+            </lockup>
+         </section>
+      </shelf>
+   </collectionList>
+</stackTemplate>
+</document>
