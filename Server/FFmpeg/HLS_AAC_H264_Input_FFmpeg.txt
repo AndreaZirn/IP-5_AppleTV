@@ -1,0 +1,3 @@
+//Starting Directory: Desktop
+
+ffmpeg -y -i ws5C\ Yale\ Art.mp4 -codec copy -bsf:v h264_mp4toannexb -map 0 -f segment -segment_time 10 -segment_format mpegts -segment_list Destination_File_Segmenter/ws5CYale_h264_mpegts/prog.index.m3u8 -segment_list_type m3u8 Destination_File_Segmenter/ws5CYale_h264_mpegts/fileSequence%d.ts
