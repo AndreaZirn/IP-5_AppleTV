@@ -1,0 +1,1 @@
+ffmpeg -y -i udp://127.0.0.1:5555 -map 0 -f segment -segment_time 10 -segment_format mpegts -segment_list Desktop/Destination_File_Segmenter/Live_Streaming/prog_index.m3u8 -segment_list_size 3 -segment_list_flags +live -segment_list_type m3u8 Desktop/Destination_File_Segmenter/Live_Streaming/fileSequence%d.ts 
