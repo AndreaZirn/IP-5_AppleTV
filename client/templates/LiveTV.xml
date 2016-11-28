@@ -1,7 +1,7 @@
 <document>
     <menuBarTemplate>
         <menuBar>
-            <menuItem id="navigation_my_movies" data-identifier="list" template="${this.BASEURL}templates/MyVideos.xml.js">
+            <menuItem selectTargetURL="templates/LiveTV.xml">
                 <title>Live-TV</title>
             </menuItem>
             <menuItem selectTargetURL="templates/TVGuide.xml">
@@ -10,7 +10,7 @@
             <menuItem selectTargetURL="templates/MyPrime.xml">
                 <title>My Prime</title>
             </menuItem>
-            <menuItem selectTargetURL="templates/MyVideos.xml.js">
+            <menuItem selectTargetURL="templates/MyVideos.xml">
                 <title>My Videos</title>
             </menuItem>
             <menuItem selectTargetURL="templates/Settings.xml">

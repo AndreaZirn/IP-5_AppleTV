@@ -1,9 +1,20 @@
 <document>
     <alertTemplate>
-        <title>Welcome to Horizon</title>
-        <description>Just push the button to get access to our entertainment possibilities.</description>
-        <button onselect="getDocument('templates/NextPage.xml')">
-            <text>Enter</text>
+        <title>WELCOME to HORIZON, Christian!</title>
+        <button onselect="getDocument('templates/LiveTV.xml')">
+            <text>Live-TV</text>
+        </button>
+        <button onselect="getDocument('templates/TVGuide.xml')">
+            <text>TV Guide</text>
+        </button>
+        <button onselect="getDocument('templates/MyPrime.xml')">
+            <text>My Prime</text>
+        </button>
+        <button onselect="getDocument('templates/MyVideos.xml')">
+            <text>My Videos</text>
+        </button>
+        <button onselect="getDocument('templates/Settings.xml')">
+            <text>Settings</text>
         </button>
     </alertTemplate>
 </document>

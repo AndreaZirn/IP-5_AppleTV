@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     // tvBaseURL points to a server on your local machine. To create a local server for testing purposes, use the following command inside your project folder from the Terminal app: ruby -run -ehttpd . -p9001. See NSAppTransportSecurity for information on using a non-secure server.
     static let tvBaseURL = "http://localhost:9001/"
-    static let tvBootURL = "\(AppDelegate.tvBaseURL)js/MediaPlayer.js"
+    static let tvBootURL = "\(AppDelegate.tvBaseURL)js/Navigation.js"
     
     // MARK: Javascript Execution Helper
     
@@ -41,6 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         let appControllerContext = TVApplicationControllerContext()
 
 //         The JavaScript URL is used to create the JavaScript context for your TVMLKit application. Although it is possible to separate your JavaScript into separate files, to help reduce the launch time of your application we recommend creating minified and compressed version of this resource. This will allow for the resource to be retrieved and UI presented to the user quickly.
+        
+        guard let javaScriptURL = URL(string: AppDelegate.tvBootURL) else { fatalError("unable to create NSURL") }
+        appControllerContext.javaScriptApplicationURL = javaScriptURL
+        appControllerContext.launchOptions["BASEURL"] = AppDelegate.tvBaseURL
+        
+        /*
         if let javaScriptURL = URL(string: AppDelegate.tvBootURL) {
             appControllerContext.javaScriptApplicationURL = javaScriptURL
         }
@@ -52,6 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
                 appControllerContext.launchOptions[kind.rawValue] = value
             }
         }
+        */
         
         appController = TVApplicationController(context: appControllerContext, window: window, delegate: self)
         

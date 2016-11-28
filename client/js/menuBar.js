@@ -82,7 +82,6 @@ function updateMenuItem(menuItem, url) {
 App.onLaunch = function(options) {
     baseURL = options.BASEURL;
     var startDocumentURL = baseURL + "templates/menuBar.xml";
- 
     loadAndPushDocument(startDocumentURL)
 }
 

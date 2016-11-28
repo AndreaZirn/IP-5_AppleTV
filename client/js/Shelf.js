@@ -21,7 +21,6 @@ function parseJson(information) {
 }
  
 App.onLaunch = function(options) {
- 
     baseURL = options.BASEURL;
     var jsonURL = baseURL + "js/jsoninformation.json";
     getDocument(jsonURL);

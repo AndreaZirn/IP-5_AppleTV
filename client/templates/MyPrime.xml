@@ -1,0 +1,102 @@
+<document>
+   <catalogTemplate>
+      <banner>
+         <title>My Prime</title>
+      </banner>
+      <list>
+         <section>
+            <listItemLockup>
+               <title>Top Movies</title>
+               <decorationLabel>3</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        <lockup>
+                           <img src="${this.BASEURL}images/BadSanta" width="250" height="376" />
+                           <title>Bad Santa</title>
+                        </lockup>
+                        <lockup>
+                           <img src="${this.BASEURL}images/Moana" width="250" height="376" />
+                           <title>Moana/title>
+                        </lockup>
+                        <lockup>
+                           <img src="${this.BASEURL}images/Inception" width="250" height="376" />
+                           <title>Inception/title>
+                        </lockup>
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Top Series</title>
+               <decorationLabel>1</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        <lockup>
+                           <img src="${this.BASEURL}images/BadSanta" width="250" height="376" />
+                           <title>Bad Santa</title>
+                        </lockup>
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Recommended</title>
+               <decorationLabel>1</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        <lockup>
+                           <img src="${this.BASEURL}images/BadSanta" width="250" height="376" />
+                           <title>Bad Santa</title>
+                        </lockup>
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Packages</title>
+               <decorationLabel>1</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        <lockup>
+                           <img src="${this.BASEURL}images/BadSanta" width="250" height="376" />
+                           <title>Bad Santa</title>
+                        </lockup>
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Genres</title>
+               <decorationLabel>1</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        <lockup>
+                           <img src="${this.BASEURL}images/BadSanta" width="250" height="376" />
+                           <title>Bad Santa</title>
+                        </lockup>
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Search</title>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        <lockup>
+                           <img src="${this.BASEURL}images/BadSanta" width="250" height="376" />
+                           <title>Bad Santa</title>
+                        </lockup>
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+         </section>
+      </list>
+   </catalogTemplate>
+</document>
