@@ -1,1 +1,1 @@
-mediafilesegmenter -start-segments-with-iframe -I -f AdaptiveStreaming/960x540 -t 9 /Users/joelblumer/Desktop/ws5C\ Yale\ Art.mp4 
+mediafilesegmenter -start-segments-with-iframe -I -f /Users/joelblumer/Desktop/Destination_File_Segmenter/AdaptiveStreaming/960x540_1840/ -t 9 /Users/joelblumer/Desktop/Destination_File_Segmenter/AdaptiveStreaming/960x540_1840/960x540_1840.mov
