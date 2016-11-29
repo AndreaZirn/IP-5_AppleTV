@@ -1,0 +1,1 @@
+ffmpeg -i ws5C\ Yale\ Art.mp4 -force_key_frames "expr:gte(t,n_forced*3)" -c:v libx264 -vprofile main -vlevel 3.1 -s 960x540 -b:v 1800k -strict -2 -c:a aac -ar 44100 -ac 2 -b:a 96k sample_540p.mov

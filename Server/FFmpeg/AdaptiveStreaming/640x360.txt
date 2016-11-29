@@ -1,8 +1,0 @@
--i sample.mov
--force key_key_frames "expr:gte(t,n_forced*3)
--c:v libx264 -vprofile baseline -vlevel 3.1
--s 640x360
--b:v 1200k
--strict -2
--c:a aac -ar 44100 -ac 2 -b:a 96k
-sample_360p.mov
