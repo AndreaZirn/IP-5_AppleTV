@@ -1,0 +1,1 @@
+mediafilesegmenter -start-segments-with-iframe -I -f AdaptiveStreaming/960x540 -t 9 /Users/joelblumer/Desktop/ws5C\ Yale\ Art.mp4 
