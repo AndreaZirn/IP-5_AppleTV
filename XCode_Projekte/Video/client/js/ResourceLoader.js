@@ -1,5 +1,4 @@
 // load other template files
-
 function ResourceLoader(baseurl) {
   this.BASEURL = baseurl;
 }
