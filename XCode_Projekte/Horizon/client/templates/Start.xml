@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <head>
+    <style>
+    .6ColumnGrid {
+      tv-interitem-spacing: 50;
+    }
+    </style>
+  </head>
+  <stackTemplate>
+    <background>
+      <img src="/resources/images/background/background_4.png" />
+    </background>
+    <banner>
+      <row>
+        <organizer>
+      <heroImg src="/resources/images/logos/upclogo_1.png" width="150" height="150" style="tv-position: top-right"/>
+        <title style="tv-text-style: title3, tv-position: center">Welcome to Horizon!</title>
+      </organizer>
+    </row>
+    </banner>
+    <collectionList>
+      <separator style="margin: 40 0 20">
+      </separator>
+      <shelf class="6ColumnGrid">
+        <section>
+          <lockup itemID="1" documentURL="/templates/LiveTV/LiveTV_1.xml">
+            <img src="/resources/images/lockups/movie_1.lcr" width="300" height="300" />
+            <title>Live-TV</title>
+          </lockup>
+          <lockup itemID="2">
+            <img src="/resources/images/lockups/movie_2.lcr" width="300" height="300" />
+            <title>TV Guide</title>
+          </lockup>
+          <lockup itemID="3" documentURL="/templates/myPrime/myPrime.xml">
+            <img src="/resources/images/lockups/movie_3.lcr" width="300" height="300" />
+            <title>My Prime</title>
+          </lockup>
+          <lockup itemID="4">
+            <img src="/resources/images/lockups/movie_4.lcr" width="300" height="300" />
+            <title>My Videos</title>
+          </lockup>
+          <lockup itemID="5">
+            <img src="/resources/images/lockups/movie_5.lcr" width="300" height="300" />
+            <title>Settings</title>
+          </lockup>
+        </section>
+      </shelf>
+    </collectionList>
+  </stackTemplate>
+</document>

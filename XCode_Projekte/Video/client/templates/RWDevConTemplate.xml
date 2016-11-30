@@ -1,0 +1,37 @@
+var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
+  <document>
+    <catalogTemplate> 
+      <banner> 
+        <title>RWDevConHighlights</title>
+      </banner>
+      <list> 
+        <section> 
+	  <listItemLockup> 
+	    <title>Inspiration Videos</title>
+	    <decorationLabel>13</decorationLabel>
+            //1. add from here
+	    <relatedContent> 
+	      <grid>
+	        <section> 
+                  //2
+		  <lockup videoURL="https://srgssruni2ch-lh.akamaihd.net/i/enc2uni_ch@191041/master.m3u8?hdnts=exp%3D1478868335~acl%3D%2Fi%2Fenc2uni_ch%40191041%2F%2A~hmac%3Da0be2a38ea8fda3224929bcc7c464558430ad6188d37285695801068c3959a73">
+		    <img src="${this.BASEURL}images/ray.png" width="500" height="308" />
+		  </lockup>
+		  <lockup videoURL="http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8">
+		    <img src="${this.BASEURL}images/ryan.png" width="500" height="308" />
+		  </lockup>									
+	          <lockup videoURL="https://tungsten.aaplimg.com/VOD/bipbop_adv_example_v2/master.m3u8">
+		    <img src="${this.BASEURL}images/matthijs.png" width="500" height="308" />
+		  </lockup>		
+		      <lockup videoURL="https://wowza.jwplayer.com/live/jelly.stream/playlist.m3u8?DVR">
+		    <img src="${this.BASEURL}images/matthijs.png" width="500" height="308" />
+		  </lockup>									
+		</section>
+	      </grid>
+	    </relatedContent>
+	  </listItemLockup>
+        </section>
+      </list>
+    </catalogTemplate>
+  </document>`
+}

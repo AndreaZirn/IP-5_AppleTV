@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D338A71F1DEC34E100257E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338A71E1DEC34E100257E89 /* AppDelegate.swift */; };
+		D338A7231DEC34E100257E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D338A7221DEC34E100257E89 /* Assets.xcassets */; };
+		D338A72E1DEC34E100257E89 /* IP_5_HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338A72D1DEC34E100257E89 /* IP_5_HorizonTests.swift */; };
+		D338A7391DEC34E100257E89 /* IP_5_HorizonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338A7381DEC34E100257E89 /* IP_5_HorizonUITests.swift */; };
+		D3D00F091DECEDBD004EC424 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D00F081DECEDBD004EC424 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D338A72A1DEC34E100257E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D338A7131DEC34E100257E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D338A71A1DEC34E100257E89;
+			remoteInfo = "IP-5:Horizon";
+		};
+		D338A7351DEC34E100257E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D338A7131DEC34E100257E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D338A71A1DEC34E100257E89;
+			remoteInfo = "IP-5:Horizon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D338A71B1DEC34E100257E89 /* IP-5:Horizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IP-5:Horizon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D338A71E1DEC34E100257E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D338A7211DEC34E100257E89 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		D338A7221DEC34E100257E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D338A7241DEC34E100257E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D338A7291DEC34E100257E89 /* IP-5:HorizonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IP-5:HorizonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D338A72D1DEC34E100257E89 /* IP_5_HorizonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_5_HorizonTests.swift; sourceTree = "<group>"; };
+		D338A72F1DEC34E100257E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D338A7341DEC34E100257E89 /* IP-5:HorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IP-5:HorizonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D338A7381DEC34E100257E89 /* IP_5_HorizonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_5_HorizonUITests.swift; sourceTree = "<group>"; };
+		D338A73A1DEC34E100257E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D00F081DECEDBD004EC424 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D3D00F0A1DECEDE6004EC424 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D338A7181DEC34E100257E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D00F091DECEDBD004EC424 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D338A7261DEC34E100257E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D338A7311DEC34E100257E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D338A7121DEC34E100257E89 = {
+			isa = PBXGroup;
+			children = (
+				D338A71D1DEC34E100257E89 /* IP-5:Horizon */,
+				D338A72C1DEC34E100257E89 /* IP-5:HorizonTests */,
+				D338A7371DEC34E100257E89 /* IP-5:HorizonUITests */,
+				D338A71C1DEC34E100257E89 /* Products */,
+				D3D00F071DECEDBD004EC424 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D338A71C1DEC34E100257E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D338A71B1DEC34E100257E89 /* IP-5:Horizon.app */,
+				D338A7291DEC34E100257E89 /* IP-5:HorizonTests.xctest */,
+				D338A7341DEC34E100257E89 /* IP-5:HorizonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D338A71D1DEC34E100257E89 /* IP-5:Horizon */ = {
+			isa = PBXGroup;
+			children = (
+				D338A71E1DEC34E100257E89 /* AppDelegate.swift */,
+				D338A7221DEC34E100257E89 /* Assets.xcassets */,
+				D338A7241DEC34E100257E89 /* Info.plist */,
+				D338A7201DEC34E100257E89 /* Supporting Files */,
+			);
+			path = "IP-5:Horizon";
+			sourceTree = "<group>";
+		};
+		D338A7201DEC34E100257E89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D338A7211DEC34E100257E89 /* application.js */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D338A72C1DEC34E100257E89 /* IP-5:HorizonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D338A72D1DEC34E100257E89 /* IP_5_HorizonTests.swift */,
+				D338A72F1DEC34E100257E89 /* Info.plist */,
+			);
+			path = "IP-5:HorizonTests";
+			sourceTree = "<group>";
+		};
+		D338A7371DEC34E100257E89 /* IP-5:HorizonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D338A7381DEC34E100257E89 /* IP_5_HorizonUITests.swift */,
+				D338A73A1DEC34E100257E89 /* Info.plist */,
+			);
+			path = "IP-5:HorizonUITests";
+			sourceTree = "<group>";
+		};
+		D3D00F071DECEDBD004EC424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D00F0A1DECEDE6004EC424 /* MediaPlayer.framework */,
+				D3D00F081DECEDBD004EC424 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D338A71A1DEC34E100257E89 /* IP-5:Horizon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D338A73D1DEC34E100257E89 /* Build configuration list for PBXNativeTarget "IP-5:Horizon" */;
+			buildPhases = (
+				D338A7171DEC34E100257E89 /* Sources */,
+				D338A7181DEC34E100257E89 /* Frameworks */,
+				D338A7191DEC34E100257E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IP-5:Horizon";
+			productName = "IP-5:Horizon";
+			productReference = D338A71B1DEC34E100257E89 /* IP-5:Horizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D338A7281DEC34E100257E89 /* IP-5:HorizonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D338A7401DEC34E100257E89 /* Build configuration list for PBXNativeTarget "IP-5:HorizonTests" */;
+			buildPhases = (
+				D338A7251DEC34E100257E89 /* Sources */,
+				D338A7261DEC34E100257E89 /* Frameworks */,
+				D338A7271DEC34E100257E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D338A72B1DEC34E100257E89 /* PBXTargetDependency */,
+			);
+			name = "IP-5:HorizonTests";
+			productName = "IP-5:HorizonTests";
+			productReference = D338A7291DEC34E100257E89 /* IP-5:HorizonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D338A7331DEC34E100257E89 /* IP-5:HorizonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D338A7431DEC34E100257E89 /* Build configuration list for PBXNativeTarget "IP-5:HorizonUITests" */;
+			buildPhases = (
+				D338A7301DEC34E100257E89 /* Sources */,
+				D338A7311DEC34E100257E89 /* Frameworks */,
+				D338A7321DEC34E100257E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D338A7361DEC34E100257E89 /* PBXTargetDependency */,
+			);
+			name = "IP-5:HorizonUITests";
+			productName = "IP-5:HorizonUITests";
+			productReference = D338A7341DEC34E100257E89 /* IP-5:HorizonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D338A7131DEC34E100257E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrea Zirn";
+				TargetAttributes = {
+					D338A71A1DEC34E100257E89 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DC4WF5AD9S;
+						ProvisioningStyle = Automatic;
+					};
+					D338A7281DEC34E100257E89 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D338A71A1DEC34E100257E89;
+					};
+					D338A7331DEC34E100257E89 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D338A71A1DEC34E100257E89;
+					};
+				};
+			};
+			buildConfigurationList = D338A7161DEC34E100257E89 /* Build configuration list for PBXProject "IP-5:Horizon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D338A7121DEC34E100257E89;
+			productRefGroup = D338A71C1DEC34E100257E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D338A71A1DEC34E100257E89 /* IP-5:Horizon */,
+				D338A7281DEC34E100257E89 /* IP-5:HorizonTests */,
+				D338A7331DEC34E100257E89 /* IP-5:HorizonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D338A7191DEC34E100257E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A7231DEC34E100257E89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D338A7271DEC34E100257E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D338A7321DEC34E100257E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D338A7171DEC34E100257E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A71F1DEC34E100257E89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D338A7251DEC34E100257E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A72E1DEC34E100257E89 /* IP_5_HorizonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D338A7301DEC34E100257E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A7391DEC34E100257E89 /* IP_5_HorizonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D338A72B1DEC34E100257E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D338A71A1DEC34E100257E89 /* IP-5:Horizon */;
+			targetProxy = D338A72A1DEC34E100257E89 /* PBXContainerItemProxy */;
+		};
+		D338A7361DEC34E100257E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D338A71A1DEC34E100257E89 /* IP-5:Horizon */;
+			targetProxy = D338A7351DEC34E100257E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D338A73B1DEC34E100257E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		D338A73C1DEC34E100257E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D338A73E1DEC34E100257E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DC4WF5AD9S;
+				INFOPLIST_FILE = "IP-5:Horizon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-AppleTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D338A73F1DEC34E100257E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DC4WF5AD9S;
+				INFOPLIST_FILE = "IP-5:Horizon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-AppleTV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D338A7411DEC34E100257E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IP-5:HorizonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-HorizonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IP-5:Horizon.app/IP-5:Horizon";
+			};
+			name = Debug;
+		};
+		D338A7421DEC34E100257E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "IP-5:HorizonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-HorizonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IP-5:Horizon.app/IP-5:Horizon";
+			};
+			name = Release;
+		};
+		D338A7441DEC34E100257E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "IP-5:HorizonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-HorizonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IP-5:Horizon";
+			};
+			name = Debug;
+		};
+		D338A7451DEC34E100257E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "IP-5:HorizonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-HorizonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IP-5:Horizon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D338A7161DEC34E100257E89 /* Build configuration list for PBXProject "IP-5:Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338A73B1DEC34E100257E89 /* Debug */,
+				D338A73C1DEC34E100257E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D338A73D1DEC34E100257E89 /* Build configuration list for PBXNativeTarget "IP-5:Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338A73E1DEC34E100257E89 /* Debug */,
+				D338A73F1DEC34E100257E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D338A7401DEC34E100257E89 /* Build configuration list for PBXNativeTarget "IP-5:HorizonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338A7411DEC34E100257E89 /* Debug */,
+				D338A7421DEC34E100257E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D338A7431DEC34E100257E89 /* Build configuration list for PBXNativeTarget "IP-5:HorizonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338A7441DEC34E100257E89 /* Debug */,
+				D338A7451DEC34E100257E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D338A7131DEC34E100257E89 /* Project object */;
+}

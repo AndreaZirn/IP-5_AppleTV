@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+  <head>
+    <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    .badge {
+      tv-tint-color: rgb(255,255,255);
+    }
+    .5ColumnGrid {
+      tv-interitem-spacing: 50;
+    }
+    </style>
+  </head>
+  <productTemplate theme="dark">
+    <banner>
+      <infoList>
+        <info>
+          <header>
+            <title>genre</title>
+          </header>
+          <text>Sciene-Fiction</text>
+        </info>
+        <info>
+          <header>
+            <title>director</title>
+          </header>
+          <text>Scott Derrickson</text>
+        </info>
+        <info>
+          <header>
+            <title>starring</title>
+          </header>
+          <text>Benedict Cumberbatch</text>
+          <text>Chiwetel Ejiofor</text>
+          <text>Rachel McAdams</text>
+        </info>
+      </infoList>
+      <stack>
+        <title>Doctor Strange</title>
+        <subtitle></subtitle>
+        <row> 
+          <text><badge src="resource://tomato-fresh" style="margin:0 0 -3"/> 90%</text>
+          <text>GB</text>
+          <text>2016</text>
+          <badge src="resource://tv-14" class="badge" />
+          <badge src="resource://hd" class="badge" />
+        </row>
+        <description handlesOverflow="true">Dr. Stephen Vincent Strange is a fictional superhero appearing in American comic books published by Marvel Comics. Created by artist Steve Ditko and writer Stan Lee,[1] the character first appeared in Strange Tales #110 (cover-dated July 1963). A former neurosurgeon, Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats. Debuting in the Silver Age of comics, the character has been featured in several comic book series and adapted in a variety of media including video games, an animated television show, and films. Inspired by storytellings of black magic and Chandu the Magician, Strange was created to bring a different kind of character and themes of mysticism to Marvel Comics.</description>
+        <row>
+          <buttonLockup videoURL="/resources/video/DoctorStrange.mp4">
+            <badge src="resource://button-preview" />
+            <title>Trailer 1</title>
+          </buttonLockup>
+          <buttonLockup>
+            <badge src="resource://button-play" />
+            <title>Trailer 2</title>
+          </buttonLockup>
+          <buttonLockup>
+            <badge src="resource://button-add" />
+            <title>Add to wish list</title>
+          </buttonLockup>
+        </row>
+      </stack>
+      <heroImg src="/resources/images/movies/DoctorStrange.jpg" width="400" height="600" />
+    </banner>
+
+    <shelf>
+      <header>
+        <title>Crew</title>
+      </header>
+      <section>
+        <monogramLockup>
+          <monogram src="/resources/images/Crew/ScottDerrickson.jpg" />
+          <title>Scott Derrickson</title>
+          <subtitle>Director</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram src="/resources/images/Crew/BenedictCumberbatch.jpg" />
+          <title>Benedict Cumberbatch</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram src="/resources/images/Crew/ChiwetelEjiofor.jpg" />
+          <title>Chiwetel Ejiofor</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram src="/resources/images/Crew/RachelMcAdams.jpg" />
+          <title>Rachel McAdams</title>
+          <subtitle>Actress</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Benedict" lastName="Wong" />
+          <title>Benedict Wong</title>
+          <subtitle>Actor</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Mads" lastName="Mikkelsen" />
+          <title>Mads Mikkelsen</title>
+          <subtitle>Director</subtitle>
+        </monogramLockup>
+        <monogramLockup>
+          <monogram firstName="Tilda" lastName="Swinton" />
+          <title>Tilda Swinton</title>
+          <subtitle>Actress</subtitle>
+        </monogramLockup>
+      </section>
+    </shelf>
+
+    <separator />
+
+    <shelf>
+      <header>
+        <title>Reviews &amp; Ratings</title>
+      </header>
+      <section>
+        <ratingCard>
+          <title>7.9 / 10</title>
+          <ratingBadge value="0.8"></ratingBadge>
+          <description>Average of 137'657 user ratings and reviews from imdb.com.</description>
+        </ratingCard>
+        <ratingCard>
+          <title><badge src="resource://tomato-splat-m" /> 41%</title>
+          <text>Tomatometer</text>
+          <infoTable>
+            <info>
+              <header>
+                <title>175</title>
+              </header>
+              <text>Reviews</text>
+            </info>
+            <info>
+              <header>
+                <title>88</title>
+              </header>
+              <text>Fresh</text>
+            </info>
+            <info>
+              <header>
+                <title>87</title>
+              </header>
+              <text>Rotten</text>
+            </info>
+            <info>
+              <header>
+                <title>6</title>
+              </header>
+              <text>Average</text>
+            </info>
+          </infoTable>
+        </ratingCard>
+        <reviewCard>
+          <badge src="resource://tomato-fresh-m" />
+          <title>Publisher</title>
+          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+          <text>Stephanie Vidal Dec, 24 2015</text>
+        </reviewCard>
+        <reviewCard>
+          <badge src="resource://tomato-splat-m" />
+          <title>Publisher</title>
+          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+          <text>Euna Kwon Dec, 5 2015</text>
+        </reviewCard>
+        <reviewCard>
+          <badge src="resource://tomato-certified-m" />
+          <title>Publisher</title>
+          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+          <text>Paul Cashman <date>Dec, 10 2015</date></text>
+        </reviewCard>
+      </section>
+    </shelf>
+
+    <separator />
+
+    <shelf class="9ColumnGrid">
+      <header>
+        <title>Similar Movies</title>
+      </header>
+      <section>
+        <lockup>
+          <img src="/resources/images/lockups/movie_1.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 1</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_2.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 2</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_3.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 3</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_4.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 4</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_5.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 5</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_6.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 6</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_7.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 7</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_1.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 8</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_2.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 9</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_3.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 10</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_4.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 11</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_5.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 12</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_6.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 13</title>
+        </lockup>
+        <lockup>
+          <img src="/resources/images/lockups/movie_7.lcr" width="148" height="226" />
+          <title class="showTextOnHighlight">Title 14</title>
+        </lockup>
+      </section>
+    </shelf>
+  
+  </productTemplate>
+</document>

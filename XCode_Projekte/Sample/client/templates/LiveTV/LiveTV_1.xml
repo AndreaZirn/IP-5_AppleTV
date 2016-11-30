@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright (C) 2016 Apple Inc. All Rights Reserved.
+See LICENSE.txt for this sample’s licensing information
+-->
+<document>
+	<head>
+		<style>
+			.progressOverlay {
+				padding: 0;
+			}
+			.watchedOverlayImg {
+				tv-position: bottom-right;
+				tv-align: right;
+			}
+
+			.imgGradient {
+				tv-tint-color: linear-gradient(top, 0.37, transparent, 0.5, rgba(61,101,128,0.5), 0.96, rgba(61,101,128,1.0), rgba(61,101,128,1.0));
+			}
+			.gradientOverlayTitle {
+				tv-text-max-lines: 1;
+				tv-text-style: body;
+				padding: 30;
+				text-align: center;
+				color: rgba(255, 255, 255, 1.0);
+			}
+			.gradientOverlaySubtitle {
+				color: rgba(255, 255, 255, 0.6);
+				tv-text-style: caption2;
+				tv-text-max-lines: 1;
+				margin: 6 0 -6 0;
+				text-align: center;
+			}
+
+			.simpleCard {
+				width: 548;
+				height: 308;
+				background-color: rgba(255, 255, 255, 0.5);
+                tv-highlight-color: rgba(255, 255, 255, 0.9);
+
+			}
+			.simpleCardTitle {
+				tv-position: center;
+				color: rgba(0, 0, 0, 0.6);
+				tv-text-style: headline;
+				tv-text-max-lines: 1;
+				text-align: center;
+			}
+			.simpleCardSubtitle {
+				tv-position: center;
+				color: rgba(0, 0, 0, 0.4);
+				tv-text-style: subtitle3;
+				tv-text-max-lines: 1;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<stackTemplate>
+		<shelf>
+				<header>
+					<title>LIVE TV</title>
+				</header>
+				<section>
+					<lockup>
+						<img src="/resources/images/lockups/episode_1.jpg" width="308" height="175" />
+						<title>SRF1: Bi de lüt</title>
+						<overlay class="progressOverlay">
+							<progressBar value="0.2"/>
+						</overlay>
+					</lockup>
+					<lockup>
+						<img src="/resources/images/lockups/episode_1.jpg" width="308" height="175" />
+						<title>SRF2: Bi de lüt</title>
+						<overlay class="progressOverlay">
+							<progressBar value="0.4"/>
+						</overlay>
+					</lockup>
+					<lockup>
+						<img src="/resources/images/lockups/episode_1.jpg" width="308" height="175" />
+						<title>ARD: Kassler</title>
+						<overlay class="progressOverlay">
+							<progressBar value="0.9"/>
+						</overlay>
+					</lockup>
+				</section>
+			</shelf>
+	</stackTemplate>
+</document>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <head>
+        <style>
+            .showTextOnHighlight {
+                tv-text-highlight-style: marquee-and-show-on-highlight;
+            }
+        </style>
+    </head>
+    <searchTemplate>
+
+        <searchField>Search</searchField>
+
+        <separator>
+            <segmentBar id="resultsMode">
+                <segmentBarItem value="shelf">
+                    <title>Shelf</title>
+                </segmentBarItem>
+                <segmentBarItem value="grid">
+                    <title>Grid</title>
+                </segmentBarItem>
+            </segmentBar>
+        </separator>
+
+        <text id="message">Message Text</text>
+        <list id="suggestions">
+            <section>
+                <header>
+                    <title>SUGGESTIONS</title>
+                </header>
+                <listItemLockup value="ba">
+                    <title><span><b>"ba"</b></span></title>
+                </listItemLockup>
+                <listItemLockup value="back">
+                    <title><span><b>ba</b></span>ck</title>
+                </listItemLockup>
+                <listItemLockup value="bad">
+                    <title><span><b>ba</b></span>d</title>
+                </listItemLockup>
+                <listItemLockup value="batman">
+                    <title><span><b>ba</b></span>tman</title>
+                </listItemLockup>
+                <listItemLockup value="back to the future">
+                    <title><span><b>ba</b></span>ck to the future</title>
+                </listItemLockup>
+            </section>
+        </list>
+        <collectionList id="resultsList">
+            <shelf id="resultsShelfContainer">
+                <section id="resultsSection">
+                </section>
+            </shelf>
+            <grid id="resultsGridContainer">
+            </grid>
+        </collectionList>
+
+    </searchTemplate>
+</document>
