@@ -1,0 +1,4 @@
+variantplaylistcreator -o Secure/Protected/variants.m3u8 http://localhost:8080/prog_index.m3u8 640x360_1240.plist
+
+
+
