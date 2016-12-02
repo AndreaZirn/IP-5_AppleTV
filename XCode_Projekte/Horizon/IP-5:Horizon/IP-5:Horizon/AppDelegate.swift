@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     // MARK: UIApplication Overrides
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]? = [:]) -> Bool {
+    /*func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]? = [:]) -> Bool {*/
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         
@@ -32,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
          in JavaScript.
          */
         let appControllerContext = TVApplicationControllerContext()
+        
+        
         
         /*
          The JavaScript URL is used to create the JavaScript context for your
@@ -43,11 +46,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         
         appControllerContext.launchOptions["baseURL"] = AppDelegate.tvBaseURL
         
-        if let launchOptions = launchOptions as? [String: AnyObject] {
+        /*if let launchOptions = launchOptions as? [String: AnyObject] {
             for (kind, value) in launchOptions {
                 appControllerContext.launchOptions[kind] = value
             }
-        }
+        }*/
         
         appController = TVApplicationController(context: appControllerContext, window: window, delegate: self)
         
@@ -56,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     // MARK: TVApplicationControllerDelegate
     
-    func appController(_ appController: TVApplicationController, didFail error: Error) {
+    /*func appController(_ appController: TVApplicationController, didFail error: Error) {
         print("\(#function) invoked with error: \(error)")
         
         let title = "Error Launching Application"
@@ -64,6 +67,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         let alertController = UIAlertController(title: title, message: message, preferredStyle:.alert)
         
         self.appController?.navigationController.present(alertController, animated: true, completion: nil)
-    }
+    }*/
     
 }

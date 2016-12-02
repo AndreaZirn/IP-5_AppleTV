@@ -49,7 +49,8 @@ App.onLaunch = function(options) {
         "MenuBarController",
         "ModalController",
         "SearchController",
-        "SlideshowController"
+        "SlideshowController",
+        "Presenter"
     ].map(
         moduleName => `${baseURL}js/${moduleName}.js`
     );

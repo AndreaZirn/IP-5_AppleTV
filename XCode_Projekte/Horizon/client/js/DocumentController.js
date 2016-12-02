@@ -33,6 +33,7 @@ class DocumentController {
         this.handleEvent = this.handleEvent.bind(this);
         this._documentLoader = documentLoader;
         this.fetchDocument(documentURL, loadingDocument);
+        this.Presenter = this.Presenter.bind(this);
     }
  
     fetchDocument(documentURL, loadingDocument) {
@@ -54,6 +55,7 @@ class DocumentController {
     setupDocument(document) {
         document.addEventListener("select", this.handleEvent);
         document.addEventListener("play", this.handleEvent);
+        document.addEventListener("select", Presenter.load.bind(Presenter)); 
     }
  
     handleDocument(document, loadingDocument) {
@@ -85,7 +87,8 @@ class DocumentController {
             const alertDocument = createDescriptiveAlertDocument('', body);
             navigationDocument.presentModal(alertDocument);
         }
-    }
+    }  
 }
+
  
 registerAttributeName('documentURL', DocumentController);
