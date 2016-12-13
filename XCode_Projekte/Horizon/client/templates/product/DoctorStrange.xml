@@ -49,8 +49,8 @@
         </row>
         <description handlesOverflow="true">Dr. Stephen Vincent Strange is a fictional superhero appearing in American comic books published by Marvel Comics. Created by artist Steve Ditko and writer Stan Lee,[1] the character first appeared in Strange Tales #110 (cover-dated July 1963). A former neurosurgeon, Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats. Debuting in the Silver Age of comics, the character has been featured in several comic book series and adapted in a variety of media including video games, an animated television show, and films. Inspired by storytellings of black magic and Chandu the Magician, Strange was created to bring a different kind of character and themes of mysticism to Marvel Comics.</description>
         <row>
-          <buttonLockup videoURL="/resources/video/DoctorStrange.mp4">
-            <badge src="resource://button-preview" />
+          <buttonLockup>
+            <badge id="doctorstrange_trailer1" src="resource://button-preview" />
             <title>Trailer 1</title>
           </buttonLockup>
           <buttonLockup>
