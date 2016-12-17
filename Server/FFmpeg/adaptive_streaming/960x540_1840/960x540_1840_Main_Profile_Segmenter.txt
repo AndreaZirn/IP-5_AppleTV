@@ -1,0 +1,1 @@
+mediafilesegmenter -start-segments-with-iframe -I -f /Users/joelblumer/Desktop/Destination_File_Segmenter/adaptive_streaming/960x540_1840/ -t 9 /Users/joelblumer/Desktop/Destination_File_Segmenter/adaptive_streaming/960x540_1840/960x540_1840.mov

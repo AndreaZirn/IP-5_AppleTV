@@ -1,0 +1,1 @@
+ffmpeg -i /Users/joelblumer/Desktop/BigBuckBunny/big_buck_bunny_1080p_h264.mov -force_key_frames "expr:gte(t,n_forced*3)" -c:v libx264 -vprofile high -vlevel 4.0 -s 1920x1080 -b:v 24000k -strict -2 -c:a aac -ar 44100 -ac 2 -b:a 1000k /Users/joelblumer/Desktop/Destination_File_Segmenter/adaptive_streaming/1920x1080_25000/1920x1080_25000.mov

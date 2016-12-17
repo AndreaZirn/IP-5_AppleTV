@@ -1,0 +1,1 @@
+mediafilesegmenter -I -t 9 -f secure/ -k secure/protected/ -encrypt-key-url https://localhost:7070/secure/protected secure/640x360_1240.mov
