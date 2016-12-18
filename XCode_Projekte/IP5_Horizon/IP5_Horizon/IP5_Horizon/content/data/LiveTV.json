@@ -1,0 +1,12 @@
+{
+  "tvchannels": [
+    {
+    "image": "blueclouds.png",
+    "title": "SRF1"
+    }, 
+    {
+    "image": "blueclouds.png",
+    "title": "SRF2"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <menuBarTemplate>
+    <menuBar>
+      <menuItem template="homeScreen.tvml" data="homeScreen.json" presentation="menuBar">
+        <title>Home</title>
+      </menuItem>
+      <menuItem template="LiveTV.tvml" data="LiveTV.json" presentation="menuBar">
+        <title>Live TV</title>
+      </menuItem>
+      <menuItem template="TVGuide.tvml" presentation="menuBar">
+        <title>TV Guide</title>
+      </menuItem>
+      <menuItem template="myPrime.tvml" data="myPrime.json" presentation="menuBar">
+        <title>My Prime</title>
+      </menuItem>
+      <menuItem template="myVideo.tvml" data="MyVideo.json" presentation="menuBar">
+        <title>My Videos</title>
+      </menuItem>
+      <menuItem template="Settings.tvml" presentation="menuBar">
+        <title>Settings</title>
+      </menuItem>
+      <menuItem template="Search.tvml" data="search.json" presentation="menuBar">
+        <title>Search</title>
+      </menuItem>
+    </menuBar>
+  </menuBarTemplate>
+</document>

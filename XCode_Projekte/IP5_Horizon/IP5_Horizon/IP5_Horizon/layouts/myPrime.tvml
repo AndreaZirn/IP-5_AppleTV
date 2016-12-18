@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <head>
+  <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    </style>
+  </head>
+<catalogTemplate>
+      <list>
+         <section>
+            <header>
+               <title>Top</title>
+            </header>
+            <listItemLockup>
+               <title>Movies</title>
+               <decorationLabel>6</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        {{#topmovies}}
+                           <lockup
+                           template="{{template}}"
+                           data="{{data}}"
+                           presentation="push">
+                           <img src="{{image}}" width="222" height="333" />
+                           <title class="showTextOnHighlight">{{title}}</title>
+                           </lockup>
+                        {{/topmovies}}
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Series</title>
+               <decorationLabel>2</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        {{#topseries}}
+                           <lockup
+                           template="{{template}}"
+                           data="{{data}}"
+                           presentation="push">
+                           <img src="{{image}}" width="222" height="333" />
+                           <title class="showTextOnHighlight">{{title}}</title>
+                           </lockup>
+                        {{/topseries}}
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+         </section>
+         <section>
+            <header>
+               <title>Recommended</title>
+            </header>
+               <listItemLockup>
+                <title>Movies</title>
+                <decorationLabel>3</decorationLabel>
+                <relatedContent>
+                  <grid>
+                     <section>
+                        {{#recommendedmovies}}
+                           <lockup
+                           template="{{template}}"
+                           data="{{data}}"
+                           presentation="push">
+                           <img src="{{image}}" width="222" height="333" />
+                           <title class="showTextOnHighlight">{{title}}</title>
+                           </lockup>
+                        {{/recommendedmovies}}
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Series</title>
+               <decorationLabel>3</decorationLabel>
+               <relatedContent>
+                  <grid>
+                     <section>
+                          {{#recommendedseries}}
+                           <lockup
+                           template="{{template}}"
+                           data="{{data}}"
+                           presentation="push">
+                           <img src="{{image}}" width="222" height="333" />
+                           <title class="showTextOnHighlight">{{title}}</title>
+                           </lockup>
+                        {{/recommendedseries}}
+                     </section>
+                  </grid>
+               </relatedContent>
+            </listItemLockup>
+         </section>
+         <section>
+            <header>
+               <title>Genres</title>
+            </header>
+               <listItemLockup>
+                <title>Action</title>
+                <relatedContent>
+                  <grid>
+                     <section>
+                        {{#actiongenre}}
+                           <lockup
+                           template="{{template}}"
+                           data="{{data}}"
+                           presentation="push">
+                           <img src="{{image}}" width="222" height="333" />
+                           <title class="showTextOnHighlight">{{title}}</title>
+                           </lockup>
+                        {{/actiongenre}}
+                     </section>
+                   </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Comedy</title>
+               <relatedContent>
+                  <grid>
+                     <section>
+                        {{#comedygenre}}
+                           <lockup
+                           template="{{template}}"
+                           data="{{data}}"
+                           presentation="push">
+                           <img src="{{image}}" width="222" height="333" />
+                           <title class="showTextOnHighlight">{{title}}</title>
+                           </lockup>
+                        {{/comedygenre}}
+                     </section>
+                   </grid>
+               </relatedContent>
+            </listItemLockup>
+         </section>
+      </list>
+   </catalogTemplate>
+ </document>

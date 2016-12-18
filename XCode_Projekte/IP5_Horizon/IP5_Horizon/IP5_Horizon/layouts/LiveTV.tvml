@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+	<head>
+		<style>
+			.progressOverlay {
+			padding: 0;
+			}
+		</style>
+	</head>
+	  <stackTemplate>
+	  <banner>
+	  </banner>
+		<shelf>
+			 <section>
+			  {{#tvchannels}}
+				<lockup>
+					<img src="{{image}}" width="300" height="300" />
+					<title>{{title}}</title>
+					<overlay class="progressOverlay">
+					<progressBar value="0.1"/>
+					</overlay>
+				</lockup>
+			   {{/tvchannels}}
+			 </section>
+		</shelf>
+	</stackTemplate>
+</document>

@@ -1,0 +1,38 @@
+[
+  {
+    "template": "video.tvml",
+    "data": "DoctorStrange.json",
+    "image": "DoctorStrange.jpg",
+    "title": "Doctor Strange"
+  },
+  {
+    "template": "video.tvml",
+    "data": "Inception.json",
+    "image": "Inception.jpg",
+    "title": "Inception"
+  },
+  {
+    "template": "video.tvml",
+    "data": "Moana.json",
+    "image": "Moana.jpg",
+    "title": "Moana"
+  },
+  {
+    "template": "video.tvml",
+    "data": "FightClub.json",
+    "image": "FightClub.jpg",
+    "title": "Fight Club"
+  },
+  {
+    "template": "video.tvml",
+    "data": "Trolls.json",
+    "image": "Trolls.jpg",
+    "title": "Trolls"
+  },
+  {
+    "template": "video.tvml",
+    "data": "ForrestGump.json",
+    "image": "ForrestGump.jpg",
+    "title": "Forrest Gump"
+  }
+]

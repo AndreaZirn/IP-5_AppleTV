@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33FA4191E007DAA005C8BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4181E007DAA005C8BCA /* AppDelegate.swift */; };
+		D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33FA41C1E007DAA005C8BCA /* Assets.xcassets */; };
+		D33FA4281E007DAA005C8BCA /* IP5_HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4271E007DAA005C8BCA /* IP5_HorizonTests.swift */; };
+		D33FA4331E007DAA005C8BCA /* IP5_HorizonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4321E007DAA005C8BCA /* IP5_HorizonUITests.swift */; };
+		D33FA4421E007E54005C8BCA /* RessourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4411E007E54005C8BCA /* RessourceLoader.swift */; };
+		D33FA44B1E00855C005C8BCA /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44A1E00855C005C8BCA /* main.js */; };
+		D33FA45A1E008652005C8BCA /* rootMenu.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44C1E008652005C8BCA /* rootMenu.tvml */; };
+		D33FA45B1E008652005C8BCA /* myVideo.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44D1E008652005C8BCA /* myVideo.tvml */; };
+		D33FA45C1E008652005C8BCA /* homeScreen.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44E1E008652005C8BCA /* homeScreen.tvml */; };
+		D33FA45D1E008652005C8BCA /* myPrime.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44F1E008652005C8BCA /* myPrime.tvml */; };
+		D33FA45E1E008652005C8BCA /* LiveTV.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4501E008652005C8BCA /* LiveTV.tvml */; };
+		D33FA45F1E008652005C8BCA /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4511E008652005C8BCA /* video.tvml */; };
+		D33FA4601E008652005C8BCA /* TVGuide.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4521E008652005C8BCA /* TVGuide.tvml */; };
+		D33FA4611E008652005C8BCA /* Settings.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4531E008652005C8BCA /* Settings.tvml */; };
+		D33FA4621E008652005C8BCA /* videoRating.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4541E008652005C8BCA /* videoRating.tvml */; };
+		D33FA4631E008652005C8BCA /* Search.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4551E008652005C8BCA /* Search.tvml */; };
+		D33FA4641E008652005C8BCA /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4561E008652005C8BCA /* expandedDetailText.tvml */; };
+		D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4571E008652005C8BCA /* _searchResult.tvml */; };
+		D33FA4661E008652005C8BCA /* photos.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4581E008652005C8BCA /* photos.tvml */; };
+		D33FA4671E008652005C8BCA /* videoLogoOverlay.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */; };
+		D33FA46D1E0086A6005C8BCA /* Presenter.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4681E0086A6005C8BCA /* Presenter.js */; };
+		D33FA46E1E0086A6005C8BCA /* SearchHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4691E0086A6005C8BCA /* SearchHandler.js */; };
+		D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA46A1E0086A6005C8BCA /* ResourceLoader.js */; };
+		D33FA4701E0086A6005C8BCA /* EventHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA46B1E0086A6005C8BCA /* EventHandler.js */; };
+		D33FA4711E0086A6005C8BCA /* DataController.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA46C1E0086A6005C8BCA /* DataController.js */; };
+		D33FA4731E008814005C8BCA /* mustache.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4721E008814005C8BCA /* mustache.min.js */; };
+		D33FA4781E008851005C8BCA /* blueclouds.png in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4771E008851005C8BCA /* blueclouds.png */; };
+		D33FA4831E008861005C8BCA /* DoctorStrange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4791E008861005C8BCA /* DoctorStrange.jpg */; };
+		D33FA4841E008861005C8BCA /* FantasticBeasts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA47A1E008861005C8BCA /* FantasticBeasts.jpg */; };
+		D33FA4851E008861005C8BCA /* FightClub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA47B1E008861005C8BCA /* FightClub.jpg */; };
+		D33FA4861E008861005C8BCA /* ForrestGump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA47C1E008861005C8BCA /* ForrestGump.jpg */; };
+		D33FA4871E008861005C8BCA /* Inception.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA47D1E008861005C8BCA /* Inception.jpg */; };
+		D33FA4881E008861005C8BCA /* Moana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA47E1E008861005C8BCA /* Moana.jpg */; };
+		D33FA4891E008861005C8BCA /* PulpFiction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA47F1E008861005C8BCA /* PulpFiction.jpg */; };
+		D33FA48A1E008861005C8BCA /* TheDarkKnight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4801E008861005C8BCA /* TheDarkKnight.jpg */; };
+		D33FA48B1E008861005C8BCA /* TheGodfather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4811E008861005C8BCA /* TheGodfather.jpg */; };
+		D33FA48C1E008861005C8BCA /* Trolls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4821E008861005C8BCA /* Trolls.jpg */; };
+		D33FA48F1E00886E005C8BCA /* upclogo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D33FA48D1E00886E005C8BCA /* upclogo_1.png */; };
+		D33FA4901E00886E005C8BCA /* upclogo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D33FA48E1E00886E005C8BCA /* upclogo_2.png */; };
+		D33FA4971E00887D005C8BCA /* MyVideo.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4911E00887D005C8BCA /* MyVideo.json */; };
+		D33FA4981E00887D005C8BCA /* LiveTV.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4921E00887D005C8BCA /* LiveTV.json */; };
+		D33FA4991E00887D005C8BCA /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4931E00887D005C8BCA /* search.json */; };
+		D33FA49A1E00887D005C8BCA /* myPrime.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4941E00887D005C8BCA /* myPrime.json */; };
+		D33FA49B1E00887D005C8BCA /* videoDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4951E00887D005C8BCA /* videoDatabase.json */; };
+		D33FA49C1E00887D005C8BCA /* homeScreen.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4961E00887D005C8BCA /* homeScreen.json */; };
+		D33FA4A41E008893005C8BCA /* DoctorStrange.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA49E1E008893005C8BCA /* DoctorStrange.json */; };
+		D33FA4A51E008893005C8BCA /* Trolls.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA49F1E008893005C8BCA /* Trolls.json */; };
+		D33FA4A61E008893005C8BCA /* Inception.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A01E008893005C8BCA /* Inception.json */; };
+		D33FA4A71E008893005C8BCA /* Moana.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A11E008893005C8BCA /* Moana.json */; };
+		D33FA4A81E008893005C8BCA /* FightClub.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A21E008893005C8BCA /* FightClub.json */; };
+		D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A31E008893005C8BCA /* ForrestGump.json */; };
+		D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33FA4241E007DAA005C8BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33FA40D1E007DAA005C8BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33FA4141E007DAA005C8BCA;
+			remoteInfo = IP5_Horizon;
+		};
+		D33FA42F1E007DAA005C8BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33FA40D1E007DAA005C8BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33FA4141E007DAA005C8BCA;
+			remoteInfo = IP5_Horizon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33FA4151E007DAA005C8BCA /* IP5_Horizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IP5_Horizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33FA4181E007DAA005C8BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33FA41C1E007DAA005C8BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33FA41E1E007DAA005C8BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33FA4231E007DAA005C8BCA /* IP5_HorizonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IP5_HorizonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33FA4271E007DAA005C8BCA /* IP5_HorizonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP5_HorizonTests.swift; sourceTree = "<group>"; };
+		D33FA4291E007DAA005C8BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33FA42E1E007DAA005C8BCA /* IP5_HorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IP5_HorizonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33FA4321E007DAA005C8BCA /* IP5_HorizonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP5_HorizonUITests.swift; sourceTree = "<group>"; };
+		D33FA4341E007DAA005C8BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33FA4411E007E54005C8BCA /* RessourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RessourceLoader.swift; sourceTree = "<group>"; };
+		D33FA44A1E00855C005C8BCA /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		D33FA44C1E008652005C8BCA /* rootMenu.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = rootMenu.tvml; path = layouts/rootMenu.tvml; sourceTree = "<group>"; };
+		D33FA44D1E008652005C8BCA /* myVideo.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = myVideo.tvml; path = layouts/myVideo.tvml; sourceTree = "<group>"; };
+		D33FA44E1E008652005C8BCA /* homeScreen.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = homeScreen.tvml; path = layouts/homeScreen.tvml; sourceTree = "<group>"; };
+		D33FA44F1E008652005C8BCA /* myPrime.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = myPrime.tvml; path = layouts/myPrime.tvml; sourceTree = "<group>"; };
+		D33FA4501E008652005C8BCA /* LiveTV.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = LiveTV.tvml; path = layouts/LiveTV.tvml; sourceTree = "<group>"; };
+		D33FA4511E008652005C8BCA /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = video.tvml; path = layouts/video.tvml; sourceTree = "<group>"; };
+		D33FA4521E008652005C8BCA /* TVGuide.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TVGuide.tvml; path = layouts/TVGuide.tvml; sourceTree = "<group>"; };
+		D33FA4531E008652005C8BCA /* Settings.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Settings.tvml; path = layouts/Settings.tvml; sourceTree = "<group>"; };
+		D33FA4541E008652005C8BCA /* videoRating.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = videoRating.tvml; path = layouts/videoRating.tvml; sourceTree = "<group>"; };
+		D33FA4551E008652005C8BCA /* Search.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Search.tvml; path = layouts/Search.tvml; sourceTree = "<group>"; };
+		D33FA4561E008652005C8BCA /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = expandedDetailText.tvml; path = layouts/expandedDetailText.tvml; sourceTree = "<group>"; };
+		D33FA4571E008652005C8BCA /* _searchResult.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _searchResult.tvml; path = layouts/_searchResult.tvml; sourceTree = "<group>"; };
+		D33FA4581E008652005C8BCA /* photos.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = photos.tvml; path = layouts/photos.tvml; sourceTree = "<group>"; };
+		D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = videoLogoOverlay.tvml; path = layouts/videoLogoOverlay.tvml; sourceTree = "<group>"; };
+		D33FA4681E0086A6005C8BCA /* Presenter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = Presenter.js; path = utilities/Presenter.js; sourceTree = "<group>"; };
+		D33FA4691E0086A6005C8BCA /* SearchHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SearchHandler.js; path = utilities/SearchHandler.js; sourceTree = "<group>"; };
+		D33FA46A1E0086A6005C8BCA /* ResourceLoader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ResourceLoader.js; path = utilities/ResourceLoader.js; sourceTree = "<group>"; };
+		D33FA46B1E0086A6005C8BCA /* EventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = EventHandler.js; path = utilities/EventHandler.js; sourceTree = "<group>"; };
+		D33FA46C1E0086A6005C8BCA /* DataController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = DataController.js; path = utilities/DataController.js; sourceTree = "<group>"; };
+		D33FA4721E008814005C8BCA /* mustache.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = mustache.min.js; path = "3rd party/mustache.min.js"; sourceTree = "<group>"; };
+		D33FA4771E008851005C8BCA /* blueclouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueclouds.png; path = content/images/blueclouds.png; sourceTree = "<group>"; };
+		D33FA4791E008861005C8BCA /* DoctorStrange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DoctorStrange.jpg; path = content/images/Movies/DoctorStrange.jpg; sourceTree = "<group>"; };
+		D33FA47A1E008861005C8BCA /* FantasticBeasts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FantasticBeasts.jpg; path = content/images/Movies/FantasticBeasts.jpg; sourceTree = "<group>"; };
+		D33FA47B1E008861005C8BCA /* FightClub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FightClub.jpg; path = content/images/Movies/FightClub.jpg; sourceTree = "<group>"; };
+		D33FA47C1E008861005C8BCA /* ForrestGump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ForrestGump.jpg; path = content/images/Movies/ForrestGump.jpg; sourceTree = "<group>"; };
+		D33FA47D1E008861005C8BCA /* Inception.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Inception.jpg; path = content/images/Movies/Inception.jpg; sourceTree = "<group>"; };
+		D33FA47E1E008861005C8BCA /* Moana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Moana.jpg; path = content/images/Movies/Moana.jpg; sourceTree = "<group>"; };
+		D33FA47F1E008861005C8BCA /* PulpFiction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PulpFiction.jpg; path = content/images/Movies/PulpFiction.jpg; sourceTree = "<group>"; };
+		D33FA4801E008861005C8BCA /* TheDarkKnight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TheDarkKnight.jpg; path = content/images/Movies/TheDarkKnight.jpg; sourceTree = "<group>"; };
+		D33FA4811E008861005C8BCA /* TheGodfather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TheGodfather.jpg; path = content/images/Movies/TheGodfather.jpg; sourceTree = "<group>"; };
+		D33FA4821E008861005C8BCA /* Trolls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Trolls.jpg; path = content/images/Movies/Trolls.jpg; sourceTree = "<group>"; };
+		D33FA48D1E00886E005C8BCA /* upclogo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upclogo_1.png; path = content/images/Logos/upclogo_1.png; sourceTree = "<group>"; };
+		D33FA48E1E00886E005C8BCA /* upclogo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upclogo_2.png; path = content/images/Logos/upclogo_2.png; sourceTree = "<group>"; };
+		D33FA4911E00887D005C8BCA /* MyVideo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MyVideo.json; path = content/data/MyVideo.json; sourceTree = "<group>"; };
+		D33FA4921E00887D005C8BCA /* LiveTV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LiveTV.json; path = content/data/LiveTV.json; sourceTree = "<group>"; };
+		D33FA4931E00887D005C8BCA /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = search.json; path = content/data/search.json; sourceTree = "<group>"; };
+		D33FA4941E00887D005C8BCA /* myPrime.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = myPrime.json; path = content/data/myPrime.json; sourceTree = "<group>"; };
+		D33FA4951E00887D005C8BCA /* videoDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = videoDatabase.json; path = content/data/videoDatabase.json; sourceTree = "<group>"; };
+		D33FA4961E00887D005C8BCA /* homeScreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = homeScreen.json; path = content/data/homeScreen.json; sourceTree = "<group>"; };
+		D33FA49E1E008893005C8BCA /* DoctorStrange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DoctorStrange.json; path = content/data/Videos/DoctorStrange.json; sourceTree = "<group>"; };
+		D33FA49F1E008893005C8BCA /* Trolls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Trolls.json; path = content/data/Videos/Trolls.json; sourceTree = "<group>"; };
+		D33FA4A01E008893005C8BCA /* Inception.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Inception.json; path = content/data/Videos/Inception.json; sourceTree = "<group>"; };
+		D33FA4A11E008893005C8BCA /* Moana.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Moana.json; path = content/data/Videos/Moana.json; sourceTree = "<group>"; };
+		D33FA4A21E008893005C8BCA /* FightClub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FightClub.json; path = content/data/Videos/FightClub.json; sourceTree = "<group>"; };
+		D33FA4A31E008893005C8BCA /* ForrestGump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ForrestGump.json; path = content/data/Videos/ForrestGump.json; sourceTree = "<group>"; };
+		D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DoctorStrange.mp4; path = content/videos/DoctorStrange.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33FA4121E007DAA005C8BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33FA4201E007DAA005C8BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33FA42B1E007DAA005C8BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33FA40C1E007DAA005C8BCA = {
+			isa = PBXGroup;
+			children = (
+				D33FA4171E007DAA005C8BCA /* IP5_Horizon */,
+				D33FA4261E007DAA005C8BCA /* IP5_HorizonTests */,
+				D33FA4311E007DAA005C8BCA /* IP5_HorizonUITests */,
+				D33FA4161E007DAA005C8BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33FA4161E007DAA005C8BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4151E007DAA005C8BCA /* IP5_Horizon.app */,
+				D33FA4231E007DAA005C8BCA /* IP5_HorizonTests.xctest */,
+				D33FA42E1E007DAA005C8BCA /* IP5_HorizonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33FA4171E007DAA005C8BCA /* IP5_Horizon */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4401E007E07005C8BCA /* App Ressources */,
+				D33FA4181E007DAA005C8BCA /* AppDelegate.swift */,
+				D33FA4411E007E54005C8BCA /* RessourceLoader.swift */,
+				D33FA41C1E007DAA005C8BCA /* Assets.xcassets */,
+				D33FA41E1E007DAA005C8BCA /* Info.plist */,
+				D33FA44A1E00855C005C8BCA /* main.js */,
+			);
+			path = IP5_Horizon;
+			sourceTree = "<group>";
+		};
+		D33FA4261E007DAA005C8BCA /* IP5_HorizonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4271E007DAA005C8BCA /* IP5_HorizonTests.swift */,
+				D33FA4291E007DAA005C8BCA /* Info.plist */,
+			);
+			path = IP5_HorizonTests;
+			sourceTree = "<group>";
+		};
+		D33FA4311E007DAA005C8BCA /* IP5_HorizonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4321E007DAA005C8BCA /* IP5_HorizonUITests.swift */,
+				D33FA4341E007DAA005C8BCA /* Info.plist */,
+			);
+			path = IP5_HorizonUITests;
+			sourceTree = "<group>";
+		};
+		D33FA4401E007E07005C8BCA /* App Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4461E008451005C8BCA /* 3rd party */,
+				D33FA4451E008433005C8BCA /* content */,
+				D33FA4441E00842D005C8BCA /* utilities */,
+				D33FA4431E008426005C8BCA /* layouts */,
+			);
+			name = "App Ressources";
+			sourceTree = "<group>";
+		};
+		D33FA4431E008426005C8BCA /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA44C1E008652005C8BCA /* rootMenu.tvml */,
+				D33FA44D1E008652005C8BCA /* myVideo.tvml */,
+				D33FA44E1E008652005C8BCA /* homeScreen.tvml */,
+				D33FA44F1E008652005C8BCA /* myPrime.tvml */,
+				D33FA4501E008652005C8BCA /* LiveTV.tvml */,
+				D33FA4511E008652005C8BCA /* video.tvml */,
+				D33FA4521E008652005C8BCA /* TVGuide.tvml */,
+				D33FA4531E008652005C8BCA /* Settings.tvml */,
+				D33FA4541E008652005C8BCA /* videoRating.tvml */,
+				D33FA4551E008652005C8BCA /* Search.tvml */,
+				D33FA4561E008652005C8BCA /* expandedDetailText.tvml */,
+				D33FA4571E008652005C8BCA /* _searchResult.tvml */,
+				D33FA4581E008652005C8BCA /* photos.tvml */,
+				D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */,
+			);
+			name = layouts;
+			sourceTree = "<group>";
+		};
+		D33FA4441E00842D005C8BCA /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4681E0086A6005C8BCA /* Presenter.js */,
+				D33FA4691E0086A6005C8BCA /* SearchHandler.js */,
+				D33FA46A1E0086A6005C8BCA /* ResourceLoader.js */,
+				D33FA46B1E0086A6005C8BCA /* EventHandler.js */,
+				D33FA46C1E0086A6005C8BCA /* DataController.js */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		D33FA4451E008433005C8BCA /* content */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4491E00846F005C8BCA /* images */,
+				D33FA4481E008469005C8BCA /* data */,
+				D33FA4471E008464005C8BCA /* videos */,
+			);
+			name = content;
+			sourceTree = "<group>";
+		};
+		D33FA4461E008451005C8BCA /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4721E008814005C8BCA /* mustache.min.js */,
+			);
+			name = "3rd party";
+			sourceTree = "<group>";
+		};
+		D33FA4471E008464005C8BCA /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */,
+			);
+			name = videos;
+			sourceTree = "<group>";
+		};
+		D33FA4481E008469005C8BCA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA49D1E008881005C8BCA /* Videos */,
+				D33FA4911E00887D005C8BCA /* MyVideo.json */,
+				D33FA4921E00887D005C8BCA /* LiveTV.json */,
+				D33FA4931E00887D005C8BCA /* search.json */,
+				D33FA4941E00887D005C8BCA /* myPrime.json */,
+				D33FA4951E00887D005C8BCA /* videoDatabase.json */,
+				D33FA4961E00887D005C8BCA /* homeScreen.json */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		D33FA4491E00846F005C8BCA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4771E008851005C8BCA /* blueclouds.png */,
+				D33FA4761E008843005C8BCA /* Series */,
+				D33FA4751E00883C005C8BCA /* Movies */,
+				D33FA4741E008834005C8BCA /* Logos */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D33FA4741E008834005C8BCA /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA48D1E00886E005C8BCA /* upclogo_1.png */,
+				D33FA48E1E00886E005C8BCA /* upclogo_2.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		D33FA4751E00883C005C8BCA /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA4791E008861005C8BCA /* DoctorStrange.jpg */,
+				D33FA47A1E008861005C8BCA /* FantasticBeasts.jpg */,
+				D33FA47B1E008861005C8BCA /* FightClub.jpg */,
+				D33FA47C1E008861005C8BCA /* ForrestGump.jpg */,
+				D33FA47D1E008861005C8BCA /* Inception.jpg */,
+				D33FA47E1E008861005C8BCA /* Moana.jpg */,
+				D33FA47F1E008861005C8BCA /* PulpFiction.jpg */,
+				D33FA4801E008861005C8BCA /* TheDarkKnight.jpg */,
+				D33FA4811E008861005C8BCA /* TheGodfather.jpg */,
+				D33FA4821E008861005C8BCA /* Trolls.jpg */,
+			);
+			name = Movies;
+			sourceTree = "<group>";
+		};
+		D33FA4761E008843005C8BCA /* Series */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Series;
+			sourceTree = "<group>";
+		};
+		D33FA49D1E008881005C8BCA /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				D33FA49E1E008893005C8BCA /* DoctorStrange.json */,
+				D33FA49F1E008893005C8BCA /* Trolls.json */,
+				D33FA4A01E008893005C8BCA /* Inception.json */,
+				D33FA4A11E008893005C8BCA /* Moana.json */,
+				D33FA4A21E008893005C8BCA /* FightClub.json */,
+				D33FA4A31E008893005C8BCA /* ForrestGump.json */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33FA4141E007DAA005C8BCA /* IP5_Horizon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33FA4371E007DAA005C8BCA /* Build configuration list for PBXNativeTarget "IP5_Horizon" */;
+			buildPhases = (
+				D33FA4111E007DAA005C8BCA /* Sources */,
+				D33FA4121E007DAA005C8BCA /* Frameworks */,
+				D33FA4131E007DAA005C8BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IP5_Horizon;
+			productName = IP5_Horizon;
+			productReference = D33FA4151E007DAA005C8BCA /* IP5_Horizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33FA4221E007DAA005C8BCA /* IP5_HorizonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33FA43A1E007DAA005C8BCA /* Build configuration list for PBXNativeTarget "IP5_HorizonTests" */;
+			buildPhases = (
+				D33FA41F1E007DAA005C8BCA /* Sources */,
+				D33FA4201E007DAA005C8BCA /* Frameworks */,
+				D33FA4211E007DAA005C8BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33FA4251E007DAA005C8BCA /* PBXTargetDependency */,
+			);
+			name = IP5_HorizonTests;
+			productName = IP5_HorizonTests;
+			productReference = D33FA4231E007DAA005C8BCA /* IP5_HorizonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D33FA42D1E007DAA005C8BCA /* IP5_HorizonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33FA43D1E007DAA005C8BCA /* Build configuration list for PBXNativeTarget "IP5_HorizonUITests" */;
+			buildPhases = (
+				D33FA42A1E007DAA005C8BCA /* Sources */,
+				D33FA42B1E007DAA005C8BCA /* Frameworks */,
+				D33FA42C1E007DAA005C8BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33FA4301E007DAA005C8BCA /* PBXTargetDependency */,
+			);
+			name = IP5_HorizonUITests;
+			productName = IP5_HorizonUITests;
+			productReference = D33FA42E1E007DAA005C8BCA /* IP5_HorizonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33FA40D1E007DAA005C8BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrea Zirn";
+				TargetAttributes = {
+					D33FA4141E007DAA005C8BCA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DC4WF5AD9S;
+						ProvisioningStyle = Automatic;
+					};
+					D33FA4221E007DAA005C8BCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D33FA4141E007DAA005C8BCA;
+					};
+					D33FA42D1E007DAA005C8BCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D33FA4141E007DAA005C8BCA;
+					};
+				};
+			};
+			buildConfigurationList = D33FA4101E007DAA005C8BCA /* Build configuration list for PBXProject "IP5_Horizon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D33FA40C1E007DAA005C8BCA;
+			productRefGroup = D33FA4161E007DAA005C8BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33FA4141E007DAA005C8BCA /* IP5_Horizon */,
+				D33FA4221E007DAA005C8BCA /* IP5_HorizonTests */,
+				D33FA42D1E007DAA005C8BCA /* IP5_HorizonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33FA4131E007DAA005C8BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */,
+				D33FA4A51E008893005C8BCA /* Trolls.json in Resources */,
+				D33FA4671E008652005C8BCA /* videoLogoOverlay.tvml in Resources */,
+				D33FA4661E008652005C8BCA /* photos.tvml in Resources */,
+				D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */,
+				D33FA46D1E0086A6005C8BCA /* Presenter.js in Resources */,
+				D33FA45C1E008652005C8BCA /* homeScreen.tvml in Resources */,
+				D33FA4A71E008893005C8BCA /* Moana.json in Resources */,
+				D33FA4981E00887D005C8BCA /* LiveTV.json in Resources */,
+				D33FA4631E008652005C8BCA /* Search.tvml in Resources */,
+				D33FA4861E008861005C8BCA /* ForrestGump.jpg in Resources */,
+				D33FA48F1E00886E005C8BCA /* upclogo_1.png in Resources */,
+				D33FA4731E008814005C8BCA /* mustache.min.js in Resources */,
+				D33FA4641E008652005C8BCA /* expandedDetailText.tvml in Resources */,
+				D33FA4881E008861005C8BCA /* Moana.jpg in Resources */,
+				D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */,
+				D33FA49C1E00887D005C8BCA /* homeScreen.json in Resources */,
+				D33FA45F1E008652005C8BCA /* video.tvml in Resources */,
+				D33FA4A61E008893005C8BCA /* Inception.json in Resources */,
+				D33FA45D1E008652005C8BCA /* myPrime.tvml in Resources */,
+				D33FA4971E00887D005C8BCA /* MyVideo.json in Resources */,
+				D33FA4991E00887D005C8BCA /* search.json in Resources */,
+				D33FA4781E008851005C8BCA /* blueclouds.png in Resources */,
+				D33FA4891E008861005C8BCA /* PulpFiction.jpg in Resources */,
+				D33FA45E1E008652005C8BCA /* LiveTV.tvml in Resources */,
+				D33FA4611E008652005C8BCA /* Settings.tvml in Resources */,
+				D33FA4A81E008893005C8BCA /* FightClub.json in Resources */,
+				D33FA4711E0086A6005C8BCA /* DataController.js in Resources */,
+				D33FA45A1E008652005C8BCA /* rootMenu.tvml in Resources */,
+				D33FA49A1E00887D005C8BCA /* myPrime.json in Resources */,
+				D33FA4831E008861005C8BCA /* DoctorStrange.jpg in Resources */,
+				D33FA4621E008652005C8BCA /* videoRating.tvml in Resources */,
+				D33FA48B1E008861005C8BCA /* TheGodfather.jpg in Resources */,
+				D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */,
+				D33FA48C1E008861005C8BCA /* Trolls.jpg in Resources */,
+				D33FA4A41E008893005C8BCA /* DoctorStrange.json in Resources */,
+				D33FA4851E008861005C8BCA /* FightClub.jpg in Resources */,
+				D33FA4701E0086A6005C8BCA /* EventHandler.js in Resources */,
+				D33FA45B1E008652005C8BCA /* myVideo.tvml in Resources */,
+				D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */,
+				D33FA4841E008861005C8BCA /* FantasticBeasts.jpg in Resources */,
+				D33FA4901E00886E005C8BCA /* upclogo_2.png in Resources */,
+				D33FA44B1E00855C005C8BCA /* main.js in Resources */,
+				D33FA48A1E008861005C8BCA /* TheDarkKnight.jpg in Resources */,
+				D33FA4871E008861005C8BCA /* Inception.jpg in Resources */,
+				D33FA4601E008652005C8BCA /* TVGuide.tvml in Resources */,
+				D33FA49B1E00887D005C8BCA /* videoDatabase.json in Resources */,
+				D33FA46E1E0086A6005C8BCA /* SearchHandler.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33FA4211E007DAA005C8BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33FA42C1E007DAA005C8BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33FA4111E007DAA005C8BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33FA4421E007E54005C8BCA /* RessourceLoader.swift in Sources */,
+				D33FA4191E007DAA005C8BCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33FA41F1E007DAA005C8BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33FA4281E007DAA005C8BCA /* IP5_HorizonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33FA42A1E007DAA005C8BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33FA4331E007DAA005C8BCA /* IP5_HorizonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33FA4251E007DAA005C8BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33FA4141E007DAA005C8BCA /* IP5_Horizon */;
+			targetProxy = D33FA4241E007DAA005C8BCA /* PBXContainerItemProxy */;
+		};
+		D33FA4301E007DAA005C8BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33FA4141E007DAA005C8BCA /* IP5_Horizon */;
+			targetProxy = D33FA42F1E007DAA005C8BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D33FA4351E007DAA005C8BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		D33FA4361E007DAA005C8BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33FA4381E007DAA005C8BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DC4WF5AD9S;
+				INFOPLIST_FILE = IP5_Horizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP5-Horizon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D33FA4391E007DAA005C8BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DC4WF5AD9S;
+				INFOPLIST_FILE = IP5_Horizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP5-Horizon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D33FA43B1E007DAA005C8BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IP5_HorizonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP5-HorizonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IP5_Horizon.app/IP5_Horizon";
+			};
+			name = Debug;
+		};
+		D33FA43C1E007DAA005C8BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IP5_HorizonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP5-HorizonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IP5_Horizon.app/IP5_Horizon";
+			};
+			name = Release;
+		};
+		D33FA43E1E007DAA005C8BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = IP5_HorizonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP5-HorizonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IP5_Horizon;
+			};
+			name = Debug;
+		};
+		D33FA43F1E007DAA005C8BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = IP5_HorizonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP5-HorizonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IP5_Horizon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33FA4101E007DAA005C8BCA /* Build configuration list for PBXProject "IP5_Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33FA4351E007DAA005C8BCA /* Debug */,
+				D33FA4361E007DAA005C8BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33FA4371E007DAA005C8BCA /* Build configuration list for PBXNativeTarget "IP5_Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33FA4381E007DAA005C8BCA /* Debug */,
+				D33FA4391E007DAA005C8BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33FA43A1E007DAA005C8BCA /* Build configuration list for PBXNativeTarget "IP5_HorizonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33FA43B1E007DAA005C8BCA /* Debug */,
+				D33FA43C1E007DAA005C8BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33FA43D1E007DAA005C8BCA /* Build configuration list for PBXNativeTarget "IP5_HorizonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33FA43E1E007DAA005C8BCA /* Debug */,
+				D33FA43F1E007DAA005C8BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33FA40D1E007DAA005C8BCA /* Project object */;
+}

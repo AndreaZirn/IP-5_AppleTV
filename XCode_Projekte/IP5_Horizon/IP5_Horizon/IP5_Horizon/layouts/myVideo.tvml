@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <head>
+    <style>
+      .showTextOnHighlight {
+        tv-text-highlight-style: show-on-highlight;
+      }
+    </style>
+  </head>
+  <stackTemplate>
+    <banner>
+    </banner>
+    <collectionList>
+      <shelf>
+        <header>
+          <title>Started watching:</title>
+        </header>
+        <section>
+          {{#startwatching}}
+            <lockup
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="222" height="333" />
+              <title class="showTextOnHighlight">{{title}}</title>
+            </lockup>
+          {{/startwatching}}
+        </section>
+      </shelf>
+      <shelf>
+        <header>
+          <title>Watch later:</title>
+        </header>
+        <section>
+          {{#watchlater}}
+            <lockup
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="222" height="333" />
+              <title class="showTextOnHighlight">{{title}}</title>
+            </lockup>
+          {{/watchlater}}
+        </section>
+      </shelf>
+    </collectionList>
+  </stackTemplate>
+</document>

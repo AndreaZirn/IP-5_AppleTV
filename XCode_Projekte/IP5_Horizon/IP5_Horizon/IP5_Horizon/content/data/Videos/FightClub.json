@@ -1,0 +1,69 @@
+{
+  "title": "Fight Club",
+  "presenter": "Name",
+  "tags": ["equality", "twins"],
+  "duration": "15 minutes",
+  "studio": "Studio",
+  "format": "Widescreen",
+  "category": "Action",
+  "year": "2015",
+  "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
+  "images": {
+    "hero": "FightClub.jpg"
+  },
+  "closed-captions": true,
+  "rating": "nr",
+  "description": "Insert Description here.",
+  "language": "English",
+  "recommendations": [
+    { "title": "Doctor Strange", "image": "DoctorStrange.jpg", "data": "DoctorStrange.json"},
+    { "title": "Inception", "image": "Inception.jpg", "data": "Inception.json"},
+    { "title": "Moana", "image": "Moana.jpg", "data": "Moana.json"},
+    { "title": "Trolls", "image": "Trolls.jpg", "data": "Trolls.json"},
+    { "title": "Forrest Gump", "image": "ForrestGump.jpg", "data": "ForrestGump.json" }
+  ],
+  "ratings-reviews": {
+    "rw-ratings": {
+      "out-of-five": 4.6,
+      "badge-value": 0.8,
+      "count": 46
+    },
+    "rockrater": {
+      "rock": 89,
+      "ballard": 11,
+      "total": 100,
+      "percentage": 0.89 
+    },
+    "reviews": [
+      {
+        "title": "Zombie Review",
+        "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "name": "B. Sucker",
+        "date": "March 31, 2015"
+      },
+      {
+        "title": "Meaty Review",
+        "description": "Bacon ipsum dolor amet jowl pork flank officia pastrami hamburger prosciutto sed cillum kielbasa. Kielbasa boudin jowl rump magna eiusmod, swine ham deserunt ham hock shankle brisket commodo velit alcatra.",
+        "name": "Bacon Grease",
+        "date": "April 15, 2015"
+      }
+    ]
+  },
+  "people": [
+    {
+      "firstname": "Prename",
+      "lastname": "Surname",
+      "role": "Role"
+    },
+    {
+      "firstname": "Prename",
+      "lastname": "Surname",
+      "role": "Role"
+    },
+    {
+      "firstname": "Prename",
+      "lastname": "Surname",
+      "role": "Role"
+    }
+  ]
+}

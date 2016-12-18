@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <head>
+    <style>
+      .imageWithGradient {
+        tv-tint-color: linear-gradient(top, 0.33, transparent, 0.66, rgba(0,64,0,0.7), rgba(0,64,0,1.0));
+      }
+      .showTextOnHighlight {
+        tv-text-highlight-style: show-on-highlight;
+      }
+      .6ColumnGrid {
+      tv-interitem-spacing: 50;
+      }
+      .Maintitle {
+      tv-text-style: title3;
+      tv-align: center;
+      font-size: 80;
+      font-weight: semibold;
+      color: rgb(0,0,0);
+      }
+    </style>
+  </head>
+  <stackTemplate>
+    <banner>
+      {{#logo}}
+      <row> 
+        <img src="{{image}}" width="250" height="250" style="tv-align: right"/>
+        <title class="Maintitle">{{title}}</title>
+      </row>
+    {{/logo}}
+    </banner>
+    <collectionList>
+      <shelf>
+        <header>
+          <title>Recently watched:</title>
+        </header>
+        <section>
+          {{#recentlywatched}}
+            <lockup
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="222" height="333" />
+              <title class="showTextOnHighlight">{{title}}</title>
+            </lockup>
+          {{/recentlywatched}}
+        </section>
+      </shelf>
+      <shelf>
+        <header>
+          <title>Recommended:</title>
+        </header>
+        <section>
+          {{#recommended}}
+            <lockup
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="222" height="333" />
+              <title class="showTextOnHighlight">{{title}}</title>
+            </lockup>
+          {{/recommended}}
+        </section>
+      </shelf>
+    </collectionList>
+  </stackTemplate>
+</document>
