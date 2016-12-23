@@ -45,7 +45,7 @@ class Presenter {
   video.description = data.description;
   player.playlist = new Playlist();
   player.playlist.push(video);
-  player.play();
+  player.present();
 }
 
   _presentMenuBarItem(doc, menuItem) {
