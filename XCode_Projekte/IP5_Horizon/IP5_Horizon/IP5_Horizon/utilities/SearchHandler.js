@@ -13,6 +13,7 @@ class SearchHandler {
     this._addSearchHandlerToDoc(doc);
   }
 
+  // search handle funcionality
   _addSearchHandlerToDoc(doc) {
     var searchFields = doc.getElementsByTagName('searchField');
     for (var i = 0; i < searchFields.length; ++i) {

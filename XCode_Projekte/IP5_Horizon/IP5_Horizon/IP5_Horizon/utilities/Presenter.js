@@ -20,7 +20,7 @@ class Presenter {
     if(eventHandler) {
       eventHandler.addEventHandlersToDoc(doc);
     }
-    if(template === 'search.tvml') {
+    if(template === 'Search.tvml') {
       this._searchHandler.registerDocForSearch(doc);
     }   
     switch (presentation) {
