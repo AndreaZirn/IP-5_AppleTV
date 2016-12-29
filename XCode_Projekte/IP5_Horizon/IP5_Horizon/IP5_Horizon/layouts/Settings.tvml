@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
-
-</document>
+  <head>
+  <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    </style>
+  </head>
+<catalogTemplate>
+      <list>
+         <section>
+            <listItemLockup>
+               <title>My TV channles</title>
+            </listItemLockup>
+        </section>
+        <section>
+            <listItemLockup>
+               <title>Parental Control</title>
+            </listItemLockup>
+        </section>
+        <section>
+          <listItemLockup>
+               <title>My Account</title>
+               <relatedContent>
+                  <grid>
+                     <organizer>
+                      <text style="tv-position: left"> Name: </text>
+                      <text style="tv-position: center"> Name </text>
+                      <button style="tv-position: right"> edit </button>
+                     </organizer>
+                  </grid>
+               </relatedContent>
+          </listItemLockup>
+        </section>
+        <section>
+            <listItemLockup>
+               <title>Help</title>
+            </listItemLockup>
+        </section>
+        <section>
+            <listItemLockup>
+               <title>FAQ</title>
+            </listItemLockup>
+          </section>
+      </list>
+   </catalogTemplate>
+ </document>

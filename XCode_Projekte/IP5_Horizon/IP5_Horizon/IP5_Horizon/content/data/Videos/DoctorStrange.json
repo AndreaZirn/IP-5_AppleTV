@@ -25,16 +25,14 @@
     { "title": "Forrest Gump", "image": "ForrestGump.jpg", "data": "ForrestGump.json" }
   ],
   "ratings-reviews": {
-    "rw-ratings": {
-      "out-of-five": 4.6,
+    "imbd-ratings": {
+      "out-of-ten": 7.6,
       "badge-value": 0.8,
       "count": 46
     },
-    "rockrater": {
-      "rock": 89,
-      "ballard": 11,
+    "rottentomato": {
       "total": 100,
-      "percentage": 0.89 
+      "percentage": 86
     },
     "reviews": [
       {

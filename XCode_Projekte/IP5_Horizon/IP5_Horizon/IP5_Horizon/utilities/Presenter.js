@@ -40,11 +40,17 @@ class Presenter {
   _playVideo(data, eventHandler) {
   var player = new Player();
   var video = new MediaItem('video', data.videoURL);
+  
   video.title = data.title;
   video.subtitle = data.subtitle;
   video.description = data.description;
+
   player.playlist = new Playlist();
   player.playlist.push(video);
+  player.addEventListener("timeDidChange", eventHandler.handlePlaybackUpdates,{interval: 5});
+
+  video.resumeTime = data.resumeTime;
+
   player.present();
 }
 

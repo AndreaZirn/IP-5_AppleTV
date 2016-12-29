@@ -52,12 +52,6 @@
             <badge src="resource://button-play" />
             <title>Play</title>
           </buttonLockup>
-          <buttonLockup presentation="playVideo2"
-            data='{"title": "{{title}}", "description": "{{description}}",
-            "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
-            <badge src="resource://button-play" />
-            <title>Play from Start</title>
-          </buttonLockup>
           <buttonLockup presentation="playTrailer"
             data='{"title": "{{title}}", "description": "{{description}}",
             "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
@@ -98,16 +92,16 @@
       <section>
         {{#ratings-reviews}}
           <ratingCard template="videoRating.tvml" presentation="modal">
-            {{#rw-ratings}}
-              <title>{{out-of-five}} / 5</title>
+            {{#imbd-ratings}}
+              <title>{{out-of-ten}} / 10</title>
               <ratingBadge value="{{badge-value}}"></ratingBadge>
-              <description>Average of {{count}} RW subscriber ratings.</description>
-            {{/rw-ratings}}
+              <description>Average of {{count}} imbd ratings.</description>
+            {{/imbd-ratings}}
           </ratingCard>
           <ratingCard>
-            {{#rockrater}}
-              <title><badge src="{{sharedImages.rock}}" /> {{percentage}}%</title>
-              <text>RockRater</text>
+            {{#rottentomato}}
+              <title>{{percentage}} %</title>
+              <text>Rotten Tomato</text>
               <infoTable>
                 <info>
                   <header>
@@ -115,20 +109,8 @@
                   </header>
                   <text>Reviews</text>
                 </info>
-                <info>
-                  <header>
-                    <title>{{rock}}</title>
-                  </header>
-                  <text>Rock</text>
-                </info>
-                <info>
-                  <header>
-                    <title>{{ballard}}</title>
-                  </header>
-                  <text>Ballard</text>
-                </info>
               </infoTable>
-            {{/rockrater}}
+            {{/rottentomato}}
           </ratingCard>
           {{#reviews}}
             <reviewCard
@@ -154,7 +136,7 @@
             presentation="push"
             template="video.tvml"
             data="{{data}}">
-            <img src="{{image}}" width="402" height="226" />
+            <img src="{{image}}" width="222" height="333" />
             <title>{{title}}</title>
           </lockup>
         {{/recommendations}}

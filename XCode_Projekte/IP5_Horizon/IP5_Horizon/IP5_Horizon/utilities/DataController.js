@@ -11,7 +11,7 @@ class DataController {
         var decodedData = JSON.parse(data);
         if(presentation === 'playVideo') {
           decodedData.resumeTime =
-            this.progressForVideoAtURL(decodedData.videoURL);
+          this.progressForVideoAtURL(decodedData.videoURL);
         }
         return decodedData;
       } catch(error) {
@@ -35,12 +35,11 @@ class DataController {
   //can be swaped with a call to the data-provdiers's API
   searchVideosForString(searchString) {
     var sourceData = this._loadDataFromFile("videoDatabase.json");
-
     var results = sourceData.filter(function(v) {
-      var title = v.title;
-      var imageName = v.image;
+    var title = v.title;
+    var imageName = v.image;
 
-      return title.toLowerCase().includes(searchString.toLowerCase())
+    return title.toLowerCase().includes(searchString.toLowerCase())
         || imageName.toLowerCase().includes(searchString.toLowerCase());
     });
 
@@ -49,6 +48,16 @@ class DataController {
 
   _loadDataFromFile(fileName) {
     return this._resourceLoader.getJSON(fileName);
+  }
+
+  //retrieve progress of a video
+  progressForVideoAtURL(url) {
+    return localStorage.getItem(url) || 0;
+  }
+
+  //save progress of a video
+  saveProgressForVideoAtURL(url, progress) {
+    localStorage.setItem(url, progress);
   }
 
 }
