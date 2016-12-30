@@ -8,7 +8,7 @@
       <menuItem template="LiveTV.tvml" data="LiveTV.json" presentation="menuBar">
         <title>Live TV</title>
       </menuItem>
-      <menuItem template="TVGuide.tvml" presentation="menuBar">
+      <menuItem template="tvGuide.tvml" data="tvGuide.json" presentation="menuBar">
         <title>TV Guide</title>
       </menuItem>
       <menuItem template="myPrime.tvml" data="myPrime.json" presentation="menuBar">

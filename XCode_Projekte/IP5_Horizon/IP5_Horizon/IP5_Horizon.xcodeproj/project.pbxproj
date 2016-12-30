@@ -19,7 +19,6 @@
 		D33FA45D1E008652005C8BCA /* myPrime.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44F1E008652005C8BCA /* myPrime.tvml */; };
 		D33FA45E1E008652005C8BCA /* LiveTV.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4501E008652005C8BCA /* LiveTV.tvml */; };
 		D33FA45F1E008652005C8BCA /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4511E008652005C8BCA /* video.tvml */; };
-		D33FA4601E008652005C8BCA /* TVGuide.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4521E008652005C8BCA /* TVGuide.tvml */; };
 		D33FA4611E008652005C8BCA /* Settings.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4531E008652005C8BCA /* Settings.tvml */; };
 		D33FA4621E008652005C8BCA /* videoRating.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4541E008652005C8BCA /* videoRating.tvml */; };
 		D33FA4631E008652005C8BCA /* Search.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4551E008652005C8BCA /* Search.tvml */; };
@@ -59,6 +58,22 @@
 		D33FA4A81E008893005C8BCA /* FightClub.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A21E008893005C8BCA /* FightClub.json */; };
 		D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A31E008893005C8BCA /* ForrestGump.json */; };
 		D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */; };
+		D3CB64411E1685F80058E34C /* tvGuide.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64401E1685F80058E34C /* tvGuide.tvml */; };
+		D3CB64431E168AA60058E34C /* tvGuide.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64421E168AA60058E34C /* tvGuide.json */; };
+		D3CB64451E16BDAD0058E34C /* prosieben_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64441E16BDAD0058E34C /* prosieben_hd.jpg */; };
+		D3CB64471E16BDB80058E34C /* halblogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64461E16BDB80058E34C /* halblogo.png */; };
+		D3CB64541E16C96A0058E34C /* p7maxxhd-logo-weiß.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64481E16C96A0058E34C /* p7maxxhd-logo-weiß.jpg */; };
+		D3CB64551E16C96A0058E34C /* logo_gross.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64491E16C96A0058E34C /* logo_gross.png */; };
+		D3CB64561E16C96A0058E34C /* logo_klein5.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB644A1E16C96A0058E34C /* logo_klein5.png */; };
+		D3CB64571E16C96A0058E34C /* logo_klein6.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB644B1E16C96A0058E34C /* logo_klein6.png */; };
+		D3CB64581E16C96A0058E34C /* logoklein7.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB644C1E16C96A0058E34C /* logoklein7.png */; };
+		D3CB64591E16C96A0058E34C /* ZDF-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB644D1E16C96A0058E34C /* ZDF-Logo.png */; };
+		D3CB645B1E16C96A0058E34C /* RTL_HD.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB644F1E16C96A0058E34C /* RTL_HD.png */; };
+		D3CB645D1E16C96A0058E34C /* logo_orf1HD.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64511E16C96A0058E34C /* logo_orf1HD.png */; };
+		D3CB645F1E16C96A0058E34C /* logo_srf2HD.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64531E16C96A0058E34C /* logo_srf2HD.png */; };
+		D3CB64631E16CB0C0058E34C /* Sat1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64601E16CB0C0058E34C /* Sat1.png */; };
+		D3CB64641E16CB0C0058E34C /* ORF2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64611E16CB0C0058E34C /* ORF2.png */; };
+		D3CB64651E16CB0C0058E34C /* 3plus_HD.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64621E16CB0C0058E34C /* 3plus_HD.png */; };
 		D3D91D5C1E1545E300AFD9B8 /* horizonlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D91D5B1E1545E300AFD9B8 /* horizonlogo.png */; };
 		D3D91D5E1E154A9700AFD9B8 /* horizonlogo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D91D5D1E154A9700AFD9B8 /* horizonlogo_small.png */; };
 		D3D91D611E154B8A00AFD9B8 /* background_small.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D91D5F1E154B8A00AFD9B8 /* background_small.png */; };
@@ -107,7 +122,6 @@
 		D33FA44F1E008652005C8BCA /* myPrime.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = myPrime.tvml; path = layouts/myPrime.tvml; sourceTree = "<group>"; };
 		D33FA4501E008652005C8BCA /* LiveTV.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = LiveTV.tvml; path = layouts/LiveTV.tvml; sourceTree = "<group>"; };
 		D33FA4511E008652005C8BCA /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = video.tvml; path = layouts/video.tvml; sourceTree = "<group>"; };
-		D33FA4521E008652005C8BCA /* TVGuide.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TVGuide.tvml; path = layouts/TVGuide.tvml; sourceTree = "<group>"; };
 		D33FA4531E008652005C8BCA /* Settings.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Settings.tvml; path = layouts/Settings.tvml; sourceTree = "<group>"; };
 		D33FA4541E008652005C8BCA /* videoRating.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = videoRating.tvml; path = layouts/videoRating.tvml; sourceTree = "<group>"; };
 		D33FA4551E008652005C8BCA /* Search.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Search.tvml; path = layouts/Search.tvml; sourceTree = "<group>"; };
@@ -147,6 +161,22 @@
 		D33FA4A21E008893005C8BCA /* FightClub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FightClub.json; path = content/data/Videos/FightClub.json; sourceTree = "<group>"; };
 		D33FA4A31E008893005C8BCA /* ForrestGump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ForrestGump.json; path = content/data/Videos/ForrestGump.json; sourceTree = "<group>"; };
 		D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DoctorStrange.mp4; path = content/videos/DoctorStrange.mp4; sourceTree = "<group>"; };
+		D3CB64401E1685F80058E34C /* tvGuide.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tvGuide.tvml; path = layouts/tvGuide.tvml; sourceTree = "<group>"; };
+		D3CB64421E168AA60058E34C /* tvGuide.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tvGuide.json; path = content/data/tvGuide.json; sourceTree = "<group>"; };
+		D3CB64441E16BDAD0058E34C /* prosieben_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prosieben_hd.jpg; path = content/images/Logos/prosieben_hd.jpg; sourceTree = "<group>"; };
+		D3CB64461E16BDB80058E34C /* halblogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = halblogo.png; path = content/images/Logos/halblogo.png; sourceTree = "<group>"; };
+		D3CB64481E16C96A0058E34C /* p7maxxhd-logo-weiß.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "p7maxxhd-logo-weiß.jpg"; path = "content/images/Logos/p7maxxhd-logo-weiß.jpg"; sourceTree = "<group>"; };
+		D3CB64491E16C96A0058E34C /* logo_gross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_gross.png; path = content/images/Logos/logo_gross.png; sourceTree = "<group>"; };
+		D3CB644A1E16C96A0058E34C /* logo_klein5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_klein5.png; path = content/images/Logos/logo_klein5.png; sourceTree = "<group>"; };
+		D3CB644B1E16C96A0058E34C /* logo_klein6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_klein6.png; path = content/images/Logos/logo_klein6.png; sourceTree = "<group>"; };
+		D3CB644C1E16C96A0058E34C /* logoklein7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoklein7.png; path = content/images/Logos/logoklein7.png; sourceTree = "<group>"; };
+		D3CB644D1E16C96A0058E34C /* ZDF-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ZDF-Logo.png"; path = "content/images/Logos/ZDF-Logo.png"; sourceTree = "<group>"; };
+		D3CB644F1E16C96A0058E34C /* RTL_HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RTL_HD.png; path = content/images/Logos/RTL_HD.png; sourceTree = "<group>"; };
+		D3CB64511E16C96A0058E34C /* logo_orf1HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_orf1HD.png; path = content/images/Logos/logo_orf1HD.png; sourceTree = "<group>"; };
+		D3CB64531E16C96A0058E34C /* logo_srf2HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_srf2HD.png; path = content/images/Logos/logo_srf2HD.png; sourceTree = "<group>"; };
+		D3CB64601E16CB0C0058E34C /* Sat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sat1.png; path = content/images/Logos/Sat1.png; sourceTree = "<group>"; };
+		D3CB64611E16CB0C0058E34C /* ORF2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ORF2.png; path = content/images/Logos/ORF2.png; sourceTree = "<group>"; };
+		D3CB64621E16CB0C0058E34C /* 3plus_HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3plus_HD.png; path = content/images/Logos/3plus_HD.png; sourceTree = "<group>"; };
 		D3D91D5B1E1545E300AFD9B8 /* horizonlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizonlogo.png; path = content/images/Logos/horizonlogo.png; sourceTree = "<group>"; };
 		D3D91D5D1E154A9700AFD9B8 /* horizonlogo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizonlogo_small.png; path = content/images/Logos/horizonlogo_small.png; sourceTree = "<group>"; };
 		D3D91D5F1E154B8A00AFD9B8 /* background_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_small.png; path = content/images/background_small.png; sourceTree = "<group>"; };
@@ -255,7 +285,6 @@
 				D33FA44F1E008652005C8BCA /* myPrime.tvml */,
 				D33FA4501E008652005C8BCA /* LiveTV.tvml */,
 				D33FA4511E008652005C8BCA /* video.tvml */,
-				D33FA4521E008652005C8BCA /* TVGuide.tvml */,
 				D33FA4531E008652005C8BCA /* Settings.tvml */,
 				D33FA4541E008652005C8BCA /* videoRating.tvml */,
 				D33FA4551E008652005C8BCA /* Search.tvml */,
@@ -263,6 +292,7 @@
 				D33FA4571E008652005C8BCA /* _searchResult.tvml */,
 				D33FA4581E008652005C8BCA /* photos.tvml */,
 				D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */,
+				D3CB64401E1685F80058E34C /* tvGuide.tvml */,
 			);
 			name = layouts;
 			sourceTree = "<group>";
@@ -315,6 +345,7 @@
 				D33FA4941E00887D005C8BCA /* myPrime.json */,
 				D33FA4951E00887D005C8BCA /* videoDatabase.json */,
 				D33FA4961E00887D005C8BCA /* homeScreen.json */,
+				D3CB64421E168AA60058E34C /* tvGuide.json */,
 			);
 			name = data;
 			sourceTree = "<group>";
@@ -335,6 +366,20 @@
 		D33FA4741E008834005C8BCA /* Logos */ = {
 			isa = PBXGroup;
 			children = (
+				D3CB64601E16CB0C0058E34C /* Sat1.png */,
+				D3CB64611E16CB0C0058E34C /* ORF2.png */,
+				D3CB64621E16CB0C0058E34C /* 3plus_HD.png */,
+				D3CB64481E16C96A0058E34C /* p7maxxhd-logo-weiß.jpg */,
+				D3CB64491E16C96A0058E34C /* logo_gross.png */,
+				D3CB644A1E16C96A0058E34C /* logo_klein5.png */,
+				D3CB644B1E16C96A0058E34C /* logo_klein6.png */,
+				D3CB644C1E16C96A0058E34C /* logoklein7.png */,
+				D3CB644D1E16C96A0058E34C /* ZDF-Logo.png */,
+				D3CB644F1E16C96A0058E34C /* RTL_HD.png */,
+				D3CB64511E16C96A0058E34C /* logo_orf1HD.png */,
+				D3CB64531E16C96A0058E34C /* logo_srf2HD.png */,
+				D3CB64461E16BDB80058E34C /* halblogo.png */,
+				D3CB64441E16BDAD0058E34C /* prosieben_hd.jpg */,
 				D3D91D671E15520400AFD9B8 /* logo_klein4.png */,
 				D3D91D681E15520400AFD9B8 /* logo_klein3.png */,
 				D3D91D691E15520400AFD9B8 /* logo_klein2.png */,
@@ -501,43 +546,56 @@
 				D33FA46D1E0086A6005C8BCA /* Presenter.js in Resources */,
 				D33FA45C1E008652005C8BCA /* homeScreen.tvml in Resources */,
 				D33FA4A71E008893005C8BCA /* Moana.json in Resources */,
+				D3CB645D1E16C96A0058E34C /* logo_orf1HD.png in Resources */,
 				D3D91D6E1E15520400AFD9B8 /* logo_klein.png in Resources */,
 				D33FA4981E00887D005C8BCA /* LiveTV.json in Resources */,
 				D33FA4631E008652005C8BCA /* Search.tvml in Resources */,
 				D33FA4861E008861005C8BCA /* ForrestGump.jpg in Resources */,
 				D33FA48F1E00886E005C8BCA /* upclogo_1.png in Resources */,
 				D33FA4731E008814005C8BCA /* mustache.min.js in Resources */,
+				D3CB64651E16CB0C0058E34C /* 3plus_HD.png in Resources */,
 				D33FA4641E008652005C8BCA /* expandedDetailText.tvml in Resources */,
 				D33FA4881E008861005C8BCA /* Moana.jpg in Resources */,
 				D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */,
 				D33FA49C1E00887D005C8BCA /* homeScreen.json in Resources */,
+				D3CB64591E16C96A0058E34C /* ZDF-Logo.png in Resources */,
 				D33FA45F1E008652005C8BCA /* video.tvml in Resources */,
 				D33FA4A61E008893005C8BCA /* Inception.json in Resources */,
 				D33FA45D1E008652005C8BCA /* myPrime.tvml in Resources */,
 				D33FA4971E00887D005C8BCA /* MyVideo.json in Resources */,
 				D33FA4991E00887D005C8BCA /* search.json in Resources */,
 				D33FA4781E008851005C8BCA /* blueclouds.png in Resources */,
+				D3CB64571E16C96A0058E34C /* logo_klein6.png in Resources */,
+				D3CB645F1E16C96A0058E34C /* logo_srf2HD.png in Resources */,
 				D33FA4891E008861005C8BCA /* PulpFiction.jpg in Resources */,
+				D3CB64451E16BDAD0058E34C /* prosieben_hd.jpg in Resources */,
+				D3CB64561E16C96A0058E34C /* logo_klein5.png in Resources */,
+				D3CB64431E168AA60058E34C /* tvGuide.json in Resources */,
 				D33FA45E1E008652005C8BCA /* LiveTV.tvml in Resources */,
 				D33FA4611E008652005C8BCA /* Settings.tvml in Resources */,
 				D3D91D641E154CC800AFD9B8 /* horizonlogo_very_small.png in Resources */,
 				D33FA4A81E008893005C8BCA /* FightClub.json in Resources */,
+				D3CB64641E16CB0C0058E34C /* ORF2.png in Resources */,
 				D33FA4711E0086A6005C8BCA /* DataController.js in Resources */,
 				D33FA45A1E008652005C8BCA /* rootMenu.tvml in Resources */,
+				D3CB64541E16C96A0058E34C /* p7maxxhd-logo-weiß.jpg in Resources */,
 				D3D91D6D1E15520400AFD9B8 /* logo_klein2.png in Resources */,
 				D33FA49A1E00887D005C8BCA /* myPrime.json in Resources */,
 				D33FA4831E008861005C8BCA /* DoctorStrange.jpg in Resources */,
 				D3D91D6C1E15520400AFD9B8 /* logo_klein3.png in Resources */,
 				D33FA4621E008652005C8BCA /* videoRating.tvml in Resources */,
 				D33FA48B1E008861005C8BCA /* TheGodfather.jpg in Resources */,
+				D3CB64581E16C96A0058E34C /* logoklein7.png in Resources */,
 				D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */,
 				D33FA48C1E008861005C8BCA /* Trolls.jpg in Resources */,
 				D33FA4A41E008893005C8BCA /* DoctorStrange.json in Resources */,
 				D3D91D611E154B8A00AFD9B8 /* background_small.png in Resources */,
+				D3CB64631E16CB0C0058E34C /* Sat1.png in Resources */,
 				D33FA4851E008861005C8BCA /* FightClub.jpg in Resources */,
 				D3D91D5C1E1545E300AFD9B8 /* horizonlogo.png in Resources */,
 				D3D91D661E154D0800AFD9B8 /* upclogo_2_small.png in Resources */,
 				D33FA4701E0086A6005C8BCA /* EventHandler.js in Resources */,
+				D3CB64471E16BDB80058E34C /* halblogo.png in Resources */,
 				D33FA45B1E008652005C8BCA /* myVideo.tvml in Resources */,
 				D3D91D621E154B8A00AFD9B8 /* background.png in Resources */,
 				D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */,
@@ -546,9 +604,11 @@
 				D33FA4901E00886E005C8BCA /* upclogo_2.png in Resources */,
 				D33FA44B1E00855C005C8BCA /* main.js in Resources */,
 				D3D91D5E1E154A9700AFD9B8 /* horizonlogo_small.png in Resources */,
+				D3CB645B1E16C96A0058E34C /* RTL_HD.png in Resources */,
 				D33FA48A1E008861005C8BCA /* TheDarkKnight.jpg in Resources */,
 				D33FA4871E008861005C8BCA /* Inception.jpg in Resources */,
-				D33FA4601E008652005C8BCA /* TVGuide.tvml in Resources */,
+				D3CB64411E1685F80058E34C /* tvGuide.tvml in Resources */,
+				D3CB64551E16C96A0058E34C /* logo_gross.png in Resources */,
 				D33FA49B1E00887D005C8BCA /* videoDatabase.json in Resources */,
 				D33FA46E1E0086A6005C8BCA /* SearchHandler.js in Resources */,
 			);

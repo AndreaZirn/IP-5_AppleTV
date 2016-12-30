@@ -135,6 +135,24 @@
                    </grid>
                </relatedContent>
             </listItemLockup>
+            <listItemLockup>
+               <title>Documentary</title>
+               <relatedContent>
+                  <grid>
+                     <section>
+                     </section>
+                   </grid>
+               </relatedContent>
+            </listItemLockup>
+            <listItemLockup>
+               <title>Kids</title>
+               <relatedContent>
+                  <grid>
+                     <section>
+                     </section>
+                   </grid>
+               </relatedContent>
+            </listItemLockup>
          </section>
       </list>
    </catalogTemplate>

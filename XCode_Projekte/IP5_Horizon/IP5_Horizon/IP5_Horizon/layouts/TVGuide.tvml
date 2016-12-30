@@ -1,4 +1,182 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
-
+<head>
+  <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    .textalignment {
+      tv-align: center;
+    }
+    .rowStyle {
+      margin: 20;
+      tv-position: header;
+      tv-align: center;
+    }
+    .ButtonStyle1 {
+      margin: 50;
+      min-width: 200;
+    }
+    .ButtonStyle2 {
+      margin: 50;
+      min-width: 100;
+    }
+    .ButtonStyle3 {
+      margin: 10;
+      min-width: 150;
+      max-height: 75;
+      min-height: 75;
+    }
+    .ButtonStyle4 {
+      margin: 10;
+      min-width: 250;
+      max-height: 75;
+      min-height: 75;
+    }
+    .ButtonStyle5 {
+      margin: 10;
+      min-width: 400;
+      max-height: 75;
+      min-height: 75;
+    }
+    .minSpace {
+      margin: 5;
+    }
+    .logos {
+      margin: 10;
+      min-width: 150;
+      max-height: 75;
+      min-height: 75;
+    }
+    .logosPosition {
+      tv-position: top-left;
+    }
+    .shelfStyle {
+      tv-position: top;
+    }
+    .shelfStyle2 {
+      tv-position: center;
+    }
+    </style>
+  </head>
+	<divTemplate>
+    	<row class="rowStyle">
+    		<button class="ButtonStyle2">
+   				<text>Back</text>
+			  </button>
+    		<button class="ButtonStyle1">
+    			<text>TODAY</text>
+    		</button>
+    		<button class="ButtonStyle2">
+    			<text>Forward</text>
+    		</button>
+    	</row>
+      <separator class="rowStyle">
+      </separator>
+      <lockup class="logosPosition">
+        {{#logos}}
+          <img src="{{image}}" width="150" height="75" class="logos" />
+        {{/logos}}
+      </lockup>
+      <row class="shelfStyle">
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 2</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 2</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 2</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+  </divTemplate>
 </document>

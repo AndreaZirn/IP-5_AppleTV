@@ -1,11 +1,5 @@
 {
-  "logo": [
-    {
-    "image": "upclogo_2.png",
-    "title": "Welcome to Horizon"
-    }
-  ],
-  "recommended": [
+  "line1": [
     {
       "template": "video.tvml",
       "data": "Trolls.json",
@@ -55,29 +49,29 @@
       "title": "Trolls"
     }
   ],
-  "recentlywatched": [
+  "line2": [
     {
     "template": "video.tvml",
     "data": "DoctorStrange.json",
-    "image": "DoctorStrange.jpg",
+    "image": "Trolls.jpg",
     "title": "Doctor Strange"
   },
   {
     "template": "video.tvml",
     "data": "Inception.json",
-    "image": "Inception.jpg",
+    "image": "Trolls.jpg",
     "title": "Inception"
   },
   {
     "template": "video.tvml",
     "data": "Moana.json",
-    "image": "Moana.jpg",
+    "image": "Trolls.jpg",
     "title": "Moana"
   },
   {
     "template": "video.tvml",
     "data": "FightClub.json",
-    "image": "FightClub.jpg",
+    "image": "Trolls.jpg",
     "title": "Fight Club"
   },
   {
@@ -89,8 +83,30 @@
   {
     "template": "video.tvml",
     "data": "ForrestGump.json",
-    "image": "ForrestGump.jpg",
+    "image": "Trolls.jpg",
     "title": "Forrest Gump"
+  }
+  ],
+    "logos": [
+    {
+    "image": "prosieben_hd.jpg",
+    "title": "Pro Sieben"
+  },
+    {
+    "image": "RTL_HD.png",
+    "title": "RTL"
+  },
+    {
+    "image": "Sat1.png",
+    "title": "Sat 1"
+  },
+    {
+    "image": "ORF2.png",
+    "title": "ORF 2"
+  },
+    {
+    "image": "3plus_HD.png",
+    "title": "3 Plus"
   }
   ]
 }
