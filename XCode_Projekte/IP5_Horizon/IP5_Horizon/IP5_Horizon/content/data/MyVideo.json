@@ -17,6 +17,12 @@
       "data": "Trolls.json",
       "image": "Trolls.jpg",
       "title": "Trolls"
+    },
+    {
+      "template": "series.tvml",
+      "data": "HouseofCards12.json",
+      "image": "HouseofCards1.jpg",
+      "title": "House of Cards: Season1, Episode 2"
     }
   ],
   "watchlater": [
@@ -37,6 +43,12 @@
     "data": "ForrestGump.json",
     "image": "ForrestGump.jpg",
     "title": "Forrest Gump"
-  }
+  }, 
+      {
+      "template": "series.tvml",
+      "data": "Spongebob13.json",
+      "image": "Spongebob1.jpg",
+      "title": "HSpongebob: Season1, Episode 3"
+    }
   ]
 }

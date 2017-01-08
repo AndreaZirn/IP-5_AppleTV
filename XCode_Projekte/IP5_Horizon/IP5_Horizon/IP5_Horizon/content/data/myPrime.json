@@ -1,56 +1,6 @@
 {
   "topmovies": [
     {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    }
-  ],
-  "topseries": [
-    {
     "template": "video.tvml",
     "data": "DoctorStrange.json",
     "image": "DoctorStrange.jpg",
@@ -85,6 +35,26 @@
     "data": "ForrestGump.json",
     "image": "ForrestGump.jpg",
     "title": "Forrest Gump"
+  }
+  ],
+  "topseries": [
+  {
+    "template": "series.tvml",
+    "data": "NewGirl11.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl"
+  },
+    {
+    "template": "series.tvml",
+    "data": "HouseofCards11.json",
+    "image": "HouseofCards1.jpg",
+    "title": "HouseofCards"
+  },
+  {
+    "template": "series.tvml",
+    "data": "Spongebob11.json",
+    "image": "Spongebob1.jpg",
+    "title": "Spongebob"
   }
   ], 
   "recommendedmovies": [
@@ -111,56 +81,26 @@
     "data": "FightClub.json",
     "image": "FightClub.jpg",
     "title": "Fight Club"
-  },
-  {
-    "template": "video.tvml",
-    "data": "Trolls.json",
-    "image": "Trolls.jpg",
-    "title": "Trolls"
-  },
-  {
-    "template": "video.tvml",
-    "data": "ForrestGump.json",
-    "image": "ForrestGump.jpg",
-    "title": "Forrest Gump"
   }
   ],
     "recommendedseries": [
+  {
+    "template": "series.tvml",
+    "data": "NewGirl11.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl"
+  },
     {
-    "template": "video.tvml",
-    "data": "DoctorStrange.json",
-    "image": "DoctorStrange.jpg",
-    "title": "Doctor Strange"
+    "template": "series.tvml",
+    "data": "HouseofCards11.json",
+    "image": "HouseofCards1.jpg",
+    "title": "HouseofCards"
   },
   {
-    "template": "video.tvml",
-    "data": "Inception.json",
-    "image": "Inception.jpg",
-    "title": "Inception"
-  },
-  {
-    "template": "video.tvml",
-    "data": "Moana.json",
-    "image": "Moana.jpg",
-    "title": "Moana"
-  },
-  {
-    "template": "video.tvml",
-    "data": "FightClub.json",
-    "image": "FightClub.jpg",
-    "title": "Fight Club"
-  },
-  {
-    "template": "video.tvml",
-    "data": "Trolls.json",
-    "image": "Trolls.jpg",
-    "title": "Trolls"
-  },
-  {
-    "template": "video.tvml",
-    "data": "ForrestGump.json",
-    "image": "ForrestGump.jpg",
-    "title": "Forrest Gump"
+    "template": "series.tvml",
+    "data": "Spongebob11.json",
+    "image": "Spongebob1.jpg",
+    "title": "Spongebob"
   }
   ],
     "actiongenre": [

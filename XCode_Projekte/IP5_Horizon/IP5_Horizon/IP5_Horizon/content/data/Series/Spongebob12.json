@@ -1,0 +1,73 @@
+{
+  "title": "Spongebob",
+  "subtitle": "BubbleStand/Ripped Pants",
+  "season": "Season 1",
+  "episode": "Episode 2",
+  "director": "N/A",
+  "starring": ["Tom Kenny", "Rodger Bumpass", "Bill Fagerbakke", "Clancy Brown"],
+  "genre": ["Animation", "Comedy", "Kids"],
+  "duration": "23 minutes",
+  "studio": "Vidcoom",
+  "format": "Widescreen",
+  "country": "USA",
+  "year": "1999",
+  "videoURL" : "https://wolverine.raywenderlich.com/rwdevcon.com/2015/videos/Cesare-Rocchi-Cognition.mp4",
+  "images": {
+    "hero": "Spongebob1.jpg"
+  },
+  "closed-captions": true,
+  "rating": "nr",
+  "description": "Bubblestand: SpongeBob blows bubbles. Ripped Pants: SpongeBob accidentally tears his pants.",
+  "language": "English",
+  "moreepisodes": [
+    { "title": "Episode 1", "image": "Spongebob1.jpg", "data": "Spongebob11.json"},
+    { "title": "Episode 3", "image": "Spongebob1.jpg", "data": "Spongebob13.json"}
+  ],
+  "ratings-reviews": {
+    "imbd-ratings": {
+      "out-of-ten": 8.1,
+      "badge-value": 0.81,
+      "count": 46
+    },
+    "rottentomato": {
+      "total": 100,
+      "percentage": 86
+    },
+    "reviews": [
+      {
+        "title": "Zombie Review",
+        "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "name": "B. Sucker",
+        "date": "March 31, 2015"
+      },
+      {
+        "title": "Meaty Review",
+        "description": "Bacon ipsum dolor amet jowl pork flank officia pastrami hamburger prosciutto sed cillum kielbasa. Kielbasa boudin jowl rump magna eiusmod, swine ham deserunt ham hock shankle brisket commodo velit alcatra.",
+        "name": "Bacon Grease",
+        "date": "April 15, 2015"
+      }
+    ]
+  },
+  "people": [
+    {
+      "firstname": "Tom",
+      "lastname": "Kenny",
+      "role": "Actor"
+    },
+    {
+      "firstname": "Rodger",
+      "lastname": "Bumpass",
+      "role": "Actor"
+    },
+    {
+      "firstname": "Bill",
+      "lastname": "Fagerbakke",
+      "role": "Actor"
+    },
+    {
+      "firstname": "Clancy",
+      "lastname": "Brown",
+      "role": "Actor"
+    }
+  ]
+}

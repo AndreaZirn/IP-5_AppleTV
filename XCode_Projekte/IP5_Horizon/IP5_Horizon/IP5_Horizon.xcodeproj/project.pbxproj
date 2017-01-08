@@ -75,6 +75,24 @@
 		D33FA4A81E008893005C8BCA /* FightClub.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A21E008893005C8BCA /* FightClub.json */; };
 		D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A31E008893005C8BCA /* ForrestGump.json */; };
 		D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */; };
+		D3C9E2D91E22701E0034E466 /* series.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2D81E22701E0034E466 /* series.tvml */; };
+		D3C9E2DF1E2274730034E466 /* NewGirl.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2DC1E2274730034E466 /* NewGirl.json */; };
+		D3C9E2E91E2283970034E466 /* NewGirl16.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E31E2283970034E466 /* NewGirl16.json */; };
+		D3C9E2EA1E2283970034E466 /* NewGirl15.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E41E2283970034E466 /* NewGirl15.json */; };
+		D3C9E2EB1E2283970034E466 /* NewGirl14.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E51E2283970034E466 /* NewGirl14.json */; };
+		D3C9E2EC1E2283970034E466 /* NewGirl13.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E61E2283970034E466 /* NewGirl13.json */; };
+		D3C9E2ED1E2283970034E466 /* NewGirl12.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E71E2283970034E466 /* NewGirl12.json */; };
+		D3C9E2EE1E2283970034E466 /* NewGirl11.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E81E2283970034E466 /* NewGirl11.json */; };
+		D3C9E2F01E2283A30034E466 /* seriesDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2EF1E2283A30034E466 /* seriesDatabase.json */; };
+		D3C9E2F61E2284820034E466 /* NewGirl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2F51E2284820034E466 /* NewGirl1.jpg */; };
+		D3CA78C91E22EB7100BD7FE1 /* HouseofCards1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78C81E22EB7100BD7FE1 /* HouseofCards1.jpg */; };
+		D3CA78CB1E22EB7A00BD7FE1 /* Spongebob1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78CA1E22EB7A00BD7FE1 /* Spongebob1.jpg */; };
+		D3CA78D21E22ED4900BD7FE1 /* Spongebob13.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78CC1E22ED4900BD7FE1 /* Spongebob13.json */; };
+		D3CA78D31E22ED4900BD7FE1 /* Spongebob11.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78CD1E22ED4900BD7FE1 /* Spongebob11.json */; };
+		D3CA78D41E22ED4900BD7FE1 /* Spongebob12.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78CE1E22ED4900BD7FE1 /* Spongebob12.json */; };
+		D3CA78D51E22ED4900BD7FE1 /* HouseofCards13.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78CF1E22ED4900BD7FE1 /* HouseofCards13.json */; };
+		D3CA78D61E22ED4900BD7FE1 /* HouseofCards12.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78D01E22ED4900BD7FE1 /* HouseofCards12.json */; };
+		D3CA78D71E22ED4900BD7FE1 /* HouseofCards11.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CA78D11E22ED4900BD7FE1 /* HouseofCards11.json */; };
 		D3CB64411E1685F80058E34C /* tvGuide.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64401E1685F80058E34C /* tvGuide.tvml */; };
 		D3CB64431E168AA60058E34C /* tvGuide.json in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64421E168AA60058E34C /* tvGuide.json */; };
 		D3CB64451E16BDAD0058E34C /* prosieben_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3CB64441E16BDAD0058E34C /* prosieben_hd.jpg */; };
@@ -195,6 +213,24 @@
 		D33FA4A21E008893005C8BCA /* FightClub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FightClub.json; path = content/data/Videos/FightClub.json; sourceTree = "<group>"; };
 		D33FA4A31E008893005C8BCA /* ForrestGump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ForrestGump.json; path = content/data/Videos/ForrestGump.json; sourceTree = "<group>"; };
 		D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DoctorStrange.mp4; path = content/videos/DoctorStrange.mp4; sourceTree = "<group>"; };
+		D3C9E2D81E22701E0034E466 /* series.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = series.tvml; path = layouts/series.tvml; sourceTree = "<group>"; };
+		D3C9E2DC1E2274730034E466 /* NewGirl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl.json; path = content/data/Series/NewGirl.json; sourceTree = "<group>"; };
+		D3C9E2E31E2283970034E466 /* NewGirl16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl16.json; path = content/data/Series/NewGirl16.json; sourceTree = "<group>"; };
+		D3C9E2E41E2283970034E466 /* NewGirl15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl15.json; path = content/data/Series/NewGirl15.json; sourceTree = "<group>"; };
+		D3C9E2E51E2283970034E466 /* NewGirl14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl14.json; path = content/data/Series/NewGirl14.json; sourceTree = "<group>"; };
+		D3C9E2E61E2283970034E466 /* NewGirl13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl13.json; path = content/data/Series/NewGirl13.json; sourceTree = "<group>"; };
+		D3C9E2E71E2283970034E466 /* NewGirl12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl12.json; path = content/data/Series/NewGirl12.json; sourceTree = "<group>"; };
+		D3C9E2E81E2283970034E466 /* NewGirl11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl11.json; path = content/data/Series/NewGirl11.json; sourceTree = "<group>"; };
+		D3C9E2EF1E2283A30034E466 /* seriesDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = seriesDatabase.json; path = content/data/seriesDatabase.json; sourceTree = "<group>"; };
+		D3C9E2F51E2284820034E466 /* NewGirl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NewGirl1.jpg; path = content/images/Series/NewGirl1.jpg; sourceTree = "<group>"; };
+		D3CA78C81E22EB7100BD7FE1 /* HouseofCards1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HouseofCards1.jpg; path = content/images/Series/HouseofCards1.jpg; sourceTree = "<group>"; };
+		D3CA78CA1E22EB7A00BD7FE1 /* Spongebob1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Spongebob1.jpg; path = content/images/Series/Spongebob1.jpg; sourceTree = "<group>"; };
+		D3CA78CC1E22ED4900BD7FE1 /* Spongebob13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Spongebob13.json; path = content/data/Series/Spongebob13.json; sourceTree = "<group>"; };
+		D3CA78CD1E22ED4900BD7FE1 /* Spongebob11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Spongebob11.json; path = content/data/Series/Spongebob11.json; sourceTree = "<group>"; };
+		D3CA78CE1E22ED4900BD7FE1 /* Spongebob12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Spongebob12.json; path = content/data/Series/Spongebob12.json; sourceTree = "<group>"; };
+		D3CA78CF1E22ED4900BD7FE1 /* HouseofCards13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HouseofCards13.json; path = content/data/Series/HouseofCards13.json; sourceTree = "<group>"; };
+		D3CA78D01E22ED4900BD7FE1 /* HouseofCards12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HouseofCards12.json; path = content/data/Series/HouseofCards12.json; sourceTree = "<group>"; };
+		D3CA78D11E22ED4900BD7FE1 /* HouseofCards11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HouseofCards11.json; path = content/data/Series/HouseofCards11.json; sourceTree = "<group>"; };
 		D3CB64401E1685F80058E34C /* tvGuide.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tvGuide.tvml; path = layouts/tvGuide.tvml; sourceTree = "<group>"; };
 		D3CB64421E168AA60058E34C /* tvGuide.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tvGuide.json; path = content/data/tvGuide.json; sourceTree = "<group>"; };
 		D3CB64441E16BDAD0058E34C /* prosieben_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prosieben_hd.jpg; path = content/images/Logos/prosieben_hd.jpg; sourceTree = "<group>"; };
@@ -351,6 +387,7 @@
 				D33FA4581E008652005C8BCA /* photos.tvml */,
 				D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */,
 				D3CB64401E1685F80058E34C /* tvGuide.tvml */,
+				D3C9E2D81E22701E0034E466 /* series.tvml */,
 			);
 			name = layouts;
 			sourceTree = "<group>";
@@ -396,6 +433,8 @@
 		D33FA4481E008469005C8BCA /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D3C9E2EF1E2283A30034E466 /* seriesDatabase.json */,
+				D3C9E2DA1E22745B0034E466 /* Series */,
 				D33FA49D1E008881005C8BCA /* Videos */,
 				D33FA4911E00887D005C8BCA /* MyVideo.json */,
 				D33FA4921E00887D005C8BCA /* LiveTV.json */,
@@ -411,11 +450,11 @@
 		D33FA4491E00846F005C8BCA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D3C9E2F41E22844C0034E466 /* Series */,
 				D31DE6591E1FAC4B00C48A9E /* Actors */,
 				D3D91D5F1E154B8A00AFD9B8 /* background_small.png */,
 				D3D91D601E154B8A00AFD9B8 /* background.png */,
 				D33FA4771E008851005C8BCA /* blueclouds.png */,
-				D33FA4761E008843005C8BCA /* Series */,
 				D33FA4751E00883C005C8BCA /* Movies */,
 				D33FA4741E008834005C8BCA /* Logos */,
 			);
@@ -470,13 +509,6 @@
 			name = Movies;
 			sourceTree = "<group>";
 		};
-		D33FA4761E008843005C8BCA /* Series */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Series;
-			sourceTree = "<group>";
-		};
 		D33FA49D1E008881005C8BCA /* Videos */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,6 +520,36 @@
 				D33FA4A31E008893005C8BCA /* ForrestGump.json */,
 			);
 			name = Videos;
+			sourceTree = "<group>";
+		};
+		D3C9E2DA1E22745B0034E466 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA78CC1E22ED4900BD7FE1 /* Spongebob13.json */,
+				D3CA78CD1E22ED4900BD7FE1 /* Spongebob11.json */,
+				D3CA78CE1E22ED4900BD7FE1 /* Spongebob12.json */,
+				D3CA78CF1E22ED4900BD7FE1 /* HouseofCards13.json */,
+				D3CA78D01E22ED4900BD7FE1 /* HouseofCards12.json */,
+				D3CA78D11E22ED4900BD7FE1 /* HouseofCards11.json */,
+				D3C9E2E31E2283970034E466 /* NewGirl16.json */,
+				D3C9E2E41E2283970034E466 /* NewGirl15.json */,
+				D3C9E2E51E2283970034E466 /* NewGirl14.json */,
+				D3C9E2E61E2283970034E466 /* NewGirl13.json */,
+				D3C9E2E71E2283970034E466 /* NewGirl12.json */,
+				D3C9E2E81E2283970034E466 /* NewGirl11.json */,
+				D3C9E2DC1E2274730034E466 /* NewGirl.json */,
+			);
+			name = Series;
+			sourceTree = "<group>";
+		};
+		D3C9E2F41E22844C0034E466 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA78C81E22EB7100BD7FE1 /* HouseofCards1.jpg */,
+				D3CA78CA1E22EB7A00BD7FE1 /* Spongebob1.jpg */,
+				D3C9E2F51E2284820034E466 /* NewGirl1.jpg */,
+			);
+			name = Series;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,8 +660,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */,
+				D3CA78D31E22ED4900BD7FE1 /* Spongebob11.json in Resources */,
 				D33FA4A51E008893005C8BCA /* Trolls.json in Resources */,
 				D33FA4671E008652005C8BCA /* videoLogoOverlay.tvml in Resources */,
+				D3CA78D61E22ED4900BD7FE1 /* HouseofCards12.json in Resources */,
 				D33FA4661E008652005C8BCA /* photos.tvml in Resources */,
 				D31DE66E1E1FAC5900C48A9E /* Ellen_Page.jpg in Resources */,
 				D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */,
@@ -618,6 +682,7 @@
 				D3CB64651E16CB0C0058E34C /* 3plus_HD.png in Resources */,
 				D33FA4641E008652005C8BCA /* expandedDetailText.tvml in Resources */,
 				D33FA4881E008861005C8BCA /* Moana.jpg in Resources */,
+				D3C9E2E91E2283970034E466 /* NewGirl16.json in Resources */,
 				D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */,
 				D31DE66B1E1FAC5900C48A9E /* Rachel_House.jpg in Resources */,
 				D31DE66F1E1FAC5900C48A9E /* Joseph_Gordon-Levitt.jpg in Resources */,
@@ -625,13 +690,16 @@
 				D3CB64591E16C96A0058E34C /* ZDF-Logo.png in Resources */,
 				D33FA45F1E008652005C8BCA /* video.tvml in Resources */,
 				D33FA4A61E008893005C8BCA /* Inception.json in Resources */,
+				D3CA78C91E22EB7100BD7FE1 /* HouseofCards1.jpg in Resources */,
 				D33FA45D1E008652005C8BCA /* myPrime.tvml in Resources */,
 				D31DE6761E1FAC5900C48A9E /* Zooey_Deschanel.jpg in Resources */,
 				D33FA4971E00887D005C8BCA /* MyVideo.json in Resources */,
+				D3C9E2EB1E2283970034E466 /* NewGirl14.json in Resources */,
 				D33FA4991E00887D005C8BCA /* search.json in Resources */,
 				D33FA4781E008851005C8BCA /* blueclouds.png in Resources */,
 				D3CB64571E16C96A0058E34C /* logo_klein6.png in Resources */,
 				D3CB645F1E16C96A0058E34C /* logo_srf2HD.png in Resources */,
+				D3CA78D21E22ED4900BD7FE1 /* Spongebob13.json in Resources */,
 				D31DE6751E1FAC5900C48A9E /* Edward_Norton.jpg in Resources */,
 				D33FA4891E008861005C8BCA /* PulpFiction.jpg in Resources */,
 				D31DE6791E1FAC5900C48A9E /* Rachel_McAdams.jpg in Resources */,
@@ -639,25 +707,34 @@
 				D3CB64561E16C96A0058E34C /* logo_klein5.png in Resources */,
 				D3CB64431E168AA60058E34C /* tvGuide.json in Resources */,
 				D33FA45E1E008652005C8BCA /* LiveTV.tvml in Resources */,
+				D3C9E2ED1E2283970034E466 /* NewGirl12.json in Resources */,
 				D33FA4611E008652005C8BCA /* Settings.tvml in Resources */,
 				D3D91D641E154CC800AFD9B8 /* horizonlogo_very_small.png in Resources */,
 				D33FA4A81E008893005C8BCA /* FightClub.json in Resources */,
+				D3C9E2EC1E2283970034E466 /* NewGirl13.json in Resources */,
 				D3CB64641E16CB0C0058E34C /* ORF2.png in Resources */,
 				D33FA4711E0086A6005C8BCA /* DataController.js in Resources */,
 				D33FA45A1E008652005C8BCA /* rootMenu.tvml in Resources */,
 				D3CB64541E16C96A0058E34C /* p7maxxhd-logo-weiß.jpg in Resources */,
 				D3D91D6D1E15520400AFD9B8 /* logo_klein2.png in Resources */,
+				D3C9E2D91E22701E0034E466 /* series.tvml in Resources */,
+				D3C9E2EA1E2283970034E466 /* NewGirl15.json in Resources */,
 				D33FA49A1E00887D005C8BCA /* myPrime.json in Resources */,
 				D33FA4831E008861005C8BCA /* DoctorStrange.jpg in Resources */,
 				D3D91D6C1E15520400AFD9B8 /* logo_klein3.png in Resources */,
 				D31DE6721E1FAC5900C48A9E /* Tom_Hanks.jpg in Resources */,
+				D3C9E2F61E2284820034E466 /* NewGirl1.jpg in Resources */,
 				D33FA4621E008652005C8BCA /* videoRating.tvml in Resources */,
+				D3CA78D51E22ED4900BD7FE1 /* HouseofCards13.json in Resources */,
+				D3C9E2DF1E2274730034E466 /* NewGirl.json in Resources */,
 				D33FA48B1E008861005C8BCA /* TheGodfather.jpg in Resources */,
 				D31DE6701E1FAC5900C48A9E /* Leonardo_DiCaprio.jpg in Resources */,
 				D31DE67A1E1FAC5900C48A9E /* Chiwetel_Ejiofor.jpg in Resources */,
+				D3C9E2F01E2283A30034E466 /* seriesDatabase.json in Resources */,
 				D3CB64581E16C96A0058E34C /* logoklein7.png in Resources */,
 				D31DE6731E1FAC5900C48A9E /* Meat_Loaf.jpg in Resources */,
 				D31DE6781E1FAC5900C48A9E /* Anna_Kendrick.jpg in Resources */,
+				D3CA78D41E22ED4900BD7FE1 /* Spongebob12.json in Resources */,
 				D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */,
 				D33FA48C1E008861005C8BCA /* Trolls.jpg in Resources */,
 				D33FA4A41E008893005C8BCA /* DoctorStrange.json in Resources */,
@@ -670,7 +747,10 @@
 				D3CB64471E16BDB80058E34C /* halblogo.png in Resources */,
 				D33FA45B1E008652005C8BCA /* myVideo.tvml in Resources */,
 				D3D91D621E154B8A00AFD9B8 /* background.png in Resources */,
+				D3CA78CB1E22EB7A00BD7FE1 /* Spongebob1.jpg in Resources */,
 				D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */,
+				D3C9E2EE1E2283970034E466 /* NewGirl11.json in Resources */,
+				D3CA78D71E22ED4900BD7FE1 /* HouseofCards11.json in Resources */,
 				D31DE66C1E1FAC5900C48A9E /* Dwayne_Johnson.jpg in Resources */,
 				D33FA4841E008861005C8BCA /* FantasticBeasts.jpg in Resources */,
 				D31DE67B1E1FAC5900C48A9E /* Benedict_Cumberbatch.jpg in Resources */,

@@ -1,0 +1,77 @@
+{
+  "title": "New Girl",
+  "subtitle": "Pilot",
+  "season": "Season 1",
+  "episode": "Episode 6",
+  "director": "N/A",
+  "starring": ["Zooey Deschanel", "Jake Johnson", "Max Greenfield", "Hannah Simone"],
+  "genre": ["Comedy"],
+  "duration": "22 minutes",
+  "studio": "Fox",
+  "format": "Widescreen",
+  "country": "USA",
+  "year": "2011",
+  "videoURL" : "https://wolverine.raywenderlich.com/rwdevcon.com/2015/videos/Cesare-Rocchi-Cognition.mp4",
+  "images": {
+    "hero": "NewGirl1.jpg"
+  },
+  "closed-captions": true,
+  "rating": "nr",
+  "description": "Jess invites Paul, a music teacher at her school on whom she always has had a crush, to the gang's big Thanksgiving dinner at the loft, which naturally goes horribly awry.",
+  "language": "English",
+  "moreepisodes": [
+    { "title": "Episode 1", "image": "NewGirl1.jpg", "data": "NewGirl11.json"},
+    { "title": "Episode 2", "image": "NewGirl1.jpg", "data": "NewGirl12.json"},
+    { "title": "Episode 3", "image": "NewGirl1.jpg", "data": "NewGirl13.json"},
+    { "title": "Episode 4", "image": "NewGirl1.jpg", "data": "NewGirl14.json"},
+    { "title": "Episode 5", "image": "NewGirl1.jpg", "data": "NewGirl15.json"}
+  ],
+  "ratings-reviews": {
+    "imbd-ratings": {
+      "out-of-ten": 7.8,
+      "badge-value": 0.8,
+      "count": 46
+    },
+    "rottentomato": {
+      "total": 100,
+      "percentage": 86
+    },
+    "reviews": [
+      {
+        "title": "Zombie Review",
+        "description": "Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.",
+        "name": "B. Sucker",
+        "date": "March 31, 2015"
+      },
+      {
+        "title": "Meaty Review",
+        "description": "Bacon ipsum dolor amet jowl pork flank officia pastrami hamburger prosciutto sed cillum kielbasa. Kielbasa boudin jowl rump magna eiusmod, swine ham deserunt ham hock shankle brisket commodo velit alcatra.",
+        "name": "Bacon Grease",
+        "date": "April 15, 2015"
+      }
+    ]
+  },
+  "people": [
+    {
+      "firstname": "Zooey",
+      "lastname": "Deschanel",
+      "role": "Actress",
+      "image": "Zooey_Deschanel.jpg"
+    },
+    {
+      "firstname": "Jake",
+      "lastname": "Johnson",
+      "role": "Actor"
+    },
+    {
+      "firstname": "Max",
+      "lastname": "Greenfield",
+      "role": "Actor"
+    },
+    {
+      "firstname": "Hannah",
+      "lastname": "Simone",
+      "role": "Actress"
+    }
+  ]
+}
