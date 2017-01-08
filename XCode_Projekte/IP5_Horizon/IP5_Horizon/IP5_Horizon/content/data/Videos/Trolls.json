@@ -1,19 +1,20 @@
 {
   "title": "Trolls",
-  "presenter": "Name",
-  "tags": ["equality", "twins"],
-  "duration": "15 minutes",
-  "studio": "Studio",
+  "director": "Walt Dohrn, Mike Mitchell",
+  "starring": ["Anna Kendrick", "Justin Timberlake", "Zooey Deschanel", "Christopher Mintz-Plasse"],
+  "genre": ["Animation", "Adventure", "Comedy"],
+  "duration": "92 minutes",
+  "studio": "Dreamworks",
   "format": "Widescreen",
-  "category": "Animation",
-  "year": "2015",
+  "country": "USA",
+  "year": "2016",
   "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
   "images": {
     "hero": "Trolls.jpg"
   },
   "closed-captions": true,
   "rating": "nr",
-  "description": "Insert Description here.",
+  "description": "After the Bergens invade Troll Village, Poppy, the happiest Troll ever born, and the curmudgeonly Branch set off on a journey to rescue her friends.",
   "language": "English",
   "recommendations": [
     { "title": "Doctor Strange", "image": "DoctorStrange.jpg", "data": "DoctorStrange.json"},
@@ -24,8 +25,8 @@
   ],
   "ratings-reviews": {
     "imbd-ratings": {
-      "out-of-ten": 7.6,
-      "badge-value": 0.8,
+      "out-of-ten": 6.6,
+      "badge-value": 0.66,
       "count": 46
     },
     "rottentomato": {
@@ -48,20 +49,23 @@
     ]
   },
   "people": [
-    {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      {
+      "firstname": "Anna",
+      "lastname": "Kendrick",
+      "role": "Actress",
+      "image": "Anna_Kendrick.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Justin",
+      "lastname": "Timberlake",
+      "role": "Actor",
+      "image": "Justin_Timberlake.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Zooey",
+      "lastname": "Deschanel",
+      "role": "Actress",
+      "image": "Zooey_Deschanel.jpg"
     }
   ]
 }

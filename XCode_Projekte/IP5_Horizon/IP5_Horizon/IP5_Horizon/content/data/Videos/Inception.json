@@ -1,19 +1,20 @@
 {
   "title": "Inception",
-  "presenter": "Name",
-  "tags": ["equality", "twins"],
-  "duration": "15 minutes",
-  "studio": "Studio",
+  "director": "Christopher Nolan",
+  "starring": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page", "Tom Hardy"],
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "duration": "148 minutes",
+  "studio": "Warner Bros.",
   "format": "Widescreen",
-  "category": "Action",
-  "year": "2015",
+  "country": "USA, UK",
+  "year": "2010",
   "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
   "images": {
     "hero": "Inception.jpg"
   },
   "closed-captions": true,
   "rating": "nr",
-  "description": "Insert Description here.",
+  "description": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
   "language": "English",
   "recommendations": [
     { "title": "Doctor Strange", "image": "DoctorStrange.jpg", "data": "DoctorStrange.json"},
@@ -24,8 +25,8 @@
   ],
   "ratings-reviews": {
     "imbd-ratings": {
-      "out-of-ten": 7.6,
-      "badge-value": 0.8,
+      "out-of-ten": 8.8,
+      "badge-value": 0.88,
       "count": 46
     },
     "rottentomato": {
@@ -49,19 +50,22 @@
   },
   "people": [
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Leonardo",
+      "lastname": "DiCaprio",
+      "role": "Actor",
+      "image": "Leonardo_DiCaprio.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Joseph",
+      "lastname": "Gordon-Levitt",
+      "role": "Actor",
+      "image": "Joseph_Gordon-Levitt.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Ellen",
+      "lastname": "Page",
+      "role": "Actress",
+      "image": "Ellen_Page.jpg"
     }
   ]
 }

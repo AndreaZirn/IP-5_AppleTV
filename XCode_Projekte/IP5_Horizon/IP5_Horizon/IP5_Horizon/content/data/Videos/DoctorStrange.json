@@ -1,11 +1,10 @@
 {
-  "title": "DoctorStrange",
-  "subtitle": "Subtitle",
+  "title": "Doctor Strange",
   "director": "Scott Derrickson",
   "starring": ["Benedict Cumberbatch", "Chiwetel Ejiofor", "Rachel McAdams", "Benedict Wong"],
   "genre": ["Action", "Adventure", "Fantasy"],
   "duration": "115 minutes",
-  "studio": "Studio",
+  "studio": "Marvel Studios",
   "format": "Widescreen",
   "country": "USA",
   "year": "2016",
@@ -18,7 +17,7 @@
   "description": "A former neurosurgeon embarks on a journey of healing only to be drawn into the world of the mystic arts.",
   "language": "English",
   "recommendations": [
-    { "title": "Moana", "image": "Moana.jpg", "data": "Moana.json"},
+    { "title": "Moana",   "data": "Moana.json"},
     { "title": "Inception", "image": "Inception.jpg", "data": "Inception.json"},
     { "title": "FightClub", "image": "FightClub.jpg", "data": "FightClub.json"},
     { "title": "Trolls", "image": "Trolls.jpg", "data": "Trolls.json"},
@@ -51,19 +50,22 @@
   },
   "people": [
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Benedict",
+      "lastname": "Cumberbatch",
+      "role": "Actor",
+      "image": "Benedict_Cumberbatch.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Chiwetel",
+      "lastname": "Ejiofor",
+      "role": "Actor",
+      "image": "Chiwetel_Ejiofor.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Rachel",
+      "lastname": "McAdams",
+      "role": "Actress",
+      "image": "Rachel_McAdams.jpg"
     }
   ]
 }

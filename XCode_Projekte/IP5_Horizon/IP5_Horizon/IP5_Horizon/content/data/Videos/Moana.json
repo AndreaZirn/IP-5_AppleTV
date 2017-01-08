@@ -1,19 +1,20 @@
 {
   "title": "Moana",
-  "presenter": "Name",
-  "tags": ["equality", "twins"],
-  "duration": "15 minutes",
-  "studio": "Studio",
+  "director": "Ron Clements",
+  "starring": ["Auli'i Cravalho", "Dwayne Johnson", "Rachel House", "Temuera Morrison"],
+  "genre": ["Animation", "Adventure", "Comedy"],
+  "duration": "107 minutes",
+  "studio": "Disney",
   "format": "Widescreen",
-  "category": "Animation",
-  "year": "2015",
+  "country": "USA",
+  "year": "2016",
   "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
   "images": {
     "hero": "Moana.jpg"
   },
   "closed-captions": true,
   "rating": "nr",
-  "description": "Insert Description here.",
+  "description": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
   "language": "English",
   "recommendations": [
     { "title": "Doctor Strange", "image": "DoctorStrange.jpg", "data": "DoctorStrange.json"},
@@ -24,8 +25,8 @@
   ],
   "ratings-reviews": {
     "imbd-ratings": {
-      "out-of-ten": 7.6,
-      "badge-value": 0.8,
+      "out-of-ten": 8.1,
+      "badge-value": 0.81,
       "count": 46
     },
     "rottentomato": {
@@ -49,19 +50,22 @@
   },
   "people": [
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Auli'i",
+      "lastname": "Cravalho",
+      "role": "Actress",
+      "image": "Auli'i_Cravalho.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Dwayne",
+      "lastname": "Johnson",
+      "role": "Actor",
+      "image": "Dwayne_Johnson.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Rachel",
+      "lastname": "House",
+      "role": "Actress",
+      "image": "Rachel_House.jpg"
     }
   ]
 }

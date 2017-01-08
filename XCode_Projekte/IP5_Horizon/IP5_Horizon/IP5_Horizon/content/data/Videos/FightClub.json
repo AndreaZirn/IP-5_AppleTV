@@ -1,19 +1,20 @@
 {
   "title": "Fight Club",
-  "presenter": "Name",
-  "tags": ["equality", "twins"],
-  "duration": "15 minutes",
-  "studio": "Studio",
+  "director": "David Fincher",
+  "starring": ["Edward Norton", "Brad Pitt", "Meat Loaf", "Zach Grenier"],
+  "genre": ["Action", "Adventure", "Fantasy"],
+  "duration": "139 minutes",
+  "studio": "Regency",
   "format": "Widescreen",
-  "category": "Action",
-  "year": "2015",
+  "country": "USA, Germany",
+  "year": "1999",
   "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
   "images": {
     "hero": "FightClub.jpg"
   },
   "closed-captions": true,
   "rating": "nr",
-  "description": "Insert Description here.",
+  "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more.",
   "language": "English",
   "recommendations": [
     { "title": "Doctor Strange", "image": "DoctorStrange.jpg", "data": "DoctorStrange.json"},
@@ -24,8 +25,8 @@
   ],
   "ratings-reviews": {
     "imbd-ratings": {
-      "out-of-ten": 7.6,
-      "badge-value": 0.8,
+      "out-of-ten": 8.8,
+      "badge-value": 0.88,
       "count": 46
     },
     "rottentomato": {
@@ -49,19 +50,22 @@
   },
   "people": [
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Edward",
+      "lastname": "Norton",
+      "role": "Actor",
+      "image": "Edward_Norton.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Brad",
+      "lastname": "Pitt",
+      "role": "Actor",
+      "image": "Brad_Pitt.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Meat",
+      "lastname": "Loaf",
+      "role": "Actor",
+      "image": "Meat_Loaf.jpg"
     }
   ]
 }

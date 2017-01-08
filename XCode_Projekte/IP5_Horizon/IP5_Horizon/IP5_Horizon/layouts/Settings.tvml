@@ -24,11 +24,16 @@
                <title>My Account</title>
                <relatedContent>
                   <grid>
-                     <organizer>
-                      <text style="tv-position: left"> Name: </text>
-                      <text style="tv-position: center"> Name </text>
-                      <button style="tv-position: right"> edit </button>
-                     </organizer>
+                      <section>
+                        <lockup>
+                          <organizer>
+                          <text> Account Information </text>
+                          <text style="tv-position: left"> Name: </text>
+                          <text style="tv-position: center"> Name </text>
+                          <button> edit </button>
+                        </organizer>
+                      </lockup>
+                     </section>
                   </grid>
                </relatedContent>
           </listItemLockup>

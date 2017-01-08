@@ -1,19 +1,20 @@
 {
-  "title": "ForrestGump",
-  "presenter": "Name",
-  "tags": ["equality", "twins"],
-  "duration": "15 minutes",
-  "studio": "Studio",
+  "title": "Forrest Gump",
+  "director": "Robert Zemeckis",
+  "starring": ["Tom Hanks", "Rebecca Williams", "Sally Field", "Michael Conner Humphreys"],
+  "genre": ["Comedy", "Drama"],
+  "duration": "142 minutes",
+  "studio": "Paramount Pictures",
   "format": "Widescreen",
-  "category": "Drama",
-  "year": "2015",
+  "country": "USA",
+  "year": "1994",
   "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
   "images": {
     "hero": "ForrestGump.jpg"
   },
   "closed-captions": true,
   "rating": "nr",
-  "description": "Insert Description here.",
+  "description": "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
   "language": "English",
   "recommendations": [
     { "title": "Doctor Strange", "image": "DoctorStrange.jpg", "data": "DoctorStrange.json"},
@@ -24,8 +25,8 @@
   ],
   "ratings-reviews": {
     "imbd-ratings": {
-      "out-of-ten": 7.6,
-      "badge-value": 0.8,
+      "out-of-ten": 8.8,
+      "badge-value": 0.88,
       "count": 46
     },
     "rottentomato": {
@@ -49,19 +50,21 @@
   },
   "people": [
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Tom",
+      "lastname": "Hanks",
+      "role": "Actor",
+      "image": "Tom_Hanks.jpg"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Rebecca",
+      "lastname": "Williams",
+      "role": "Actress"
     },
     {
-      "firstname": "Prename",
-      "lastname": "Surname",
-      "role": "Role"
+      "firstname": "Sally",
+      "lastname": "Field",
+      "role": "Actress",
+      "image": "Sally_Field.jpg"
     }
   ]
 }

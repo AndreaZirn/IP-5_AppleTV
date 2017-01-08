@@ -76,7 +76,7 @@
       <section>
         {{#people}}
           <monogramLockup>
-            <monogram firstName="{{firstname}}" lastName="{{lastname}}"/>
+            <monogram firstName="{{firstname}}" lastName="{{lastname}}" src="{{image}}"/>
             <title>{{firstname}} {{lastname}}</title>
             <subtitle>{{role}}</subtitle>
           </monogramLockup>
