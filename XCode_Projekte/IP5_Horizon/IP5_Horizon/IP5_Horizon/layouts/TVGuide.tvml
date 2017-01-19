@@ -14,8 +14,11 @@
       tv-align: center;
     }
     .ButtonStyle1 {
-      margin: 50;
+      margin: 10;
       min-width: 200;
+      max-height: 75;
+      min-height: 75;
+      padding: 0;
     }
     .ButtonStyle2 {
       margin: 50;
@@ -44,9 +47,6 @@
     }
     .logos {
       margin: 10;
-      min-width: 150;
-      max-height: 75;
-      min-height: 75;
     }
     .logosPosition {
       tv-position: top-left;
@@ -79,24 +79,15 @@
         {{/logos}}
       </lockup>
       <row class="shelfStyle">
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 2</text>
-        </button>
+      {{#line2}}
+        <buttonLockup 
+            class="ButtonStyle1"
+            template="{{template}}"
+            data="{{data}}"
+            presentation="push">
+            <text>{{title}}</text>
+        </buttonLockup>
+        {{/line2}}
       </row>
       <row class="shelfStyle">
         <button class="ButtonStyle5">
@@ -156,6 +147,146 @@
         </button>
         <button class="ButtonStyle5">
           <text>Film 2</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
+        </button>
+      </row>
+      <row class="shelfStyle">
+        <button class="ButtonStyle5">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle5">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Film 2</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Serie 1</text>
+        </button>
+        <button class="ButtonStyle4">
+          <text>Film 1</text>
+        </button>
+        <button class="ButtonStyle3">
+          <text>Serie 1</text>
         </button>
       </row>
       <row class="shelfStyle">

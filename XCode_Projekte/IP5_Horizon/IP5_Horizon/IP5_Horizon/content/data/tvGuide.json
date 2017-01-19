@@ -51,44 +51,64 @@
   ],
   "line2": [
     {
-    "template": "video.tvml",
+    "template": "tvguideM_past.tvml",
     "data": "DoctorStrange.json",
-    "image": "Trolls.jpg",
+    "image": "DoctorStrange.jpg",
     "title": "Doctor Strange"
   },
   {
-    "template": "video.tvml",
+    "template": "tvguideM_past.tvml",
     "data": "Inception.json",
-    "image": "Trolls.jpg",
+    "image": "Inception.jpg",
     "title": "Inception"
   },
   {
-    "template": "video.tvml",
+    "template": "tvguideM_past.tvml",
     "data": "Moana.json",
-    "image": "Trolls.jpg",
+    "image": "Moana.jpg",
     "title": "Moana"
   },
   {
-    "template": "video.tvml",
+    "template": "tvguideM_now.tvml",
     "data": "FightClub.json",
-    "image": "Trolls.jpg",
+    "image": "FightClub.jpg",
     "title": "Fight Club"
   },
   {
-    "template": "video.tvml",
+    "template": "tvguideM_future.tvml",
     "data": "Trolls.json",
     "image": "Trolls.jpg",
     "title": "Trolls"
   },
   {
-    "template": "video.tvml",
+    "template": "tvguideM_future.tvml",
     "data": "ForrestGump.json",
-    "image": "Trolls.jpg",
+    "image": "ForrestGump.jpg",
     "title": "Forrest Gump"
   }
   ],
     "logos": [
     {
+    "image": "prosieben_hd.jpg",
+    "title": "Pro Sieben"
+  },
+    {
+    "image": "RTL_HD.png",
+    "title": "RTL"
+  },
+    {
+    "image": "Sat1.png",
+    "title": "Sat 1"
+  },
+    {
+    "image": "ORF2.png",
+    "title": "ORF 2"
+  },
+    {
+    "image": "3plus_HD.png",
+    "title": "3 Plus"
+  },
+  {
     "image": "prosieben_hd.jpg",
     "title": "Pro Sieben"
   },

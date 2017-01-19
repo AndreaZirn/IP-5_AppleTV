@@ -5,25 +5,27 @@
       <infoList>
         <info>
           <header>
-            <title>Director</title>
+            <title>Date</title>
           </header>
-          <text>{{director}}</text>
+          <text>{{date}}</text>
         </info>
         <info>
           <header>
-            <title>Starring</title>
+            <title>Time</title>
           </header>
-          {{#starring}}
-            <text>{{.}}</text>
-          {{/starring}}
+          <text>{{time}}</text>
+        </info>
+        <info>
+          <header>
+            <title>Channel</title>
+          </header>
+            <text>{{channel}}</text>
         </info>
         <info>
           <header>
             <title>Genre</title>
           </header>
-          {{#genre}}
-            <text>{{.}}</text>
-          {{/genre}}
+            <text>{{genre}}</text>
         </info>
       </infoList>
       <stack>
@@ -50,13 +52,19 @@
             data='{"title": "{{title}}", "description": "{{description}}",
             "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
             <badge src="resource://button-play" />
-            <title>Play</title>
+            <title>Watch</title>
           </buttonLockup>
-          <buttonLockup presentation="playTrailer"
+          <buttonLockup presentation="watchfromstart"
             data='{"title": "{{title}}", "description": "{{description}}",
             "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
-            <badge src="resource://button-play" />
-            <title>Play Trailer</title>
+            <badge src="resource://button-preview" />
+            <title>Watch from start</title>
+          </buttonLockup>
+          <buttonLockup presentation="record"
+            data='{"title": "{{title}}", "description": "{{description}}",
+            "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
+            <badge src="resource://button-more" />
+            <title>Record</title>
           </buttonLockup>
           <buttonLockup presentation="addVideo"
             data='{"title": "{{title}}", "description": "{{description}}",

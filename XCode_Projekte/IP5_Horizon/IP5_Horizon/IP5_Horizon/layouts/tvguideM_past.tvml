@@ -5,25 +5,27 @@
       <infoList>
         <info>
           <header>
-            <title>Director</title>
+            <title>Date</title>
           </header>
-          <text>{{director}}</text>
+          <text>{{date}}</text>
         </info>
         <info>
           <header>
-            <title>Starring</title>
+            <title>Time</title>
           </header>
-          {{#starring}}
-            <text>{{.}}</text>
-          {{/starring}}
+          <text>{{time}}</text>
+        </info>
+        <info>
+          <header>
+            <title>Channel</title>
+          </header>
+            <text>{{channel}}</text>
         </info>
         <info>
           <header>
             <title>Genre</title>
           </header>
-          {{#genre}}
-            <text>{{.}}</text>
-          {{/genre}}
+            <text>{{genre}}</text>
         </info>
       </infoList>
       <stack>
@@ -46,17 +48,11 @@
           template="expandedDetailText.tvml"
           data='{"title": "{{title}}", "text": "{{description}}"}'>{{description}}</description>
         <row>
-          <buttonLockup presentation="playVideo"
+          <buttonLockup presentation="watch"
             data='{"title": "{{title}}", "description": "{{description}}",
             "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
             <badge src="resource://button-play" />
-            <title>Play</title>
-          </buttonLockup>
-          <buttonLockup presentation="playTrailer"
-            data='{"title": "{{title}}", "description": "{{description}}",
-            "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
-            <badge src="resource://button-play" />
-            <title>Play Trailer</title>
+            <title>Watch</title>
           </buttonLockup>
           <buttonLockup presentation="addVideo"
             data='{"title": "{{title}}", "description": "{{description}}",

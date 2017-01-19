@@ -17,7 +17,7 @@
   "description": "A former neurosurgeon embarks on a journey of healing only to be drawn into the world of the mystic arts.",
   "language": "English",
   "recommendations": [
-    { "title": "Moana",   "data": "Moana.json"},
+    { "title": "Moana",  "image": "Moana.jpg", "data": "Moana.json"},
     { "title": "Inception", "image": "Inception.jpg", "data": "Inception.json"},
     { "title": "FightClub", "image": "FightClub.jpg", "data": "FightClub.json"},
     { "title": "Trolls", "image": "Trolls.jpg", "data": "Trolls.json"},

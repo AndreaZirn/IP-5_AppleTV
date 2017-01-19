@@ -3,25 +3,32 @@
 	<head>
 		<style>
 			.progressOverlay {
-			padding: 0;
+			padding: 1;
 			}
+			.textalign {
+			text-align: left;
+			}
+
 		</style>
 	</head>
 	  <stackTemplate>
 	  <banner>
+	  	<title class="textalign"> Watch now: </title>
 	  </banner>
-		<shelf>
-			 <section>
-			  {{#tvchannels}}
+		<collectionList>
+			 <grid>
+			 	<section>
+			 	{{#tvchannels}}
 				<lockup>
-					<img src="{{image}}" width="300" height="300" />
-					<title>{{title}}</title>
-					<overlay class="progressOverlay">
-					<progressBar value="0.1"/>
-					</overlay>
+						<img src="{{image}}" width="384" height="216"/>
+						<title class="textalign">{{input}}, {{time}}</title>
+						<overlay class="progressOverlay">
+						<progressBar value= "{{value}}"/>
+						</overlay>
 				</lockup>
 			   {{/tvchannels}}
-			 </section>
-		</shelf>
+			   </section>
+			 </grid>
+		</collectionList>
 	</stackTemplate>
 </document>

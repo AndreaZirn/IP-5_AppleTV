@@ -14,20 +14,16 @@
       .Maintitle {
       tv-text-style: title3;
       tv-align: center;
-      font-size: 80;
+      font-size: 100;
       font-weight: semibold;
-      color: rgb(0,0,0);
       }
     </style>
   </head>
   <stackTemplate>
     <banner>
       {{#logo}}
-      <row> 
-        <img src="{{image}}" width="250" height="250" style="tv-align: right"/>
         <title class="Maintitle">{{title}}</title>
-      </row>
-    {{/logo}}
+      {{/logo}}
     </banner>
     <collectionList>
       <shelf>

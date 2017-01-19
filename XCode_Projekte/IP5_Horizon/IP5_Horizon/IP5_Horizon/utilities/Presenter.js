@@ -78,15 +78,14 @@ class Presenter {
     return enhancedData;
   }
 
- /* 
+  
  _sharedImageResources() {
     var sharedImageNames = {
-      background: "tv_background.png"
+      background: "background.png"
     };
-
     return this._convertURLValuesInObject(sharedImageNames);
   }
-  */
+  
 
   _convertURLValuesInObject(object) {
     return this._resourceLoader.convertNamesToURLs(object);

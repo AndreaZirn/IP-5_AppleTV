@@ -75,6 +75,13 @@
 		D33FA4A81E008893005C8BCA /* FightClub.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A21E008893005C8BCA /* FightClub.json */; };
 		D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A31E008893005C8BCA /* ForrestGump.json */; };
 		D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */; };
+		D34FD1E91E243A30000BDF25 /* tvGuideDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */; };
+		D34FD1F01E243A3E000BDF25 /* tvguideS_past.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */; };
+		D34FD1F11E243A3E000BDF25 /* tvguideS_future.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */; };
+		D34FD1F21E243A3E000BDF25 /* tvguideS_now.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EC1E243A3E000BDF25 /* tvguideS_now.tvml */; };
+		D34FD1F31E243A3E000BDF25 /* tvguideM_now.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1ED1E243A3E000BDF25 /* tvguideM_now.tvml */; };
+		D34FD1F41E243A3E000BDF25 /* tvguideM_future.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EE1E243A3E000BDF25 /* tvguideM_future.tvml */; };
+		D34FD1F51E243A3E000BDF25 /* tvguideM_past.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EF1E243A3E000BDF25 /* tvguideM_past.tvml */; };
 		D3C9E2D91E22701E0034E466 /* series.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2D81E22701E0034E466 /* series.tvml */; };
 		D3C9E2DF1E2274730034E466 /* NewGirl.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2DC1E2274730034E466 /* NewGirl.json */; };
 		D3C9E2E91E2283970034E466 /* NewGirl16.json in Resources */ = {isa = PBXBuildFile; fileRef = D3C9E2E31E2283970034E466 /* NewGirl16.json */; };
@@ -119,6 +126,24 @@
 		D3D91D6C1E15520400AFD9B8 /* logo_klein3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D91D681E15520400AFD9B8 /* logo_klein3.png */; };
 		D3D91D6D1E15520400AFD9B8 /* logo_klein2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D91D691E15520400AFD9B8 /* logo_klein2.png */; };
 		D3D91D6E1E15520400AFD9B8 /* logo_klein.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D91D6A1E15520400AFD9B8 /* logo_klein.png */; };
+		D3F0718F1E30188A006716B6 /* srf1_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F0718C1E30188A006716B6 /* srf1_logo.png */; };
+		D3F071901E30188A006716B6 /* halblogo_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F0718D1E30188A006716B6 /* halblogo_middle.png */; };
+		D3F071911E30188A006716B6 /* logo_schrift.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F0718E1E30188A006716B6 /* logo_schrift.png */; };
+		D3F071951E3022CD006716B6 /* screenshot_dmax.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F071921E3022CD006716B6 /* screenshot_dmax.png */; };
+		D3F071961E3022CD006716B6 /* screenshot_zdf.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F071931E3022CD006716B6 /* screenshot_zdf.png */; };
+		D3F071971E3022CD006716B6 /* screenshot_rtl2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F071941E3022CD006716B6 /* screenshot_rtl2.png */; };
+		D3F0719B1E3022D9006716B6 /* DMAX.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F071981E3022D9006716B6 /* DMAX.png */; };
+		D3F0719C1E3022D9006716B6 /* RTL-II-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F071991E3022D9006716B6 /* RTL-II-Logo.png */; };
+		D3F0719D1E3022D9006716B6 /* Kabel_eins_HD_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F0719A1E3022D9006716B6 /* Kabel_eins_HD_Logo.png */; };
+		D3FAB4B21E2FD68A00A94640 /* screenshot_rtl.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4AA1E2FD68A00A94640 /* screenshot_rtl.png */; };
+		D3FAB4B31E2FD68A00A94640 /* screenshot_sat1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4AB1E2FD68A00A94640 /* screenshot_sat1.png */; };
+		D3FAB4B41E2FD68A00A94640 /* screenshot_orf1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4AC1E2FD68A00A94640 /* screenshot_orf1.png */; };
+		D3FAB4B51E2FD68A00A94640 /* screenshot_kabel1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4AD1E2FD68A00A94640 /* screenshot_kabel1.png */; };
+		D3FAB4B61E2FD68A00A94640 /* screenshot_3+.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4AE1E2FD68A00A94640 /* screenshot_3+.png */; };
+		D3FAB4B71E2FD68A00A94640 /* screenshot_orf2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4AF1E2FD68A00A94640 /* screenshot_orf2.png */; };
+		D3FAB4B81E2FD68A00A94640 /* screenshot_pro7.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4B01E2FD68A00A94640 /* screenshot_pro7.png */; };
+		D3FAB4B91E2FD68A00A94640 /* screenshot_srf2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4B11E2FD68A00A94640 /* screenshot_srf2.png */; };
+		D3FAB4BB1E2FD77200A94640 /* screenshot_srf1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAB4BA1E2FD77200A94640 /* screenshot_srf1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +238,13 @@
 		D33FA4A21E008893005C8BCA /* FightClub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FightClub.json; path = content/data/Videos/FightClub.json; sourceTree = "<group>"; };
 		D33FA4A31E008893005C8BCA /* ForrestGump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ForrestGump.json; path = content/data/Videos/ForrestGump.json; sourceTree = "<group>"; };
 		D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DoctorStrange.mp4; path = content/videos/DoctorStrange.mp4; sourceTree = "<group>"; };
+		D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tvGuideDatabase.json; path = content/data/tvGuideDatabase.json; sourceTree = "<group>"; };
+		D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_past.tvml; path = layouts/tvguideS_past.tvml; sourceTree = "<group>"; };
+		D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_future.tvml; path = layouts/tvguideS_future.tvml; sourceTree = "<group>"; };
+		D34FD1EC1E243A3E000BDF25 /* tvguideS_now.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_now.tvml; path = layouts/tvguideS_now.tvml; sourceTree = "<group>"; };
+		D34FD1ED1E243A3E000BDF25 /* tvguideM_now.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideM_now.tvml; path = layouts/tvguideM_now.tvml; sourceTree = "<group>"; };
+		D34FD1EE1E243A3E000BDF25 /* tvguideM_future.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideM_future.tvml; path = layouts/tvguideM_future.tvml; sourceTree = "<group>"; };
+		D34FD1EF1E243A3E000BDF25 /* tvguideM_past.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideM_past.tvml; path = layouts/tvguideM_past.tvml; sourceTree = "<group>"; };
 		D3C9E2D81E22701E0034E466 /* series.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = series.tvml; path = layouts/series.tvml; sourceTree = "<group>"; };
 		D3C9E2DC1E2274730034E466 /* NewGirl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl.json; path = content/data/Series/NewGirl.json; sourceTree = "<group>"; };
 		D3C9E2E31E2283970034E466 /* NewGirl16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewGirl16.json; path = content/data/Series/NewGirl16.json; sourceTree = "<group>"; };
@@ -257,6 +289,24 @@
 		D3D91D681E15520400AFD9B8 /* logo_klein3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_klein3.png; path = content/images/Logos/logo_klein3.png; sourceTree = "<group>"; };
 		D3D91D691E15520400AFD9B8 /* logo_klein2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_klein2.png; path = content/images/Logos/logo_klein2.png; sourceTree = "<group>"; };
 		D3D91D6A1E15520400AFD9B8 /* logo_klein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_klein.png; path = content/images/Logos/logo_klein.png; sourceTree = "<group>"; };
+		D3F0718C1E30188A006716B6 /* srf1_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = srf1_logo.png; path = content/images/Logos/srf1_logo.png; sourceTree = "<group>"; };
+		D3F0718D1E30188A006716B6 /* halblogo_middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = halblogo_middle.png; path = content/images/Logos/halblogo_middle.png; sourceTree = "<group>"; };
+		D3F0718E1E30188A006716B6 /* logo_schrift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_schrift.png; path = content/images/Logos/logo_schrift.png; sourceTree = "<group>"; };
+		D3F071921E3022CD006716B6 /* screenshot_dmax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_dmax.png; path = content/images/Screenshots/screenshot_dmax.png; sourceTree = "<group>"; };
+		D3F071931E3022CD006716B6 /* screenshot_zdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_zdf.png; path = content/images/Screenshots/screenshot_zdf.png; sourceTree = "<group>"; };
+		D3F071941E3022CD006716B6 /* screenshot_rtl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_rtl2.png; path = content/images/Screenshots/screenshot_rtl2.png; sourceTree = "<group>"; };
+		D3F071981E3022D9006716B6 /* DMAX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DMAX.png; path = content/images/Logos/DMAX.png; sourceTree = "<group>"; };
+		D3F071991E3022D9006716B6 /* RTL-II-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RTL-II-Logo.png"; path = "content/images/Logos/RTL-II-Logo.png"; sourceTree = "<group>"; };
+		D3F0719A1E3022D9006716B6 /* Kabel_eins_HD_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Kabel_eins_HD_Logo.png; path = content/images/Logos/Kabel_eins_HD_Logo.png; sourceTree = "<group>"; };
+		D3FAB4AA1E2FD68A00A94640 /* screenshot_rtl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_rtl.png; path = content/images/Screenshots/screenshot_rtl.png; sourceTree = "<group>"; };
+		D3FAB4AB1E2FD68A00A94640 /* screenshot_sat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_sat1.png; path = content/images/Screenshots/screenshot_sat1.png; sourceTree = "<group>"; };
+		D3FAB4AC1E2FD68A00A94640 /* screenshot_orf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_orf1.png; path = content/images/Screenshots/screenshot_orf1.png; sourceTree = "<group>"; };
+		D3FAB4AD1E2FD68A00A94640 /* screenshot_kabel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_kabel1.png; path = content/images/Screenshots/screenshot_kabel1.png; sourceTree = "<group>"; };
+		D3FAB4AE1E2FD68A00A94640 /* screenshot_3+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "screenshot_3+.png"; path = "content/images/Screenshots/screenshot_3+.png"; sourceTree = "<group>"; };
+		D3FAB4AF1E2FD68A00A94640 /* screenshot_orf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_orf2.png; path = content/images/Screenshots/screenshot_orf2.png; sourceTree = "<group>"; };
+		D3FAB4B01E2FD68A00A94640 /* screenshot_pro7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_pro7.png; path = content/images/Screenshots/screenshot_pro7.png; sourceTree = "<group>"; };
+		D3FAB4B11E2FD68A00A94640 /* screenshot_srf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_srf2.png; path = content/images/Screenshots/screenshot_srf2.png; sourceTree = "<group>"; };
+		D3FAB4BA1E2FD77200A94640 /* screenshot_srf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot_srf1.png; path = content/images/Screenshots/screenshot_srf1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +423,12 @@
 		D33FA4431E008426005C8BCA /* layouts */ = {
 			isa = PBXGroup;
 			children = (
+				D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */,
+				D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */,
+				D34FD1EC1E243A3E000BDF25 /* tvguideS_now.tvml */,
+				D34FD1ED1E243A3E000BDF25 /* tvguideM_now.tvml */,
+				D34FD1EE1E243A3E000BDF25 /* tvguideM_future.tvml */,
+				D34FD1EF1E243A3E000BDF25 /* tvguideM_past.tvml */,
 				D33FA44C1E008652005C8BCA /* rootMenu.tvml */,
 				D33FA44D1E008652005C8BCA /* myVideo.tvml */,
 				D33FA44E1E008652005C8BCA /* homeScreen.tvml */,
@@ -433,6 +489,7 @@
 		D33FA4481E008469005C8BCA /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */,
 				D3C9E2EF1E2283A30034E466 /* seriesDatabase.json */,
 				D3C9E2DA1E22745B0034E466 /* Series */,
 				D33FA49D1E008881005C8BCA /* Videos */,
@@ -450,6 +507,7 @@
 		D33FA4491E00846F005C8BCA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D3FAB4A91E2FD67400A94640 /* Screenshots */,
 				D3C9E2F41E22844C0034E466 /* Series */,
 				D31DE6591E1FAC4B00C48A9E /* Actors */,
 				D3D91D5F1E154B8A00AFD9B8 /* background_small.png */,
@@ -464,6 +522,12 @@
 		D33FA4741E008834005C8BCA /* Logos */ = {
 			isa = PBXGroup;
 			children = (
+				D3F071981E3022D9006716B6 /* DMAX.png */,
+				D3F071991E3022D9006716B6 /* RTL-II-Logo.png */,
+				D3F0719A1E3022D9006716B6 /* Kabel_eins_HD_Logo.png */,
+				D3F0718C1E30188A006716B6 /* srf1_logo.png */,
+				D3F0718D1E30188A006716B6 /* halblogo_middle.png */,
+				D3F0718E1E30188A006716B6 /* logo_schrift.png */,
 				D3CB64601E16CB0C0058E34C /* Sat1.png */,
 				D3CB64611E16CB0C0058E34C /* ORF2.png */,
 				D3CB64621E16CB0C0058E34C /* 3plus_HD.png */,
@@ -550,6 +614,25 @@
 				D3C9E2F51E2284820034E466 /* NewGirl1.jpg */,
 			);
 			name = Series;
+			sourceTree = "<group>";
+		};
+		D3FAB4A91E2FD67400A94640 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				D3F071921E3022CD006716B6 /* screenshot_dmax.png */,
+				D3F071931E3022CD006716B6 /* screenshot_zdf.png */,
+				D3F071941E3022CD006716B6 /* screenshot_rtl2.png */,
+				D3FAB4BA1E2FD77200A94640 /* screenshot_srf1.png */,
+				D3FAB4AA1E2FD68A00A94640 /* screenshot_rtl.png */,
+				D3FAB4AB1E2FD68A00A94640 /* screenshot_sat1.png */,
+				D3FAB4AC1E2FD68A00A94640 /* screenshot_orf1.png */,
+				D3FAB4AD1E2FD68A00A94640 /* screenshot_kabel1.png */,
+				D3FAB4AE1E2FD68A00A94640 /* screenshot_3+.png */,
+				D3FAB4AF1E2FD68A00A94640 /* screenshot_orf2.png */,
+				D3FAB4B01E2FD68A00A94640 /* screenshot_pro7.png */,
+				D3FAB4B11E2FD68A00A94640 /* screenshot_srf2.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -666,12 +749,18 @@
 				D3CA78D61E22ED4900BD7FE1 /* HouseofCards12.json in Resources */,
 				D33FA4661E008652005C8BCA /* photos.tvml in Resources */,
 				D31DE66E1E1FAC5900C48A9E /* Ellen_Page.jpg in Resources */,
+				D3F071971E3022CD006716B6 /* screenshot_rtl2.png in Resources */,
 				D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */,
+				D3F0719D1E3022D9006716B6 /* Kabel_eins_HD_Logo.png in Resources */,
 				D31DE6711E1FAC5900C48A9E /* Sally_Field.jpg in Resources */,
 				D33FA46D1E0086A6005C8BCA /* Presenter.js in Resources */,
+				D34FD1F31E243A3E000BDF25 /* tvguideM_now.tvml in Resources */,
+				D34FD1F11E243A3E000BDF25 /* tvguideS_future.tvml in Resources */,
 				D33FA45C1E008652005C8BCA /* homeScreen.tvml in Resources */,
 				D33FA4A71E008893005C8BCA /* Moana.json in Resources */,
+				D3F071901E30188A006716B6 /* halblogo_middle.png in Resources */,
 				D31DE6741E1FAC5900C48A9E /* Brad_Pitt.jpg in Resources */,
+				D3F0719C1E3022D9006716B6 /* RTL-II-Logo.png in Resources */,
 				D3CB645D1E16C96A0058E34C /* logo_orf1HD.png in Resources */,
 				D3D91D6E1E15520400AFD9B8 /* logo_klein.png in Resources */,
 				D33FA4981E00887D005C8BCA /* LiveTV.json in Resources */,
@@ -692,20 +781,28 @@
 				D33FA4A61E008893005C8BCA /* Inception.json in Resources */,
 				D3CA78C91E22EB7100BD7FE1 /* HouseofCards1.jpg in Resources */,
 				D33FA45D1E008652005C8BCA /* myPrime.tvml in Resources */,
+				D3FAB4B71E2FD68A00A94640 /* screenshot_orf2.png in Resources */,
+				D3FAB4B31E2FD68A00A94640 /* screenshot_sat1.png in Resources */,
+				D3FAB4B51E2FD68A00A94640 /* screenshot_kabel1.png in Resources */,
 				D31DE6761E1FAC5900C48A9E /* Zooey_Deschanel.jpg in Resources */,
 				D33FA4971E00887D005C8BCA /* MyVideo.json in Resources */,
+				D3F071911E30188A006716B6 /* logo_schrift.png in Resources */,
 				D3C9E2EB1E2283970034E466 /* NewGirl14.json in Resources */,
 				D33FA4991E00887D005C8BCA /* search.json in Resources */,
 				D33FA4781E008851005C8BCA /* blueclouds.png in Resources */,
+				D3FAB4B21E2FD68A00A94640 /* screenshot_rtl.png in Resources */,
 				D3CB64571E16C96A0058E34C /* logo_klein6.png in Resources */,
 				D3CB645F1E16C96A0058E34C /* logo_srf2HD.png in Resources */,
 				D3CA78D21E22ED4900BD7FE1 /* Spongebob13.json in Resources */,
 				D31DE6751E1FAC5900C48A9E /* Edward_Norton.jpg in Resources */,
 				D33FA4891E008861005C8BCA /* PulpFiction.jpg in Resources */,
+				D3F0718F1E30188A006716B6 /* srf1_logo.png in Resources */,
 				D31DE6791E1FAC5900C48A9E /* Rachel_McAdams.jpg in Resources */,
 				D3CB64451E16BDAD0058E34C /* prosieben_hd.jpg in Resources */,
 				D3CB64561E16C96A0058E34C /* logo_klein5.png in Resources */,
+				D3FAB4B91E2FD68A00A94640 /* screenshot_srf2.png in Resources */,
 				D3CB64431E168AA60058E34C /* tvGuide.json in Resources */,
+				D34FD1F21E243A3E000BDF25 /* tvguideS_now.tvml in Resources */,
 				D33FA45E1E008652005C8BCA /* LiveTV.tvml in Resources */,
 				D3C9E2ED1E2283970034E466 /* NewGirl12.json in Resources */,
 				D33FA4611E008652005C8BCA /* Settings.tvml in Resources */,
@@ -719,11 +816,14 @@
 				D3D91D6D1E15520400AFD9B8 /* logo_klein2.png in Resources */,
 				D3C9E2D91E22701E0034E466 /* series.tvml in Resources */,
 				D3C9E2EA1E2283970034E466 /* NewGirl15.json in Resources */,
+				D3FAB4B41E2FD68A00A94640 /* screenshot_orf1.png in Resources */,
 				D33FA49A1E00887D005C8BCA /* myPrime.json in Resources */,
 				D33FA4831E008861005C8BCA /* DoctorStrange.jpg in Resources */,
 				D3D91D6C1E15520400AFD9B8 /* logo_klein3.png in Resources */,
+				D3F071961E3022CD006716B6 /* screenshot_zdf.png in Resources */,
 				D31DE6721E1FAC5900C48A9E /* Tom_Hanks.jpg in Resources */,
 				D3C9E2F61E2284820034E466 /* NewGirl1.jpg in Resources */,
+				D3F071951E3022CD006716B6 /* screenshot_dmax.png in Resources */,
 				D33FA4621E008652005C8BCA /* videoRating.tvml in Resources */,
 				D3CA78D51E22ED4900BD7FE1 /* HouseofCards13.json in Resources */,
 				D3C9E2DF1E2274730034E466 /* NewGirl.json in Resources */,
@@ -734,10 +834,13 @@
 				D3CB64581E16C96A0058E34C /* logoklein7.png in Resources */,
 				D31DE6731E1FAC5900C48A9E /* Meat_Loaf.jpg in Resources */,
 				D31DE6781E1FAC5900C48A9E /* Anna_Kendrick.jpg in Resources */,
+				D3FAB4B81E2FD68A00A94640 /* screenshot_pro7.png in Resources */,
 				D3CA78D41E22ED4900BD7FE1 /* Spongebob12.json in Resources */,
 				D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */,
 				D33FA48C1E008861005C8BCA /* Trolls.jpg in Resources */,
+				D34FD1E91E243A30000BDF25 /* tvGuideDatabase.json in Resources */,
 				D33FA4A41E008893005C8BCA /* DoctorStrange.json in Resources */,
+				D3FAB4B61E2FD68A00A94640 /* screenshot_3+.png in Resources */,
 				D3D91D611E154B8A00AFD9B8 /* background_small.png in Resources */,
 				D3CB64631E16CB0C0058E34C /* Sat1.png in Resources */,
 				D33FA4851E008861005C8BCA /* FightClub.jpg in Resources */,
@@ -746,6 +849,7 @@
 				D33FA4701E0086A6005C8BCA /* EventHandler.js in Resources */,
 				D3CB64471E16BDB80058E34C /* halblogo.png in Resources */,
 				D33FA45B1E008652005C8BCA /* myVideo.tvml in Resources */,
+				D3FAB4BB1E2FD77200A94640 /* screenshot_srf1.png in Resources */,
 				D3D91D621E154B8A00AFD9B8 /* background.png in Resources */,
 				D3CA78CB1E22EB7A00BD7FE1 /* Spongebob1.jpg in Resources */,
 				D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */,
@@ -757,7 +861,9 @@
 				D31DE66D1E1FAC5900C48A9E /* Auli'i_Cravalho.jpg in Resources */,
 				D3D91D6B1E15520400AFD9B8 /* logo_klein4.png in Resources */,
 				D33FA4901E00886E005C8BCA /* upclogo_2.png in Resources */,
+				D34FD1F01E243A3E000BDF25 /* tvguideS_past.tvml in Resources */,
 				D33FA44B1E00855C005C8BCA /* main.js in Resources */,
+				D34FD1F51E243A3E000BDF25 /* tvguideM_past.tvml in Resources */,
 				D3D91D5E1E154A9700AFD9B8 /* horizonlogo_small.png in Resources */,
 				D3CB645B1E16C96A0058E34C /* RTL_HD.png in Resources */,
 				D33FA48A1E008861005C8BCA /* TheDarkKnight.jpg in Resources */,
@@ -766,7 +872,9 @@
 				D3CB64551E16C96A0058E34C /* logo_gross.png in Resources */,
 				D33FA49B1E00887D005C8BCA /* videoDatabase.json in Resources */,
 				D31DE6771E1FAC5900C48A9E /* Justin_Timberlake.jpg in Resources */,
+				D34FD1F41E243A3E000BDF25 /* tvguideM_future.tvml in Resources */,
 				D33FA46E1E0086A6005C8BCA /* SearchHandler.js in Resources */,
+				D3F0719B1E3022D9006716B6 /* DMAX.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

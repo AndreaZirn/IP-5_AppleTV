@@ -4,24 +4,14 @@
       "template": "video.tvml",
       "data": "Trolls.json",
       "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
+      "value": "0.3",
       "title": "Trolls"
     },
     {
       "template": "series.tvml",
       "data": "HouseofCards12.json",
       "image": "HouseofCards1.jpg",
+      "value": "0.8",
       "title": "House of Cards: Season1, Episode 2"
     }
   ],
@@ -48,7 +38,7 @@
       "template": "series.tvml",
       "data": "Spongebob13.json",
       "image": "Spongebob1.jpg",
-      "title": "HSpongebob: Season1, Episode 3"
+      "title": "Spongebob: Season1, Episode 3"
     }
   ]
 }

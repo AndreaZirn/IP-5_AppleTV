@@ -5,6 +5,9 @@
       .showTextOnHighlight {
         tv-text-highlight-style: show-on-highlight;
       }
+      .progressOverlay {
+      padding: 1;
+      }
     </style>
   </head>
   <stackTemplate>
@@ -23,6 +26,9 @@
               presentation="push">
               <img src="{{image}}" width="222" height="333" />
               <title class="showTextOnHighlight">{{title}}</title>
+              <overlay class="progressOverlay">
+              <progressBar value= "{{value}}"/>
+              </overlay>
             </lockup>
           {{/startwatching}}
         </section>

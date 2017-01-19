@@ -1,8 +1,13 @@
 {
   "logo": [
     {
-    "image": "upclogo_2.png",
+    "image": "upclogo_1.png",
     "title": "Welcome to Horizon"
+    }
+  ],
+  "background": [
+    {
+    "image": "halblogo.png"
     }
   ],
   "recommended": [
