@@ -21,7 +21,7 @@
 			 	{{#tvchannels}}
 				<lockup>
 						<img src="{{image}}" width="384" height="216"/>
-						<title class="textalign">{{input}}, {{time}}</title>
+						<title class="textalign">{{input}}: {{time}}</title>
 						<overlay class="progressOverlay">
 						<progressBar value= "{{value}}"/>
 						</overlay>

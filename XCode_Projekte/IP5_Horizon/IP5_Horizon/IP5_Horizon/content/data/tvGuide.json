@@ -1,132 +1,208 @@
 {
   "line1": [
     {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    },
-    {
-      "template": "video.tvml",
-      "data": "Trolls.json",
-      "image": "Trolls.jpg",
-      "title": "Trolls"
-    }
+    "template": "tvguideM_past.tvml",
+    "data": "DoctorStrange.json",
+    "image": "darkblue.png",
+    "title": "Doctor Strange",
+    "width": "350"
+  },
+  {
+    "template": "tvguideM_now.tvml",
+    "data": "Inception.json",
+    "image": "blue.png",
+    "title": "Inception",
+    "width": "350"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "Moana.json",
+    "image": "darkblue.png",
+    "title": "Moana",
+    "width": "750"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "FightClub.json",
+    "image": "darkblue.png",
+    "title": "Fight Club",
+    "width": "350"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "Trolls.json",
+    "image": "darkblue.png",
+    "title": "Trolls",
+    "width": "185"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "ForrestGump.json",
+    "image": "darkblue.png",
+    "title": "Forrest Gump",
+    "width": "240"
+  }
   ],
   "line2": [
     {
     "template": "tvguideM_past.tvml",
     "data": "DoctorStrange.json",
-    "image": "DoctorStrange.jpg",
-    "title": "Doctor Strange"
-  },
-  {
-    "template": "tvguideM_past.tvml",
-    "data": "Inception.json",
-    "image": "Inception.jpg",
-    "title": "Inception"
-  },
-  {
-    "template": "tvguideM_past.tvml",
-    "data": "Moana.json",
-    "image": "Moana.jpg",
-    "title": "Moana"
+    "image": "darkblue.png",
+    "title": "Doctor Strange",
+    "width": "250"
   },
   {
     "template": "tvguideM_now.tvml",
+    "data": "Inception.json",
+    "image": "blue.png",
+    "title": "Inception",
+    "width": "150"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "Moana.json",
+    "image": "darkblue.png",
+    "title": "Moana",
+    "width": "550"
+  },
+  {
+    "template": "tvguideM_future.tvml",
     "data": "FightClub.json",
-    "image": "FightClub.jpg",
-    "title": "Fight Club"
+    "image": "darkblue.png",
+    "title": "Fight Club",
+    "width": "450"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Trolls.json",
-    "image": "Trolls.jpg",
-    "title": "Trolls"
+    "image": "darkblue.png",
+    "title": "Trolls",
+    "width": "285"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "ForrestGump.json",
-    "image": "ForrestGump.jpg",
-    "title": "Forrest Gump"
+    "image": "darkblue.png",
+    "title": "Forrest Gump",
+    "width": "640"
   }
   ],
-    "logos": [
+  "line3": [
     {
-    "image": "prosieben_hd.jpg",
-    "title": "Pro Sieben"
-  },
-    {
-    "image": "RTL_HD.png",
-    "title": "RTL"
-  },
-    {
-    "image": "Sat1.png",
-    "title": "Sat 1"
-  },
-    {
-    "image": "ORF2.png",
-    "title": "ORF 2"
-  },
-    {
-    "image": "3plus_HD.png",
-    "title": "3 Plus"
+    "template": "tvguideM_past.tvml",
+    "data": "DoctorStrange.json",
+    "image": "darkblue.png",
+    "title": "Doctor Strange",
+    "width": "200"
   },
   {
-    "image": "prosieben_hd.jpg",
-    "title": "Pro Sieben"
+    "template": "tvguideM_now.tvml",
+    "data": "Inception.json",
+    "image": "blue.png",
+    "title": "Inception",
+    "width": "250"
   },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "Moana.json",
+    "image": "darkblue.png",
+    "title": "Moana",
+    "width": "650"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "FightClub.json",
+    "image": "darkblue.png",
+    "title": "Fight Club",
+    "width": "250"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "Trolls.json",
+    "image": "darkblue.png",
+    "title": "Trolls",
+    "width": "185"
+  },
+  {
+    "template": "tvguideM_future.tvml",
+    "data": "ForrestGump.json",
+    "image": "darkblue.png",
+    "title": "Forrest Gump",
+    "width": "540"
+  }
+  ],
+  "srf1": [
     {
-    "image": "RTL_HD.png",
-    "title": "RTL"
-  },
+    "image": "srf1_logo.png",
+    "title": "SRF 1"
+  }
+  ],
+  "srf2": [
     {
-    "image": "Sat1.png",
-    "title": "Sat 1"
-  },
+    "image": "logo_srf2HD.png",
+    "title": "SRF 2"
+  }
+  ],
+    "orf1": [
+    {
+    "image": "logo_orf1HD.png",
+    "title": "ORF 1"
+  }
+  ],
+    "orf2": [
     {
     "image": "ORF2.png",
     "title": "ORF 2"
-  },
+  }
+  ],
+    "3plus": [
     {
     "image": "3plus_HD.png",
     "title": "3 Plus"
   }
+  ],
+  "prosieben": [
+    {
+    "image": "prosieben_hd.jpg",
+    "title": "Pro Sieben"
+  }
+  ],
+    "sat1": [
+    {
+    "image": "Sat1.png",
+    "title": "Sat 1"
+  }
+  ],
+    "rtl": [
+    {
+    "image": "RTL_HD.png",
+    "title": "RTL"
+  }
+  ],
+      "zdf": [
+    {
+    "image": "ZDF-Logo.png",
+    "title": "ZDF"
+  }
+  ],
+      "rtl2": [
+    {
+    "image": "RTL-II-Logo.png",
+    "title": "RTL II"
+  }
+  ],
+      "kabel1": [
+    {
+    "image": "Kabel_eins_HD_Logo.png",
+    "title": "Kabel 1"
+  }
+  ],
+      "dmax": [
+    {
+    "image": "DMAX.png",
+    "title": "DMAX"
+  }
   ]
+
+
 }

@@ -74,7 +74,27 @@ class Presenter {
     if(template === 'video.tvml') {
       enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
     }
-
+    if(template === 'series.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
+    if(template === 'tvguideM_future.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
+    if(template === 'tvguideM_now.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
+    if(template === 'tvguideM_past.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
+    if(template === 'tvguideS_future.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
+    if(template === 'tvguideS_now.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
+    if(template === 'tvguideS_past.tvml') {
+      enhancedData["images"] = this._convertURLValuesInObject(data["images"]);
+    }
     return enhancedData;
   }
 

@@ -24,6 +24,10 @@
 		D31DE6791E1FAC5900C48A9E /* Rachel_McAdams.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D31DE6681E1FAC5900C48A9E /* Rachel_McAdams.jpg */; };
 		D31DE67A1E1FAC5900C48A9E /* Chiwetel_Ejiofor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D31DE6691E1FAC5900C48A9E /* Chiwetel_Ejiofor.jpg */; };
 		D31DE67B1E1FAC5900C48A9E /* Benedict_Cumberbatch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D31DE66A1E1FAC5900C48A9E /* Benedict_Cumberbatch.jpg */; };
+		D329A4E81E3181F500AFB20C /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D329A4E61E3181F500AFB20C /* blue.png */; };
+		D329A4E91E3181F500AFB20C /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = D329A4E71E3181F500AFB20C /* white.png */; };
+		D329A4EB1E31828E00AFB20C /* darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = D329A4EA1E31828E00AFB20C /* darkblue.png */; };
+		D329A4ED1E319A9500AFB20C /* Settings.json in Resources */ = {isa = PBXBuildFile; fileRef = D329A4EC1E319A9500AFB20C /* Settings.json */; };
 		D33FA4191E007DAA005C8BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4181E007DAA005C8BCA /* AppDelegate.swift */; };
 		D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33FA41C1E007DAA005C8BCA /* Assets.xcassets */; };
 		D33FA4281E007DAA005C8BCA /* IP5_HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4271E007DAA005C8BCA /* IP5_HorizonTests.swift */; };
@@ -181,6 +185,10 @@
 		D31DE6681E1FAC5900C48A9E /* Rachel_McAdams.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rachel_McAdams.jpg; path = content/images/Actors/Rachel_McAdams.jpg; sourceTree = "<group>"; };
 		D31DE6691E1FAC5900C48A9E /* Chiwetel_Ejiofor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chiwetel_Ejiofor.jpg; path = content/images/Actors/Chiwetel_Ejiofor.jpg; sourceTree = "<group>"; };
 		D31DE66A1E1FAC5900C48A9E /* Benedict_Cumberbatch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Benedict_Cumberbatch.jpg; path = content/images/Actors/Benedict_Cumberbatch.jpg; sourceTree = "<group>"; };
+		D329A4E61E3181F500AFB20C /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = content/images/blue.png; sourceTree = "<group>"; };
+		D329A4E71E3181F500AFB20C /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white.png; path = content/images/white.png; sourceTree = "<group>"; };
+		D329A4EA1E31828E00AFB20C /* darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkblue.png; path = content/images/darkblue.png; sourceTree = "<group>"; };
+		D329A4EC1E319A9500AFB20C /* Settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Settings.json; path = content/data/Settings.json; sourceTree = "<group>"; };
 		D33FA4151E007DAA005C8BCA /* IP5_Horizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IP5_Horizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33FA4181E007DAA005C8BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33FA41C1E007DAA005C8BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -489,6 +497,7 @@
 		D33FA4481E008469005C8BCA /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D329A4EC1E319A9500AFB20C /* Settings.json */,
 				D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */,
 				D3C9E2EF1E2283A30034E466 /* seriesDatabase.json */,
 				D3C9E2DA1E22745B0034E466 /* Series */,
@@ -507,6 +516,9 @@
 		D33FA4491E00846F005C8BCA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D329A4EA1E31828E00AFB20C /* darkblue.png */,
+				D329A4E61E3181F500AFB20C /* blue.png */,
+				D329A4E71E3181F500AFB20C /* white.png */,
 				D3FAB4A91E2FD67400A94640 /* Screenshots */,
 				D3C9E2F41E22844C0034E466 /* Series */,
 				D31DE6591E1FAC4B00C48A9E /* Actors */,
@@ -743,6 +755,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */,
+				D329A4EB1E31828E00AFB20C /* darkblue.png in Resources */,
 				D3CA78D31E22ED4900BD7FE1 /* Spongebob11.json in Resources */,
 				D33FA4A51E008893005C8BCA /* Trolls.json in Resources */,
 				D33FA4671E008652005C8BCA /* videoLogoOverlay.tvml in Resources */,
@@ -764,6 +777,7 @@
 				D3CB645D1E16C96A0058E34C /* logo_orf1HD.png in Resources */,
 				D3D91D6E1E15520400AFD9B8 /* logo_klein.png in Resources */,
 				D33FA4981E00887D005C8BCA /* LiveTV.json in Resources */,
+				D329A4ED1E319A9500AFB20C /* Settings.json in Resources */,
 				D33FA4631E008652005C8BCA /* Search.tvml in Resources */,
 				D33FA4861E008861005C8BCA /* ForrestGump.jpg in Resources */,
 				D33FA48F1E00886E005C8BCA /* upclogo_1.png in Resources */,
@@ -852,6 +866,7 @@
 				D3FAB4BB1E2FD77200A94640 /* screenshot_srf1.png in Resources */,
 				D3D91D621E154B8A00AFD9B8 /* background.png in Resources */,
 				D3CA78CB1E22EB7A00BD7FE1 /* Spongebob1.jpg in Resources */,
+				D329A4E91E3181F500AFB20C /* white.png in Resources */,
 				D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */,
 				D3C9E2EE1E2283970034E466 /* NewGirl11.json in Resources */,
 				D3CA78D71E22ED4900BD7FE1 /* HouseofCards11.json in Resources */,
@@ -869,6 +884,7 @@
 				D33FA48A1E008861005C8BCA /* TheDarkKnight.jpg in Resources */,
 				D33FA4871E008861005C8BCA /* Inception.jpg in Resources */,
 				D3CB64411E1685F80058E34C /* tvGuide.tvml in Resources */,
+				D329A4E81E3181F500AFB20C /* blue.png in Resources */,
 				D3CB64551E16C96A0058E34C /* logo_gross.png in Resources */,
 				D33FA49B1E00887D005C8BCA /* videoDatabase.json in Resources */,
 				D31DE6771E1FAC5900C48A9E /* Justin_Timberlake.jpg in Resources */,

@@ -2,19 +2,17 @@
 <document>
 <head>
   <style>
-    .showTextOnHighlight {
-      tv-text-highlight-style: show-on-highlight;
-    }
-    .textalignment {
+    .centeralignment {
       tv-align: center;
+    }
+    .rightalignment {
+      tv-align: right;
     }
     .rowStyle {
-      margin: 20;
-      tv-position: header;
-      tv-align: center;
+      margin: 5;
+      padding: 0;
     }
     .ButtonStyle1 {
-      margin: 10;
       min-width: 200;
       max-height: 75;
       min-height: 75;
@@ -30,284 +28,301 @@
       max-height: 75;
       min-height: 75;
     }
-    .ButtonStyle4 {
-      margin: 10;
-      min-width: 250;
-      max-height: 75;
-      min-height: 75;
+    .overlay {
+      padding: 5;
+      text-align: left;
     }
-    .ButtonStyle5 {
-      margin: 10;
-      min-width: 400;
-      max-height: 75;
-      min-height: 75;
+    .inputpadding {
+      padding: 5;
     }
-    .minSpace {
+    .innersection {
       margin: 5;
+      padding: 5;
+      border-radius: small;
     }
-    .logos {
-      margin: 10;
-    }
-    .logosPosition {
-      tv-position: top-left;
-    }
-    .shelfStyle {
-      tv-position: top;
-    }
-    .shelfStyle2 {
-      tv-position: center;
-    }
-    </style>
-  </head>
-	<divTemplate>
-    	<row class="rowStyle">
-    		<button class="ButtonStyle2">
-   				<text>Back</text>
-			  </button>
-    		<button class="ButtonStyle1">
-    			<text>TODAY</text>
-    		</button>
-    		<button class="ButtonStyle2">
-    			<text>Forward</text>
-    		</button>
-    	</row>
+  </style>
+</head>
+	<stackTemplate>
+    <banner>
+      <row class="centeralignment">
+        <button class="ButtonStyle2">
+          <text> (-- </text>
+        </button>
+        <button class="ButtonStyle1">
+          <text>TODAY</text>
+        </button>
+        <button class="ButtonStyle2">
+          <text> --) </text>
+        </button>
+      </row>
       <separator class="rowStyle">
       </separator>
-      <lockup class="logosPosition">
-        {{#logos}}
-          <img src="{{image}}" width="150" height="75" class="logos" />
-        {{/logos}}
-      </lockup>
-      <row class="shelfStyle">
-      {{#line2}}
-        <buttonLockup 
-            class="ButtonStyle1"
-            template="{{template}}"
-            data="{{data}}"
-            presentation="push">
-            <text>{{title}}</text>
-        </buttonLockup>
-        {{/line2}}
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 2</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 2</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-      <row class="shelfStyle">
-        <button class="ButtonStyle5">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle5">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Film 2</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Serie 1</text>
-        </button>
-        <button class="ButtonStyle4">
-          <text>Film 1</text>
-        </button>
-        <button class="ButtonStyle3">
-          <text>Serie 1</text>
-        </button>
-      </row>
-  </divTemplate>
+    </banner>
+    <collectionList>
+      <shelf class="rowStyle">
+        <section>
+          {{#srf1}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/srf1}}
+        </section>
+        <section>
+          {{#line2}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line2}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#srf2}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/srf2}}
+        </section>
+        <section>
+          {{#line1}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line1}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#orf1}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/orf1}}
+        </section>
+        <section>
+          {{#line3}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line3}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#orf2}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/orf2}}
+        </section>
+        <section>
+          {{#line2}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line2}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#3plus}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/3plus}}
+        </section>
+        <section>
+          {{#line1}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line1}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#prosieben}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/prosieben}}
+        </section>
+        <section>
+          {{#line3}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line3}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#sat1}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/sat1}}
+        </section>
+        <section>
+          {{#line2}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line2}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#rtl}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/rtl}}
+        </section>
+        <section>
+          {{#line1}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line1}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#zdf}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/zdf}}
+        </section>
+        <section>
+          {{#line3}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line3}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#rtl2}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/rtl2}}
+        </section>
+        <section>
+          {{#line2}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line2}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#kabel1}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/kabel1}}
+        </section>
+        <section>
+          {{#line3}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line3}}
+        </section>
+      </shelf>
+      <shelf class="rowStyle">
+        <section>
+          {{#dmax}}
+          <lockup class="inputpadding">
+            <img src="{{image}}" width="150" height="75"/>
+          </lockup>
+          {{/dmax}}
+        </section>
+        <section>
+          {{#line1}}
+          <lockup 
+              template="{{template}}"
+              data="{{data}}"
+              presentation="push">
+              <img src="{{image}}" width="{{width}}" height="75" class="innersection"/>
+              <overlay class="overlay">
+              <text>{{title}}</text>
+            </overlay>
+          </lockup>
+          {{/line1}}
+        </section>
+      </shelf>
+    </collectionList>
+  </stackTemplate>
 </document>

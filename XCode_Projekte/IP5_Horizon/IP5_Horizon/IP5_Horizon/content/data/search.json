@@ -1,15 +1,4 @@
 {
-  "suggestions": [
-    {
-      "title": "Trolls"
-    },
-    {
-      "title": "Fight Club"
-    },
-    {
-      "title": "Moana"
-    }
-  ],
   "results": [
    {
     "template": "video.tvml",
@@ -47,7 +36,7 @@
     "image": "ForrestGump.jpg",
     "title": "Forrest Gump"
   },
-{
+  {
     "template": "series.tvml",
     "data": "NewGirl11.json",
     "image": "NewGirl1.jpg",
@@ -83,7 +72,7 @@
     "image": "NewGirl1.jpg",
     "title": "New Girl: Season1, Episode6"
   },
-    {
+  {
     "template": "series.tvml",
     "data": "HouseofCards11.json",
     "image": "HouseofCards1.jpg",
@@ -107,13 +96,13 @@
     "image": "Spongebob1.jpg",
     "title": "Spongebob: Season1, Episode1"
   },
-   {
+  {
     "template": "series.tvml",
     "data": "Spongebob12.json",
     "image": "Spongebob1.jpg",
     "title": "Spongebob: Season1, Episode2"
   },
-    {
+  {
     "template": "series.tvml",
     "data": "Spongebob13.json",
     "image": "Spongebob1.jpg",

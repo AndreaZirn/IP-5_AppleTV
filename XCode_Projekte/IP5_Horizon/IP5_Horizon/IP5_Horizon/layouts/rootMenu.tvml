@@ -17,7 +17,7 @@
       <menuItem template="myVideo.tvml" data="MyVideo.json" presentation="menuBar">
         <title>My Videos</title>
       </menuItem>
-      <menuItem template="Settings.tvml" presentation="menuBar">
+      <menuItem template="Settings.tvml" data="Settings.json" presentation="menuBar">
         <title>Settings</title>
       </menuItem>
       <menuItem template="Search.tvml" data="search.json" presentation="menuBar">

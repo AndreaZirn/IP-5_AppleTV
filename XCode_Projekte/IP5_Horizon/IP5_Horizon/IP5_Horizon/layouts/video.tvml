@@ -68,7 +68,6 @@
       </stack>
       <heroImg src="{{images.hero}}" />
     </banner>
-
     <shelf>
       <header>
         <title>Crew</title>
@@ -83,8 +82,6 @@
         {{/people}}
        </section>
     </shelf> 
-
-    <!-- Heading below the fold -->
     <shelf>
       <header>
         <title>Reviews and Ratings</title>

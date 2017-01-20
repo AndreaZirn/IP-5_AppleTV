@@ -34,5 +34,77 @@
     "data": "ForrestGump.json",
     "image": "ForrestGump.jpg",
     "title": "Forrest Gump"
+  },
+  {
+    "template": "series.tvml",
+    "data": "NewGirl11.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl: Season1, Episode1"
+  },
+  {
+    "template": "series.tvml",
+    "data": "NewGirl12.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl: Season1, Episode2"
+  },
+  {
+    "template": "series.tvml",
+    "data": "NewGirl13.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl: Season1, Episode3"
+  },
+  {
+    "template": "series.tvml",
+    "data": "NewGirl14.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl: Season1, Episode4"
+  },
+  {
+    "template": "series.tvml",
+    "data": "NewGirl15.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl: Season1, Episode5"
+  },
+  {
+    "template": "series.tvml",
+    "data": "NewGirl16.json",
+    "image": "NewGirl1.jpg",
+    "title": "New Girl: Season1, Episode6"
+  },
+    {
+    "template": "series.tvml",
+    "data": "HouseofCards11.json",
+    "image": "HouseofCards1.jpg",
+    "title": "HouseofCards: Season1, Episode1"
+  },
+  {
+    "template": "series.tvml",
+    "data": "HouseofCards12.json",
+    "image": "HouseofCards1.jpg",
+    "title": "HouseofCards: Season1, Episode2"
+  },
+  {
+    "template": "series.tvml",
+    "data": "HouseofCards13.json",
+    "image": "HouseofCards1.jpg",
+    "title": "HouseofCards: Season1, Episode2"
+  },
+  {
+    "template": "series.tvml",
+    "data": "Spongebob11.json",
+    "image": "Spongebob1.jpg",
+    "title": "Spongebob: Season1, Episode1"
+  },
+   {
+    "template": "series.tvml",
+    "data": "Spongebob12.json",
+    "image": "Spongebob1.jpg",
+    "title": "Spongebob: Season1, Episode2"
+  },
+    {
+    "template": "series.tvml",
+    "data": "Spongebob13.json",
+    "image": "Spongebob1.jpg",
+    "title": "Spongebob: Season1, Episode3"
   }
 ]
