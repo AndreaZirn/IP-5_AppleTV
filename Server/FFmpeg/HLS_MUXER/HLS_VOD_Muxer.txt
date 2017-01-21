@@ -1,0 +1,1 @@
+ffmpeg -y -i Desktop/Destination_File_Segmenter/adaptive_streaming/640x360_1240/640x360_1240.mov -hls_time 9 -g 3 -hls_segment_filename "Desktop/Destination_File_Segmenter/HLS_Muxer_Segmenting/fileSequence%d.ts" -hls_playlist_type vod Desktop/Destination_File_Segmenter/HLS_Muxer_Segmenting/prog_index.m3u8
