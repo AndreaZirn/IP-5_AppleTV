@@ -3,42 +3,42 @@
     {
     "template": "tvguideM_past.tvml",
     "data": "DoctorStrange.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Doctor Strange",
     "width": "350"
   },
   {
     "template": "tvguideM_now.tvml",
     "data": "Inception.json",
-    "image": "blue.png",
+    "image": "white.png",
     "title": "Inception",
     "width": "350"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Moana.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Moana",
     "width": "750"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "FightClub.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Fight Club",
     "width": "350"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Trolls.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Trolls",
     "width": "185"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "ForrestGump.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Forrest Gump",
     "width": "240"
   }
@@ -47,42 +47,42 @@
     {
     "template": "tvguideM_past.tvml",
     "data": "DoctorStrange.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Doctor Strange",
     "width": "250"
   },
   {
     "template": "tvguideM_now.tvml",
     "data": "Inception.json",
-    "image": "blue.png",
+    "image": "white.png",
     "title": "Inception",
     "width": "150"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Moana.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Moana",
     "width": "550"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "FightClub.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Fight Club",
     "width": "450"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Trolls.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Trolls",
     "width": "285"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "ForrestGump.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Forrest Gump",
     "width": "640"
   }
@@ -91,42 +91,42 @@
     {
     "template": "tvguideM_past.tvml",
     "data": "DoctorStrange.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Doctor Strange",
     "width": "200"
   },
   {
     "template": "tvguideM_now.tvml",
     "data": "Inception.json",
-    "image": "blue.png",
+    "image": "white.png",
     "title": "Inception",
     "width": "250"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Moana.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Moana",
     "width": "650"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "FightClub.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Fight Club",
     "width": "250"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "Trolls.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Trolls",
     "width": "185"
   },
   {
     "template": "tvguideM_future.tvml",
     "data": "ForrestGump.json",
-    "image": "darkblue.png",
+    "image": "white_trans.png",
     "title": "Forrest Gump",
     "width": "540"
   }

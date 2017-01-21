@@ -32,7 +32,7 @@
 		D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33FA41C1E007DAA005C8BCA /* Assets.xcassets */; };
 		D33FA4281E007DAA005C8BCA /* IP5_HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4271E007DAA005C8BCA /* IP5_HorizonTests.swift */; };
 		D33FA4331E007DAA005C8BCA /* IP5_HorizonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4321E007DAA005C8BCA /* IP5_HorizonUITests.swift */; };
-		D33FA4421E007E54005C8BCA /* RessourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4411E007E54005C8BCA /* RessourceLoader.swift */; };
+		D33FA4421E007E54005C8BCA /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33FA4411E007E54005C8BCA /* ResourceLoader.swift */; };
 		D33FA44B1E00855C005C8BCA /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44A1E00855C005C8BCA /* main.js */; };
 		D33FA45A1E008652005C8BCA /* rootMenu.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44C1E008652005C8BCA /* rootMenu.tvml */; };
 		D33FA45B1E008652005C8BCA /* myVideo.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA44D1E008652005C8BCA /* myVideo.tvml */; };
@@ -45,8 +45,6 @@
 		D33FA4631E008652005C8BCA /* Search.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4551E008652005C8BCA /* Search.tvml */; };
 		D33FA4641E008652005C8BCA /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4561E008652005C8BCA /* expandedDetailText.tvml */; };
 		D33FA4651E008652005C8BCA /* _searchResult.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4571E008652005C8BCA /* _searchResult.tvml */; };
-		D33FA4661E008652005C8BCA /* photos.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4581E008652005C8BCA /* photos.tvml */; };
-		D33FA4671E008652005C8BCA /* videoLogoOverlay.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */; };
 		D33FA46D1E0086A6005C8BCA /* Presenter.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4681E0086A6005C8BCA /* Presenter.js */; };
 		D33FA46E1E0086A6005C8BCA /* SearchHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4691E0086A6005C8BCA /* SearchHandler.js */; };
 		D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */ = {isa = PBXBuildFile; fileRef = D33FA46A1E0086A6005C8BCA /* ResourceLoader.js */; };
@@ -79,6 +77,7 @@
 		D33FA4A81E008893005C8BCA /* FightClub.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A21E008893005C8BCA /* FightClub.json */; };
 		D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A31E008893005C8BCA /* ForrestGump.json */; };
 		D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */; };
+		D34455CB1E337B3800B3748D /* white_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = D34455CA1E337B3800B3748D /* white_trans.png */; };
 		D34FD1E91E243A30000BDF25 /* tvGuideDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */; };
 		D34FD1F01E243A3E000BDF25 /* tvguideS_past.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */; };
 		D34FD1F11E243A3E000BDF25 /* tvguideS_future.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */; };
@@ -199,7 +198,7 @@
 		D33FA42E1E007DAA005C8BCA /* IP5_HorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IP5_HorizonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33FA4321E007DAA005C8BCA /* IP5_HorizonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP5_HorizonUITests.swift; sourceTree = "<group>"; };
 		D33FA4341E007DAA005C8BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D33FA4411E007E54005C8BCA /* RessourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RessourceLoader.swift; sourceTree = "<group>"; };
+		D33FA4411E007E54005C8BCA /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
 		D33FA44A1E00855C005C8BCA /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		D33FA44C1E008652005C8BCA /* rootMenu.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = rootMenu.tvml; path = layouts/rootMenu.tvml; sourceTree = "<group>"; };
 		D33FA44D1E008652005C8BCA /* myVideo.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = myVideo.tvml; path = layouts/myVideo.tvml; sourceTree = "<group>"; };
@@ -212,8 +211,6 @@
 		D33FA4551E008652005C8BCA /* Search.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Search.tvml; path = layouts/Search.tvml; sourceTree = "<group>"; };
 		D33FA4561E008652005C8BCA /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = expandedDetailText.tvml; path = layouts/expandedDetailText.tvml; sourceTree = "<group>"; };
 		D33FA4571E008652005C8BCA /* _searchResult.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = _searchResult.tvml; path = layouts/_searchResult.tvml; sourceTree = "<group>"; };
-		D33FA4581E008652005C8BCA /* photos.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = photos.tvml; path = layouts/photos.tvml; sourceTree = "<group>"; };
-		D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = videoLogoOverlay.tvml; path = layouts/videoLogoOverlay.tvml; sourceTree = "<group>"; };
 		D33FA4681E0086A6005C8BCA /* Presenter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = Presenter.js; path = utilities/Presenter.js; sourceTree = "<group>"; };
 		D33FA4691E0086A6005C8BCA /* SearchHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SearchHandler.js; path = utilities/SearchHandler.js; sourceTree = "<group>"; };
 		D33FA46A1E0086A6005C8BCA /* ResourceLoader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ResourceLoader.js; path = utilities/ResourceLoader.js; sourceTree = "<group>"; };
@@ -246,6 +243,7 @@
 		D33FA4A21E008893005C8BCA /* FightClub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = FightClub.json; path = content/data/Videos/FightClub.json; sourceTree = "<group>"; };
 		D33FA4A31E008893005C8BCA /* ForrestGump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ForrestGump.json; path = content/data/Videos/ForrestGump.json; sourceTree = "<group>"; };
 		D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DoctorStrange.mp4; path = content/videos/DoctorStrange.mp4; sourceTree = "<group>"; };
+		D34455CA1E337B3800B3748D /* white_trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_trans.png; path = content/images/white_trans.png; sourceTree = "<group>"; };
 		D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tvGuideDatabase.json; path = content/data/tvGuideDatabase.json; sourceTree = "<group>"; };
 		D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_past.tvml; path = layouts/tvguideS_past.tvml; sourceTree = "<group>"; };
 		D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_future.tvml; path = layouts/tvguideS_future.tvml; sourceTree = "<group>"; };
@@ -391,7 +389,7 @@
 			children = (
 				D33FA4401E007E07005C8BCA /* App Ressources */,
 				D33FA4181E007DAA005C8BCA /* AppDelegate.swift */,
-				D33FA4411E007E54005C8BCA /* RessourceLoader.swift */,
+				D33FA4411E007E54005C8BCA /* ResourceLoader.swift */,
 				D33FA41C1E007DAA005C8BCA /* Assets.xcassets */,
 				D33FA41E1E007DAA005C8BCA /* Info.plist */,
 				D33FA44A1E00855C005C8BCA /* main.js */,
@@ -448,8 +446,6 @@
 				D33FA4551E008652005C8BCA /* Search.tvml */,
 				D33FA4561E008652005C8BCA /* expandedDetailText.tvml */,
 				D33FA4571E008652005C8BCA /* _searchResult.tvml */,
-				D33FA4581E008652005C8BCA /* photos.tvml */,
-				D33FA4591E008652005C8BCA /* videoLogoOverlay.tvml */,
 				D3CB64401E1685F80058E34C /* tvGuide.tvml */,
 				D3C9E2D81E22701E0034E466 /* series.tvml */,
 			);
@@ -516,6 +512,7 @@
 		D33FA4491E00846F005C8BCA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D34455CA1E337B3800B3748D /* white_trans.png */,
 				D329A4EA1E31828E00AFB20C /* darkblue.png */,
 				D329A4E61E3181F500AFB20C /* blue.png */,
 				D329A4E71E3181F500AFB20C /* white.png */,
@@ -758,14 +755,13 @@
 				D329A4EB1E31828E00AFB20C /* darkblue.png in Resources */,
 				D3CA78D31E22ED4900BD7FE1 /* Spongebob11.json in Resources */,
 				D33FA4A51E008893005C8BCA /* Trolls.json in Resources */,
-				D33FA4671E008652005C8BCA /* videoLogoOverlay.tvml in Resources */,
 				D3CA78D61E22ED4900BD7FE1 /* HouseofCards12.json in Resources */,
-				D33FA4661E008652005C8BCA /* photos.tvml in Resources */,
 				D31DE66E1E1FAC5900C48A9E /* Ellen_Page.jpg in Resources */,
 				D3F071971E3022CD006716B6 /* screenshot_rtl2.png in Resources */,
 				D33FA41D1E007DAA005C8BCA /* Assets.xcassets in Resources */,
 				D3F0719D1E3022D9006716B6 /* Kabel_eins_HD_Logo.png in Resources */,
 				D31DE6711E1FAC5900C48A9E /* Sally_Field.jpg in Resources */,
+				D34455CB1E337B3800B3748D /* white_trans.png in Resources */,
 				D33FA46D1E0086A6005C8BCA /* Presenter.js in Resources */,
 				D34FD1F31E243A3E000BDF25 /* tvguideM_now.tvml in Resources */,
 				D34FD1F11E243A3E000BDF25 /* tvguideS_future.tvml in Resources */,
@@ -915,7 +911,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33FA4421E007E54005C8BCA /* RessourceLoader.swift in Sources */,
+				D33FA4421E007E54005C8BCA /* ResourceLoader.swift in Sources */,
 				D33FA4191E007DAA005C8BCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1048,9 +1044,10 @@
 		D33FA4381E007DAA005C8BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DC4WF5AD9S;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = IP5_Horizon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-AppleTV";
@@ -1062,9 +1059,10 @@
 		D33FA4391E007DAA005C8BCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = DC4WF5AD9S;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = IP5_Horizon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AMZ.IP-5-AppleTV";
