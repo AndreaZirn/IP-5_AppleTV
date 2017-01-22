@@ -36,6 +36,7 @@ class Presenter {
   present(template, data, presentation, eventHandler, sender) {
     if (presentation === 'dismiss') {
       navigationDocument.dismissModal();
+      return;
     } else if (presentation === 'playVideo') {
       this._playVideo(data, eventHandler);
       return; 
