@@ -6,7 +6,8 @@
     "input": "Tagesschau",
     "time": "14:00 - 14:35",
     "value": "0.8",
-    "title": "SRF1"
+    "title": "SRF1", 
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     }, 
     {
     "image": "screenshot_srf2.png",
@@ -14,7 +15,8 @@
     "input": "Soku",
     "time": "14:15 - 15:35",
     "value": "0.3",
-    "title": "SRF2"
+    "title": "SRF2",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_orf1.png",
@@ -22,7 +24,9 @@
     "input": "Die Simpsons",
     "time": "14:20 - 14:45",
     "value": "0.2",
-    "title": "ORF1"
+    "title": "ORF1",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+
     },
     {
     "image": "screenshot_orf2.png",
@@ -30,7 +34,8 @@
     "input": "Philosophie am Mittag",
     "time": "14:25 - 15:35",
     "value": "0.1",
-    "title": "ORF2"
+    "title": "ORF2",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_3+.png",
@@ -38,7 +43,8 @@
     "input": "How I met your mother",
     "time": "14:10 - 14:40",
     "value": "0.6",
-    "title": "3+"
+    "title": "3+",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_pro7.png",
@@ -46,7 +52,8 @@
     "input": "Taff",
     "time": "14:10 - 15:35",
     "value": "0.3",
-    "title": "Pro Sieben"
+    "title": "Pro Sieben",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_sat1.png",
@@ -54,7 +61,8 @@
     "input": "Komissar Rex",
     "time": "14:30 - 15:35",
     "value": "0.1",
-    "title": "Sat 1"
+    "title": "Sat 1",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_rtl.png",
@@ -62,21 +70,24 @@
     "input": "Wege zum Glück",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "RTL"
+    "title": "RTL",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_zdf.png",
     "input": "Kaffe und Kuchen",
     "time": "14:30 - 15:35",
     "value": "0.1",
-    "title": "ZDF"
+    "title": "ZDF",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_rtl2.png",
     "input": "Teeniemütter",
     "time": "14:00 - 14:55",
     "value": "0.7",
-    "title": "RTL 2"
+    "title": "RTL 2",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_kabel1.png",
@@ -84,63 +95,72 @@
     "input": "Die Hausmeister",
     "time": "14:00 - 14:45",
     "value": "0.7",
-    "title": "Kabel 1"
+    "title": "Kabel 1",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     },  
     {
     "image": "screenshot_dmax.png",
     "input": "Alaska: Überleben im Wald",
     "time": "14:00 - 14:35",
     "value": "0.9",
-    "title": "DMAX"
+    "title": "DMAX",
+    "videoURL" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
     }                          
   ]
 }

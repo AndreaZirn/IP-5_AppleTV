@@ -2,14 +2,8 @@
 <document>
   <head>
     <style>
-      .imageWithGradient {
-        tv-tint-color: linear-gradient(top, 0.33, transparent, 0.66, rgba(0,64,0,0.7), rgba(0,64,0,1.0));
-      }
       .showTextOnHighlight {
         tv-text-highlight-style: show-on-highlight;
-      }
-      .6ColumnGrid {
-      tv-interitem-spacing: 50;
       }
       .Maintitle {
       tv-text-style: title3;

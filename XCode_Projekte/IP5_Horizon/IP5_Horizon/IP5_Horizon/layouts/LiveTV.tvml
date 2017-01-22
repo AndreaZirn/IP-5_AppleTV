@@ -18,7 +18,9 @@
 			 <grid>
 			 	<section>
 			 	{{#tvchannels}}
-				<lockup>
+				<lockup presentation="playVideo"
+            			data='{"title": "{{title}}", "description": "{{description}}",
+            			"videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
 						<img src="{{image}}" width="384" height="216"/>
 						<title class="textalign">{{input}}: {{time}}</title>
 						<overlay class="progressOverlay">

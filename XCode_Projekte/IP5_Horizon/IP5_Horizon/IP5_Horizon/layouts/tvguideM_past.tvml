@@ -48,15 +48,13 @@
           template="expandedDetailText.tvml"
           data='{"title": "{{title}}", "text": "{{description}}"}'>{{description}}</description>
         <row>
-          <buttonLockup presentation="watch"
+          <buttonLockup presentation="playVideo"
             data='{"title": "{{title}}", "description": "{{description}}",
             "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
             <badge src="resource://button-play" />
             <title>Watch</title>
           </buttonLockup>
-          <buttonLockup presentation="addVideo"
-            data='{"title": "{{title}}", "description": "{{description}}",
-            "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
+          <buttonLockup>
             <badge src="resource://button-add" />
             <title>Add to my Videos</title>
           </buttonLockup>
@@ -64,7 +62,6 @@
       </stack>
       <heroImg src="{{images.hero}}" />
     </banner>
-
     <shelf>
       <header>
         <title>Crew</title>
@@ -79,7 +76,6 @@
         {{/people}}
        </section>
     </shelf> 
-
     <!-- Heading below the fold -->
     <shelf>
       <header>
@@ -121,7 +117,6 @@
         {{/ratings-reviews}}
       </section>
     </shelf>
-
     <shelf>
       <header>
         <title>Similar Movies</title>
@@ -138,7 +133,6 @@
         {{/recommendations}}
       </section>
     </shelf>
-
     <productInfo>
       <infoTable>
         <header>
@@ -157,7 +151,6 @@
           <text>{{format}}</text>
         </info>
       </infoTable>
-
       <infoTable style="tv-line-spacing:10;">
         <header>
           <title>Accessibility</title>

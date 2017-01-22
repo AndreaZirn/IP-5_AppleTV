@@ -57,15 +57,11 @@
           template="expandedDetailText.tvml"
           data='{"title": "{{title}}", "text": "{{description}}"}'>{{description}}</description>
         <row>
-          <buttonLockup presentation="record"
-            data='{"title": "{{title}}", "description": "{{description}}",
-            "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
+          <buttonLockup>
             <badge src="resource://button-more" />
             <title>Record</title>
           </buttonLockup>
-          <buttonLockup presentation="addVideo"
-            data='{"title": "{{title}}", "description": "{{description}}",
-            "videoURL": "{{videoURL}}", "subtitle": "{{subtitle}}"}'>
+          <buttonLockup>
             <badge src="resource://button-add" />
             <title>Add to my Videos</title>
           </buttonLockup>
@@ -73,7 +69,6 @@
       </stack>
       <heroImg src="{{images.hero}}" />
     </banner>
-
     <shelf>
       <header>
         <title>More Episodes</title>
@@ -90,8 +85,6 @@
         {{/moreepisodes}}
       </section>
     </shelf>
-
-    
     <shelf>
       <header>
         <title>Crew</title>
@@ -106,7 +99,6 @@
         {{/people}}
        </section>
     </shelf> 
-
     <!-- Heading below the fold -->
     <shelf>
       <header>
@@ -148,7 +140,6 @@
         {{/ratings-reviews}}
       </section>
     </shelf>
-
     <productInfo>
       <infoTable>
         <header>
@@ -167,7 +158,6 @@
           <text>{{format}}</text>
         </info>
       </infoTable>
-
       <infoTable style="tv-line-spacing:10;">
         <header>
           <title>Accessibility</title>

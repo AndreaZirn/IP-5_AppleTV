@@ -78,7 +78,6 @@
 		D33FA4A91E008893005C8BCA /* ForrestGump.json in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4A31E008893005C8BCA /* ForrestGump.json */; };
 		D33FA4AB1E0088A6005C8BCA /* DoctorStrange.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */; };
 		D34455CB1E337B3800B3748D /* white_trans.png in Resources */ = {isa = PBXBuildFile; fileRef = D34455CA1E337B3800B3748D /* white_trans.png */; };
-		D34FD1E91E243A30000BDF25 /* tvGuideDatabase.json in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */; };
 		D34FD1F01E243A3E000BDF25 /* tvguideS_past.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */; };
 		D34FD1F11E243A3E000BDF25 /* tvguideS_future.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */; };
 		D34FD1F21E243A3E000BDF25 /* tvguideS_now.tvml in Resources */ = {isa = PBXBuildFile; fileRef = D34FD1EC1E243A3E000BDF25 /* tvguideS_now.tvml */; };
@@ -244,7 +243,6 @@
 		D33FA4A31E008893005C8BCA /* ForrestGump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ForrestGump.json; path = content/data/Videos/ForrestGump.json; sourceTree = "<group>"; };
 		D33FA4AA1E0088A6005C8BCA /* DoctorStrange.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = DoctorStrange.mp4; path = content/videos/DoctorStrange.mp4; sourceTree = "<group>"; };
 		D34455CA1E337B3800B3748D /* white_trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_trans.png; path = content/images/white_trans.png; sourceTree = "<group>"; };
-		D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tvGuideDatabase.json; path = content/data/tvGuideDatabase.json; sourceTree = "<group>"; };
 		D34FD1EA1E243A3E000BDF25 /* tvguideS_past.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_past.tvml; path = layouts/tvguideS_past.tvml; sourceTree = "<group>"; };
 		D34FD1EB1E243A3E000BDF25 /* tvguideS_future.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_future.tvml; path = layouts/tvguideS_future.tvml; sourceTree = "<group>"; };
 		D34FD1EC1E243A3E000BDF25 /* tvguideS_now.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tvguideS_now.tvml; path = layouts/tvguideS_now.tvml; sourceTree = "<group>"; };
@@ -494,7 +492,6 @@
 			isa = PBXGroup;
 			children = (
 				D329A4EC1E319A9500AFB20C /* Settings.json */,
-				D34FD1E81E243A30000BDF25 /* tvGuideDatabase.json */,
 				D3C9E2EF1E2283A30034E466 /* seriesDatabase.json */,
 				D3C9E2DA1E22745B0034E466 /* Series */,
 				D33FA49D1E008881005C8BCA /* Videos */,
@@ -848,7 +845,6 @@
 				D3CA78D41E22ED4900BD7FE1 /* Spongebob12.json in Resources */,
 				D33FA46F1E0086A6005C8BCA /* ResourceLoader.js in Resources */,
 				D33FA48C1E008861005C8BCA /* Trolls.jpg in Resources */,
-				D34FD1E91E243A30000BDF25 /* tvGuideDatabase.json in Resources */,
 				D33FA4A41E008893005C8BCA /* DoctorStrange.json in Resources */,
 				D3FAB4B61E2FD68A00A94640 /* screenshot_3+.png in Resources */,
 				D3D91D611E154B8A00AFD9B8 /* background_small.png in Resources */,
