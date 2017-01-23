@@ -29,7 +29,7 @@
 //  RessourceLoader.swift
 //  IP5_Horizon
 //
-//  Created by Andrea Zirn on 13.12.16.
+//  Created by Andrea Zirn, Joel Blumer on 13.12.16.
 //  Copyright © 2016 Andrea Zirn. All rights reserved.
 //
 
